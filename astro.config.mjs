@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://kulinia-marketing.romain-lthl.workers.dev",
+  site: "https://www.kulinia.com",
   vite: {
     plugins: [tailwindcss()],
   },
