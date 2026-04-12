@@ -1,0 +1,499 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Deine Küche verdient ihr eigenes Buch.",
+      "description": "Speichere, organisiere und drucke deine Rezepte in einem eleganten Notizbuch – zum Teilen oder als kostbare Erinnerung.",
+      "ctaPrimary": "Mein Kochbuch erstellen",
+      "ctaSecondary": "Wie funktioniert es?"
+    },
+    "steps": [
+      {
+        "tag": "Schritt 1",
+        "title": "Erstelle dein digitales Rezeptbuch",
+        "features": [
+          {
+            "title": "Keine Zeitlimits",
+            "desc": "Gib deine Rezepte manuell ein oder importiere sie, indem du ein Foto deines Papierrezepts machst."
+          },
+          {
+            "title": "Gepflegte und intuitive Benutzeroberfläche",
+            "desc": "Ein reibungsloses Erlebnis, um deine kulinarische Bibliothek mühelos zu verwalten."
+          },
+          {
+            "title": "Scanne deine physischen Rezepte",
+            "desc": "Mache ein Foto, unsere KI kümmert sich um die Übertragung der Zutaten und Schritte."
+          }
+        ]
+      },
+      {
+        "tag": "Schritt 2",
+        "title": "Personalisiere dein physisches Buch",
+        "features": [
+          {
+            "title": "Automatisches Layout",
+            "desc": "Alle deine Rezepte werden automatisch für ein ästhetisches und professionelles Ergebnis formatiert."
+          },
+          {
+            "title": "Schnelle Vorlagen",
+            "desc": "Vordefinierte Stile ermöglichen es dir, das Erscheinungsbild mit einem Klick anzupassen."
+          },
+          {
+            "title": "Bestelle dein Buch",
+            "desc": "Einfach, schnell und sicher. Lieferung nach Hause innerhalb von 5 Tagen."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "title": "2 Optionen, um dein Buch zum Leben zu erwecken",
+      "description": "Wähle die Einfachheit von All-in-One oder die Unabhängigkeit des PDF-Exports.",
+      "options": [
+        {
+          "badge": "Am beliebtesten",
+          "title": "Komplettlösung",
+          "desc": "Wir kümmern uns um alles. Premium-Druck über unsere Partner und Lieferung direkt zu dir nach Hause. Keine Sorgen.",
+          "price": "32 €",
+          "details": "Druck A5-Hardcover-Notizbuch matt, 48 Seiten",
+          "cta": "Mein Kochbuch erstellen"
+        },
+        {
+          "title": "PDF-Option (Selbermacher)",
+          "desc": "Du kaufst den hochauflösenden PDF-Export deines Buches und verwaltest den Druck selbst bei der Druckerei deiner Wahl.",
+          "price": "9 €",
+          "details": "Druckfertige PDF-Datei (inklusive Beschnittzugabe)",
+          "cta": "Mein Kochbuch erstellen"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Alle Antworten auf deine Fragen.",
+      "items": [
+        {
+          "q": "Wie funktioniert die OCR-Texterkennung?",
+          "a": "Mache einfach ein Foto von deinem Papierrezept. Unsere Technologie extrahiert den Text automatisch."
+        },
+        {
+          "q": "Kann ich mein Notizbuch teilen?",
+          "a": "Ja, du kannst einen sicheren Link mit deinen Liebsten teilen."
+        }
+      ],
+      "notFound": "Du hast keine Antwort auf deine Frage gefunden?",
+      "contact": "Kontaktiere uns"
+    },
+    "cta": {
+      "title": "Bereit, dein Rezeptbuch zu erstellen?",
+      "description": "Werde Teil der Gemeinschaft von Kochbegeisterten und erwecke deine kulinarische Bibliothek zum Leben.",
+      "cta": "Mein Kochbuch erstellen"
+    }
+  },
+  "DigitalBookPage": {
+    "hero": {
+      "title": "Deine kulinarische Bibliothek, überall dabei.",
+      "description": "Schluss mit losen Zetteln und verstreuten Screenshots. Zentralisiere deine Rezepte in einem eleganten, intelligenten Raum, der auf allen deinen Geräten zugänglich ist.",
+      "ctaPrimary": "Mein Buch starten",
+      "ctaSecondary": "Funktionen ansehen"
+    },
+    "features": [
+      {
+        "title": "Intelligente Eingabe & OCR",
+        "description": "Verschwende keine Zeit mehr mit Abschreiben. Mache ein Foto von alten Aufzeichnungen oder handgeschriebenen Notizen, unsere KI übernimmt die Transkription.",
+        "icon": "scan"
+      },
+      {
+        "title": "Organisation nach Ordnern",
+        "description": "Ordne deine Rezepte nach Gerichtstyp, Diät oder Saison. Finde im Handumdrehen, was du suchst.",
+        "icon": "folder"
+      },
+      {
+        "title": "Sofortiger Web-Import",
+        "description": "Füge die URL einer Kochseite ein und wir extrahieren nur die Zutaten und Schritte, ganz ohne Werbung.",
+        "icon": "cloud"
+      },
+      {
+        "title": "Kochmodus",
+        "description": "Eine Vollbild-Oberfläche, damit dein Handy sauber bleibt: Die Schritte werden klar angezeigt, um dich Schritt für Schritt zu führen.",
+        "icon": "cook"
+      }
+    ],
+    "howItWorks": {
+      "title": "Wie funktioniert es?",
+      "steps": [
+        {
+          "title": "Erfassen",
+          "desc": "Importiere deine Rezepte aus dem Web, per Foto oder manuell."
+        },
+        {
+          "title": "Personalisieren",
+          "desc": "Füge eigene Fotos der Gerichte hinzu, passe Mengen an und notiere deine Geheimtipps."
+        },
+        {
+          "title": "Teilen",
+          "desc": "Sende ein spezifisches Rezept an einen Freund oder teile den kompletten Zugriff auf dein digitales Buch."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Mehr als eine einfache Notizen-App",
+      "table": {
+        "feature": "Funktionen",
+        "us": "Kulinae",
+        "others": "Notizen / Fotos",
+        "rows": [
+          ["Texterkennung (KI)", "Inklusive", "Nein"],
+          ["Automatische Formatierung", "Ja", "Nein"],
+          ["Gemeinsames Teilen", "Ja", "Schwierig"],
+          ["Bereit für den Druck", "Mit 1 Klick", "Unmöglich"]
+        ]
+      }
+    },
+    "cta": {
+      "title": "Beginne heute deine Sammlung",
+      "description": "Der Zugriff auf das digitale Notizbuch ist kostenlos. Du zahlst nur, wenn du dich entscheidest, dein Buch zu drucken oder zu exportieren.",
+      "button": "Kostenlos Konto erstellen"
+    }
+  },
+  "PhysicalBookPage": {
+    "hero": {
+      "title": "Verwandle deine Erinnerungen in ein besonderes Objekt.",
+      "description": "Erwecke deine Rezepte in einem Premium-Kochbuch zum Leben. Hochwertiges Papier, Hardcover-Bindung und Experten-Layout, direkt zu dir geliefert.",
+      "ctaPrimary": "Mein Buch erstellen",
+      "ctaSecondary": "Qualität entdecken"
+    },
+    "specs": [
+      {
+        "title": "Premium-Papier",
+        "description": "170g satiniertes Papier, widerstandsfähig gegen Küchenhandhabung und leichte Flecken.",
+        "icon": "paper"
+      },
+      {
+        "title": "Hardcover",
+        "description": "Mattes Soft-Touch-Finish für eine elegante Haptik und dauerhaften Schutz.",
+        "icon": "book"
+      },
+      {
+        "title": "Flachliegende Öffnung",
+        "description": "Eine Bindung, die so konzipiert ist, dass sie während des Kochens flach auf der Arbeitsplatte liegen bleibt.",
+        "icon": "flat"
+      },
+      {
+        "title": "Ideales A5-Format",
+        "description": "Das perfekte Format: groß genug für bequemes Lesen, kompakt genug, um nicht im Weg zu stehen.",
+        "icon": "size"
+      }
+    ],
+    "gift": {
+      "title": "Das perfekte Geschenk für deine Liebsten",
+      "description": "Gib das kulinarische Erbe deiner Familie weiter. Ideal für den Auszug in die erste Wohnung, eine Hochzeit oder die Feiertage.",
+      "points": [
+        "Vollständige Personalisierung",
+        "Fotodruck-Qualität",
+        "Schnelle Lieferung in 5 Tagen"
+      ]
+    },
+    "cta": {
+      "title": "Ein Buch, das von Generation zu Generation weitergegeben wird",
+      "description": "Beginne jetzt mit der Gestaltung deines physischen Buches. Importiere deine Rezepte und wir kümmern uns um den Rest.",
+      "button": "Mein Exemplar bestellen"
+    }
+  },
+  "PricingPage": {
+    "hero": {
+      "title": "Ein einfacher Preis für eine ewige Erinnerung.",
+      "description": "Starte dein digitales Notizbuch kostenlos. Zahle nur, wenn du deine Rezepte auf Papier verewigen oder exportieren möchtest."
+    },
+    "options": [
+      {
+        "badge": "Empfohlen",
+        "title": "Premium-Hardcover-Buch",
+        "desc": "Das volle Erlebnis. Wir drucken dein Buch auf hochwertigem Papier mit einem Hardcover und liefern es zu dir nach Hause.",
+        "price": "32 €",
+        "details": "A5-Buch, 48 Seiten, mattes Finish. Lieferung inklusive.",
+        "cta": "Mein Buch bestellen"
+      },
+      {
+        "title": "HD PDF Export",
+        "desc": "Die Lösung für Eilige oder diejenigen, die lokal drucken möchten. Eine hochauflösende Datei bereit für die Druckerei.",
+        "price": "9 €",
+        "details": "PDF-Datei inklusive Beschnittzugabe und Schnittmarken.",
+        "cta": "PDF erhalten"
+      }
+    ],
+    "trust": {
+      "payment": "100% sichere Zahlung über Stripe",
+      "shipping": "Versand mit Sendungsverfolgung in 5 bis 7 Werktagen",
+      "support": "Reaktionsschneller Kundensupport mit Sitz in Frankreich"
+    }
+  },
+  "FAQPage": {
+    "title": "Häufig gestellte Fragen",
+    "description": "Alles, was du über Kulinae wissen musst – von der digitalen Erstellung bis zum Druck deines Buches.",
+    "categories": {
+      "general": "Allgemein",
+      "digital": "Digitales Buch & KI",
+      "physical": "Druck & Lieferung"
+    },
+    "items": [
+      {
+        "category": "digital",
+        "q": "Wie funktioniert die Texterkennung (OCR)?",
+        "a": "Mache einfach ein Foto von deinem handgeschriebenen oder gedruckten Rezept. Unsere KI analysiert das Bild, identifiziert Zutaten, Mengen und Schritte und überträgt sie automatisch in dein Notizbuch. Du kannst den Text anschließend bei Bedarf korrigieren oder ergänzen."
+      },
+      {
+        "category": "digital",
+        "q": "Kann ich Rezepte von Websites importieren?",
+        "a": "Ja! Kopiere einfach die URL des Rezepts. Unser Tool extrahiert den nützlichen Inhalt (Zutaten und Zubereitung) und entfernt Werbung sowie überflüssige Texte."
+      },
+      {
+        "category": "general",
+        "q": "Kann ich mein Notizbuch mit meinen Liebsten teilen?",
+        "a": "Absolut. Du kannst einen Freigabelink für ein einzelnes Rezept oder für dein gesamtes Buch generieren. Deine Liebsten können es kostenlos auf ihrem Handy oder Computer ansehen."
+      },
+      {
+        "category": "physical",
+        "q": "Wie lange sind die Lieferzeiten für das physische Buch?",
+        "a": "Sobald deine Bestellung bestätigt ist, dauert der Druck in der Regel 2 Werktage. Die Lieferung nach Hause dauert dann je nach Standort zwischen 3 und 5 Tagen."
+      },
+      {
+        "category": "physical",
+        "q": "Kann ich das Layout meines Buches wählen?",
+        "a": "Wir bieten mehrere elegante Designs an. Sobald deine Rezepte ausgewählt sind, generiert unser Algorithmus automatisch ein optimiertes Layout, aber du behältst die Kontrolle über die Wahl des Covers und die Reihenfolge der Kapitel."
+      },
+      {
+        "category": "physical",
+        "q": "Was ist die Option 'Beschnittzugabe' beim PDF-Export?",
+        "a": "Dabei handelt es sich um einen technischen Sicherheitsrand. Wenn du dich entscheidest, dein PDF bei einem Profi drucken zu lassen, verhindern diese Ränder weiße Blitzer beim Zuschneiden des Papiers. Deine Datei entspricht somit zu 100 % den Druckereistandards."
+      },
+      {
+        "category": "general",
+        "q": "Sind meine Daten sicher?",
+        "a": "Deine Rezepte gehören dir. Wir verwenden SSL-Verschlüsselung für alle deine Daten und verkaufen niemals deine persönlichen Informationen."
+      }
+    ],
+    "notFound": "Du hast keine Antwort auf deine Frage gefunden?",
+    "contact": "Kontaktiere unseren Support"
+  },
+  "NotFoundPage": {
+    "title": "Hoppla! Diese Seite existiert nicht.",
+    "description": "Die von dir gesuchte Seite existiert nicht oder wurde verschoben.",
+    "ctaPrimary": "Zurück zur Startseite",
+    "ctaSecondary": "Mein Buch erstellen",
+    "altImage": "Illustration eines leeren Tellers oder eines Fehlers in der Küche"
+  },
+  "LoginPage": {
+    "title": "Hallo!",
+    "description": "Melde dich bei deinem Konto an.",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "email@example.com",
+    "password": "Passwort",
+    "passwordPlaceholder": "Gib dein Passwort ein",
+    "forgotPassword": "Passwort vergessen?",
+    "loading": "Anmeldung läuft...",
+    "dontHaveAccount": "Du hast noch kein Konto?",
+    "register": "Registrieren",
+    "cta": "Anmelden"
+  },
+  "LayoutStaticPages": {
+    "nav": {
+      "home": "Startseite",
+      "digital": "Digitales Buch",
+      "physical": "Physisches Buch",
+      "pricing": "Preise",
+      "faq": "FAQ",
+      "login": "Anmelden",
+      "signup": "Kostenlos starten"
+    },
+    "footer": {
+      "title": "Kulinae",
+      "description": "Speichere, organisiere und drucke deine Rezepte in einem eleganten Notizbuch."
+    }
+  },
+  "ComparisonPage": {
+    "common": {
+      "vs": "vs",
+      "our_brand": "Kulinae",
+      "cta_signup": "Kostenlos testen",
+      "table_feature_label": "Funktionen",
+      "why_choose_us": "Warum Kulinae wählen?",
+      "limitations_title": "Die Grenzen von {competitor}"
+    },
+    "competitors": {
+      "gelato": {
+        "name": "Gelato",
+        "meta_title": "Kulinae vs Gelato: Die beste Wahl für dein Buch?",
+        "meta_desc": "Vollständiger Vergleich zwischen Kulinae und Gelato. Erfahre, warum unsere spezialisierte Kochlösung allgemeine Druckdienste schlägt.",
+        "hero_title": "Kulinae vs {name}",
+        "description": "Gelato ist zwar ein Riese im Print-on-Demand, aber es fehlt das Wesentliche für einen Koch: Software-Intelligenz.",
+        "pros": [
+          "KI-Rezept-Scan (OCR) inklusive",
+          "Automatische Layout-Spezialisierung für Rezepte",
+          "Mobiler digitaler Notizbuch-Manager"
+        ],
+        "cons": [
+          "Keine Texterkennung für deine Fotos",
+          "Mühsames manuelles Layout",
+          "Allgemeiner Service ohne kulinarische Seele"
+        ],
+        "table": {
+          "feature_1": ["OCR-Scan", "Ja (Unbegrenzt)", "Nein"],
+          "feature_2": ["Mobile App", "Ja", "Nein"],
+          "feature_3": ["Fokus Küche", "100%", "Allgemein"]
+        }
+      },
+      "canvas": {
+        "name": "Canvas",
+        "meta_title": "Kulinae vs Canvas: Was ist der Unterschied?",
+        "meta_desc": "Vergleiche Kulinae und Canvas für die Erstellung deines Familien-Rezeptbuchs.",
+        "hero_title": "Warum von {name} zu MonCarnet wechseln?",
+        "description": "Canvas bietet Fotobücher an, wir erstellen Werkzeuge für das kulinarische Erbe.",
+        "pros": [
+          "Intuitive Oberfläche",
+          "Vereinfachtes Teilen mit der Familie"
+        ],
+        "cons": [
+          "Editor nicht an Zutatenlisten angepasst",
+          "Hoher Einzelpreis"
+        ],
+        "table": {
+          "feature_1": ["OCR-Scan", "Ja", "Nein"],
+          "feature_2": ["Rezept-Format", "Automatisch", "Manuell"]
+        }
+      },
+      "photobox": {
+        "name": "Photobox",
+        "meta_title": "Kulinae vs Photobox: Was wählen für deine Rezepte?",
+        "meta_desc": "Photobox ist ideal für Fotos, aber Kulinae ist für die Küche konzipiert. Erfahre, warum KI alles verändert.",
+        "hero_title": "Warum Kulinae statt {name} wählen?",
+        "description": "Photobox glänzt bei Urlaubsfotos, aber deine Küchennotizen in digitalen Text zu verwandeln, ist nicht ihr Metier. Unseres schon.",
+        "pros": [
+          "Automatische Transkription der Zutaten",
+          "Seitenformat optimiert für das Lesen in der Küche",
+          "Zugriff auf Rezepte beim Einkaufen per Smartphone"
+        ],
+        "cons": [
+          "Einfacher und starrer Texteditor",
+          "Keine intelligente Organisation (Vorspeisen/Hauptgerichte/Desserts)",
+          "Erfordert alles manuell abzutippen"
+        ],
+        "table": {
+          "feature_1": ["KI-Scan", "Inklusive (Gratis)", "Nicht verfügbar"],
+          "feature_2": ["Kulinarische Indexierung", "Automatisch", "Manuell"],
+          "feature_3": [
+            "Küchennutzung",
+            "Mobil optimiert",
+            "Nur physisches Buch"
+          ]
+        }
+      },
+      "vistaprint": {
+        "name": "Vistaprint",
+        "meta_title": "Vistaprint vs Kulinae: Kochbuch-Vergleich",
+        "meta_desc": "Verschwende keine Stunden mehr im Vistaprint-Editor. Kulinae generiert dein kulinarisches Layout mit einem Klick.",
+        "hero_title": "Kulinae vs {name}: Spare 10 Std. Layout-Arbeit",
+        "description": "Vistaprint ist ein professionelles Marketing-Tool. Für ein Kochbuch ist es ein Vorschlaghammer, wo du ein Chefmesser brauchst.",
+        "pros": [
+          "Automatisches Layout (Null Aufwand)",
+          "Sofortige Suche nach Zutaten",
+          "Sicheres Cloud-Backup deiner Familiengeheimnisse"
+        ],
+        "cons": [
+          "Komplexe und technische Erstellungsoberfläche",
+          "Keine Verwaltung der Rezeptdatenbank",
+          "Oft hohe Versandkosten"
+        ],
+        "table": {
+          "feature_1": ["Layout", "Sofort", "Manuell (Lang)"],
+          "feature_2": ["Suche", "Nach Stichwort", "Nur visuell"],
+          "feature_3": ["Foto->Text Konvertierung", "Ja", "Nein"]
+        }
+      },
+      "blurb": {
+        "name": "Blurb",
+        "meta_title": "Kulinae vs Blurb: Ein echtes Kochbuch erstellen",
+        "meta_desc": "Blurb ist leistungsstark, aber komplex. Erfahre, wie Kulinae dein kulinarisches Erbe vereinfacht.",
+        "hero_title": "Dein Rezeptbuch: MonCarnet oder {name}?",
+        "description": "Blurb richtet sich an Self-Publisher. Wenn du einfach nur ein sauberes, intelligentes Buch willst, ist MonCarnet für dich.",
+        "pros": [
+          "Import von Fotos von Papier-Rezepten",
+          "Community von Kochbegeisterten",
+          "Integrierte Mahlzeitenplanung"
+        ],
+        "cons": [
+          "Hohe Lernkurve",
+          "Schwere Softwareinstallation (BookWright)",
+          "Keine Begleit-App zum Kochen"
+        ],
+        "table": {
+          "feature_1": ["Einfachheit", "Maximal", "Gering"],
+          "feature_2": ["OCR-Tool", "Ja", "Nein"],
+          "feature_3": ["Küchenzugriff", "Web + Mobil", "Nur PC"]
+        }
+      },
+      "mytaste": {
+        "name": "MyTaste",
+        "meta_title": "Kulinae vs MyTaste: Organisiere deine Küche",
+        "meta_desc": "MyTaste speichert Web-Links, wir erstellen dein Buch. Erfahre den Unterschied zwischen einem Aggregator und einem echten Buch.",
+        "hero_title": "Kulinae vs {name}",
+        "description": "Web-Links zu speichern ist gut, aber die eigenen Rezepte zu besitzen und sie in einem Premium-Buch drucken zu können, ist besser.",
+        "pros": [
+          "Volle Eigentümerschaft deiner Daten",
+          "Premium-Druckoption",
+          "Keine aufdringliche Werbung"
+        ],
+        "cons": [
+          "Einfache Link-Speicherung",
+          "Keine Option zur Erstellung physischer Objekte",
+          "Oft veraltete Oberfläche"
+        ],
+        "table": {
+          "feature_1": ["Druck auf Papier", "Ja (Luxusbuch)", "Nein"],
+          "feature_2": ["Papier-Digitalisierung", "Ja (KI)", "Nein"],
+          "feature_3": ["Werbung", "Keine", "Vorhanden"]
+        }
+      },
+      "cookidoo": {
+        "name": "Cookidoo",
+        "meta_title": "Kulinae vs Cookidoo: Deine eigenen Rezepte zuerst",
+        "meta_desc": "Keine Lust mehr, im Thermomix-Ökosystem gefangen zu sein? Hol dir die Kontrolle mit Kulinae zurück.",
+        "hero_title": "Raus aus dem {name}-Ökosystem",
+        "description": "Cookidoo schreibt dir Rezepte vor. Kulinae lässt dich deine eigenen, die deiner Oma und die deiner Freunde veredeln.",
+        "pros": [
+          "Volle Freiheit (alle Küchenmaschinen, alle Methoden)",
+          "Import eigener Fotos",
+          "Personalisierbares physisches Buch"
+        ],
+        "cons": [
+          "Pflicht-Abo für eigene Notizen",
+          "Limitiert auf Marken-Nutzer",
+          "Kein physischer Export möglich"
+        ],
+        "table": {
+          "feature_1": ["Inhaltsfreiheit", "Total", "Eingeschränkt"],
+          "feature_2": ["Gedrucktes Buch", "Ja", "Nein"],
+          "feature_3": ["Preis", "Erschwinglich", "Jahres-Abo"]
+        }
+      },
+      "manuellement": {
+        "name": "Manuell (Papier-Notizbuch)",
+        "meta_title": "Papier-Rezeptbuch vs Digital: Das Match",
+        "meta_desc": "Warum vom alten Ringbuch zum intelligenten Notizbuch wechseln? Entdecke die Vorteile der Digitalisierung.",
+        "hero_title": "Das digitale Buch vs {name}",
+        "description": "Der Charme von Papier ist unbestreitbar, aber der Verlust eines einzigartigen Rezepts ist unumkehrbar. Verbinde das Beste aus beiden Welten.",
+        "pros": [
+          "Suche nach Zutaten in 2 Sekunden",
+          "Unbegrenztes Teilen mit Liebsten per E-Mail/SMS",
+          "Ewiges Backup (keine Angst vor Soßenflecken)"
+        ],
+        "cons": [
+          "Risiko von Verlust oder Beschädigung",
+          "Unmöglich zu sortieren oder neu zu organisieren",
+          "Schwer für die Kinder zu duplizieren"
+        ],
+        "table": {
+          "feature_1": ["Backup", "Sichere Cloud", "Verlustrisiko"],
+          "feature_2": ["Suche", "Sofort", "Manuelles Blättern"],
+          "feature_3": ["Teilen", "1 Klick", "Abschreiben per Hand"]
+        }
+      }
+    }
+  }
+}

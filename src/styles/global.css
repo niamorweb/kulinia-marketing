@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+/* ─── Design Tokens ───────────────────────────────────────────────────────── */
+@theme {
+  /* Brand */
+  --color-brand: #ce0037; /* Primary red — CTA, links, accents     */
+  --color-brand-hover: #b0002f; /* Hover on filled brand buttons          */
+  --color-brand-dark: #a7002c; /* Hover on brand text links              */
+  --color-brand-light: #fdf5f3; /* Section backgrounds (cream tint)       */
+  --color-brand-muted: color-mix(
+    in srgb,
+    #ce0037 10%,
+    white
+  ); /* bg for icons/tags */
+
+  /* Surface */
+  --color-surface: #ffffff;
+  --color-surface-subtle: #fffcfc; /* gray-50 — hover backgrounds          */
+  --color-surface-subtle-hover: #fcf5f5; /* gray-50 — hover backgrounds          */
+  /* --color-surface-subtle: #f3e8eb;  */
+
+  /* Text */
+  --color-text-primary: #22020a; /* gray-900 — headings, body            */
+  --color-text-secondary: #4c242f; /* gray-700 — nav links, subtitles      */
+  --color-text-muted: #6e525a; /* gray-500 — descriptions, footnotes   */
+  --color-text-faint: #7a6268; /* passes WCAG AA (5.5:1 on white)      */
+
+  /* Borders */
+  --color-border: #cdbfc3; /* gray-200 — default borders            */
+  --color-border-strong: #350410; /* gray-800 — outlined buttons           */
+
+  /* Typography */
+  /* --font-sans: satoshi, "satoshi Fallback", system-ui, sans-serif;
+  --font-secondary: "Dancing Script", cursive; */
+
+  /* Border radius */
+  --radius-pill: 9999px; /* rounded-full — buttons, chips         */
+  --radius-card: 1.5rem; /* rounded-2xl — cards, FAQ items        */
+  --radius-panel: 2.5rem; /* rounded-[2.5rem] — pricing panels     */
+  --radius-hero: 3rem; /* rounded-[3rem] — CTA section          */
+
+  /* Shadows */
+  --shadow-brand: 0 4px 24px 0 color-mix(in srgb, #ce0037 20%, transparent);
+
+  /* Layout */
+  --spacing-section-x: 1.5rem; /* px-6  */
+  --spacing-section-y: 6rem; /* py-24 */
+}
+
+/* Animations */
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes modal-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.2s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-modal-in {
+  animation: modal-in 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Scrollbar hiding */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  font-family: var(--font-sans);
+  /* system-ui,
+    -apple-system,
+    sans-serif; */
+}
+
+input {
+  @apply rounded-full focus:outline-none focus:ring-4 focus:ring-rose-500/5 focus:border-rose-500 transition-all transition-all;
+}
+
+.font-secondary {
+  font-family: var(--font-dancing-script), cursive;
+}

@@ -1,0 +1,500 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Tu cocina merece su propio libro.",
+      "description": "Guarda, organiza e imprime tus recetas en un cuaderno elegante, para compartir o guardar con cariño.",
+      "ctaPrimary": "Crear mi cuaderno",
+      "ctaSecondary": "¿Cómo funciona?"
+    },
+    "steps": [
+      {
+        "tag": "Paso n°1",
+        "title": "Crea tu recetario digital",
+        "features": [
+          {
+            "title": "Sin límites de tiempo",
+            "desc": "Escribe tus recetas manualmente o impórtalas tomando una foto de tu receta en papel."
+          },
+          {
+            "title": "Interfaz cuidada e intuitiva",
+            "desc": "Una experiencia fluida para gestionar tu biblioteca culinaria sin esfuerzo."
+          },
+          {
+            "title": "Escanea tus recetas físicas",
+            "desc": "Toma una foto y nuestra IA se encarga de transcribir los ingredientes y los pasos."
+          }
+        ]
+      },
+      {
+        "tag": "Paso n°2",
+        "title": "Personaliza tu cuaderno físico",
+        "features": [
+          {
+            "title": "Diseño automático",
+            "desc": "Todas tus recetas se formatean automáticamente para un acabado estético y profesional."
+          },
+          {
+            "title": "Plantillas rápidas",
+            "desc": "Estilos predefinidos que te permiten personalizar la apariencia en un solo clic."
+          },
+          {
+            "title": "Pide tu cuaderno",
+            "desc": "Simple, rápido y seguro. Entrega a domicilio en 5 días."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "title": "2 opciones para dar vida a tu cuaderno",
+      "description": "Elige la sencillez del todo-en-uno o la independencia de la exportación a PDF.",
+      "options": [
+        {
+          "badge": "La más elegida",
+          "title": "Opción Llave en mano",
+          "desc": "Nos ocupamos de todo. Impresión premium con nuestros socios y entrega directa en tu casa. Cero carga mental.",
+          "price": "32 €",
+          "details": "Impresión Cuaderno A5 tapa dura mate 48 páginas",
+          "cta": "Crear mi cuaderno"
+        },
+        {
+          "title": "Opción PDF (Autogestión)",
+          "desc": "Compras la exportación PDF en alta definición de tu cuaderno y gestionas la impresión tú mismo con el impresor que elijas.",
+          "price": "9 €",
+          "details": "Archivo PDF listo para imprimir (Márgenes de sangrado incluidos)",
+          "cta": "Crear mi cuaderno"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Todas las respuestas a tus preguntas.",
+      "items": [
+        {
+          "q": "¿Cómo funciona el reconocimiento de texto OCR?",
+          "a": "Solo tienes que tomar una foto de tu receta en papel. Nuestra tecnología extrae automáticamente el texto."
+        },
+        {
+          "q": "¿Puedo compartir mi cuaderno?",
+          "a": "Sí, puedes compartir un enlace seguro con tus seres queridos."
+        }
+      ],
+      "notFound": "¿No has encontrado la respuesta a tu pregunta?",
+      "contact": "Contáctanos"
+    },
+    "cta": {
+      "title": "¿Listo para crear tu recetario?",
+      "description": "Únete a la comunidad de apasionados de la cocina y da vida a tu biblioteca culinaria.",
+      "cta": "Crear mi cuaderno"
+    }
+  },
+  "DigitalBookPage": {
+    "hero": {
+      "title": "Tu biblioteca culinaria, siempre contigo.",
+      "description": "Se acabaron las hojas sueltas y las capturas de pantalla dispersas. Centraliza tus recetas en un espacio elegante, inteligente y accesible en todos tus dispositivos.",
+      "ctaPrimary": "Empezar mi cuaderno",
+      "ctaSecondary": "Ver funciones"
+    },
+    "features": [
+      {
+        "title": "Entrada inteligente y OCR",
+        "description": "No pierdas más tiempo copiando. Toma una foto de tus viejos apuntes o notas manuscritas, nuestra IA se encarga de la transcripción.",
+        "icon": "scan"
+      },
+      {
+        "title": "Organización por carpetas",
+        "description": "Clasifica tus recetas por tipo de plato, dieta o temporada. Encuentra lo que buscas en un abrir y cerrar de ojos.",
+        "icon": "folder"
+      },
+      {
+        "title": "Importación Web instantánea",
+        "description": "Pega la URL de un sitio de cocina y extraemos solo los ingredientes y los pasos, sin publicidad.",
+        "icon": "cloud"
+      },
+      {
+        "title": "Modo Cocina",
+        "description": "Una interfaz a pantalla completa pensada para no ensuciar tu móvil: los pasos se muestran claramente para guiarte paso a paso.",
+        "icon": "cook"
+      }
+    ],
+    "howItWorks": {
+      "title": "¿Cómo funciona?",
+      "steps": [
+        {
+          "title": "Captura",
+          "desc": "Importa tus recetas desde la web, mediante una foto o manualmente."
+        },
+        {
+          "title": "Personaliza",
+          "desc": "Añade tus propias fotos de platos, ajusta las porciones y anota tus trucos secretos."
+        },
+        {
+          "title": "Comparte",
+          "desc": "Envía una receta específica a un amigo o comparte el acceso completo a tu cuaderno digital."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Más que una simple aplicación de notas",
+      "table": {
+        "feature": "Funciones",
+        "us": "Kulinae",
+        "others": "Notas / Fotos",
+        "rows": [
+          ["Reconocimiento de texto (IA)", "Incluido", "No"],
+          ["Formateo automático", "Sí", "No"],
+          ["Uso compartido colaborativo", "Sí", "Difícil"],
+          ["Listo para imprimir", "En 1 clic", "Imposible"]
+        ]
+      }
+    },
+    "cta": {
+      "title": "Comienza tu colección hoy mismo",
+      "description": "El acceso al cuaderno digital es gratuito. Solo pagas si decides imprimir o exportar tu cuaderno.",
+      "button": "Crear mi cuenta gratis"
+    }
+  },
+  "PhysicalBookPage": {
+    "hero": {
+      "title": "Transforma tus recuerdos en un objeto excepcional.",
+      "description": "Da vida a tus recetas en un libro de cocina premium. Papel de alta calidad, tapa dura y diseño experto, entregado en tu casa.",
+      "ctaPrimary": "Crear mi libro",
+      "ctaSecondary": "Descubrir la calidad"
+    },
+    "specs": [
+      {
+        "title": "Papel Premium",
+        "description": "Papel de 170g satinado, resistente al uso en cocina y a las manchas ligeras.",
+        "icon": "paper"
+      },
+      {
+        "title": "Tapa Dura",
+        "description": "Acabado mate soft-touch para un tacto elegante y una protección duradera en el tiempo.",
+        "icon": "book"
+      },
+      {
+        "title": "Apertura Plana",
+        "description": "Una encuadernación pensada para permanecer abierta en tu encimera mientras cocinas.",
+        "icon": "flat"
+      },
+      {
+        "title": "Formato A5 Ideal",
+        "description": "El tamaño perfecto: lo suficientemente grande para leer cómodamente, lo suficientemente compacto para no estorbar.",
+        "icon": "size"
+      }
+    ],
+    "gift": {
+      "title": "El regalo perfecto para tus seres queridos",
+      "description": "Transmite el patrimonio culinario de tu familia. Ideal para una mudanza, una boda o las fiestas de fin de año.",
+      "points": [
+        "Personalización total",
+        "Calidad de impresión fotográfica",
+        "Entrega rápida en 5 días"
+      ]
+    },
+    "cta": {
+      "title": "Un libro que se transmite de generación en generación",
+      "description": "Empieza a diseñar tu libro físico ahora mismo. Importa tus recetas y nosotros nos ocupamos del resto.",
+      "button": "Pedir mi ejemplar"
+    }
+  },
+  "PricingPage": {
+    "hero": {
+      "title": "Un precio sencillo, para un recuerdo eterno.",
+      "description": "Empieza gratis tu cuaderno digital. Solo paga cuando quieras inmortalizar tus recetas en papel o exportarlas."
+    },
+    "options": [
+      {
+        "badge": "Recomendado",
+        "title": "Libro Físico Premium",
+        "desc": "La experiencia completa. Imprimimos tu cuaderno en papel de alta calidad con tapa dura y te lo entregamos en casa.",
+        "price": "32 €",
+        "details": "Libro A5, 48 páginas, acabado mate. Envío incluido.",
+        "cta": "Pedir mi libro"
+      },
+      {
+        "title": "Exportación PDF HD",
+        "desc": "La solución para los que tienen prisa o desean imprimir localmente. Un archivo de alta definición listo para el impresor.",
+        "price": "9 €",
+        "details": "Archivo PDF con márgenes de sangrado y marcas de corte incluidos.",
+        "cta": "Obtener el PDF"
+      }
+    ],
+    "trust": {
+      "payment": "Pago 100% seguro a través de Stripe",
+      "shipping": "Envío con seguimiento en 5 a 7 días hábiles",
+      "support": "Soporte al cliente atento basado en Francia"
+    }
+  },
+  "FAQPage": {
+    "title": "Preguntas Frecuentes",
+    "description": "Todo lo que necesitas saber sobre Kulinae, desde la creación digital hasta la impresión de tu libro.",
+    "categories": {
+      "general": "General",
+      "digital": "Cuaderno Digital e IA",
+      "physical": "Impresión y Entrega"
+    },
+    "items": [
+      {
+        "category": "digital",
+        "q": "¿Cómo funciona el reconocimiento de texto (OCR)?",
+        "a": "Simplemente toma una foto de tu receta manuscrita o impresa. Nuestra IA analiza la imagen, identifica los ingredientes, las cantidades y los pasos, y los transcribe automáticamente en tu cuaderno. Luego puedes corregir o completar el texto si es necesario."
+      },
+      {
+        "category": "digital",
+        "q": "¿Puedo importar recetas desde sitios web?",
+        "a": "¡Sí! Solo tienes que copiar la URL de la receta. Nuestra herramienta extrae el contenido útil (ingredientes y preparación) eliminando la publicidad y los textos superfluos."
+      },
+      {
+        "category": "general",
+        "q": "¿Puedo compartir mi cuaderno con mis seres queridos?",
+        "a": "Absolutamente. Puedes generar un enlace para compartir una receta única o todo tu cuaderno. Tus allegados podrán consultarlo gratis en su móvil u ordenador."
+      },
+      {
+        "category": "physical",
+        "q": "¿Cuáles son los plazos de entrega para el cuaderno físico?",
+        "a": "Una vez validado tu pedido, la impresión suele tardar 2 días hábiles. La entrega a domicilio tarda entre 3 y 5 días dependiendo de tu ubicación."
+      },
+      {
+        "category": "physical",
+        "q": "¿Puedo elegir el diseño de mi libro?",
+        "a": "Ofrecemos varios temas elegantes. Una vez seleccionadas tus recetas, nuestro algoritmo genera automáticamente un diseño optimizado, pero tú mantienes el control sobre la elección de la portada y el orden de los capítulos."
+      },
+      {
+        "category": "physical",
+        "q": "¿Qué es la opción de 'Sangrado' en la exportación PDF?",
+        "a": "Se trata de un margen técnico de seguridad. Si eliges imprimir tu PDF con un profesional, estos bordes evitan que aparezcan líneas blancas al cortar el papel. Tu archivo cumple así al 100% con los estándares de imprenta."
+      },
+      {
+        "category": "general",
+        "q": "¿Están seguros mis datos?",
+        "a": "Tus recetas te pertenecen. Utilizamos cifrado SSL para todos tus datos y nunca vendemos tu información personal."
+      }
+    ],
+    "notFound": "¿No has encontrado la respuesta a tu pregunta?",
+    "contact": "Contacta con nuestro soporte"
+  },
+  "NotFoundPage": {
+    "title": "¡Vaya! Esta página no existe.",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "ctaPrimary": "Volver al inicio",
+    "ctaSecondary": "Crear mi cuaderno",
+    "altImage": "Ilustración de un plato vacío o un error de cocina"
+  },
+  "LoginPage": {
+    "title": "¡Hola!",
+    "description": "Inicia sesión en tu cuenta.",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "correo@ejemplo.com",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Introduce tu contraseña",
+    "forgotPassword": "¿Has olvidado tu contraseña?",
+    "loading": "Iniciando sesión...",
+    "dontHaveAccount": "¿No tienes cuenta?",
+    "register": "Regístrate",
+    "cta": "Iniciar sesión"
+  },
+  "LayoutStaticPages": {
+    "nav": {
+      "home": "Inicio",
+      "digital": "Cuaderno digital",
+      "physical": "Cuaderno físico",
+      "pricing": "Precios",
+      "faq": "FAQ",
+      "login": "Iniciar sesión",
+      "signup": "Empezar gratis"
+    },
+    "footer": {
+      "title": "Kulinae",
+      "description": "Guarda, organiza e imprime tus recetas en un cuaderno elegante."
+    }
+  },
+  "ComparisonPage": {
+    "common": {
+      "vs": "vs",
+      "our_brand": "Kulinae",
+      "cta_signup": "Probar gratis",
+      "table_feature_label": "Funciones",
+      "why_choose_us": "¿Por qué elegir Kulinae?",
+      "limitations_title": "Las limitaciones de {competitor}"
+    },
+    "competitors": {
+      "gelato": {
+        "name": "Gelato",
+        "meta_title": "Kulinae vs Gelato: ¿Cuál es la mejor opción para tu cuaderno?",
+        "meta_desc": "Comparativa completa entre Kulinae y Gelato. Descubre por qué nuestra solución dedicada a la cocina supera a los servicios de impresión generalistas.",
+        "hero_title": "Kulinae vs {name}",
+        "description": "Aunque Gelato es un gigante de la impresión bajo demanda, le falta lo esencial para un cocinero: inteligencia de software.",
+        "pros": [
+          "Escaneo de recetas por IA (OCR) incluido",
+          "Diseño automático especializado en cocina",
+          "Gestor de cuaderno digital móvil"
+        ],
+        "cons": [
+          "Sin reconocimiento de texto para tus fotos",
+          "Diseño manual tedioso",
+          "Servicio generalista sin alma culinaria"
+        ],
+        "table": {
+          "feature_1": ["Escaneo OCR", "Sí (Ilimitado)", "No"],
+          "feature_2": ["App Móvil", "Sí", "No"],
+          "feature_3": ["Especializado Cocina", "100%", "Generalista"]
+        }
+      },
+      "canvas": {
+        "name": "Canvas",
+        "meta_title": "Kulinae vs Canvas: ¿Cuál es la diferencia?",
+        "meta_desc": "Compara Kulinae y Canvas para crear tu libro de recetas familiar.",
+        "hero_title": "¿Por qué dejar {name} por MonCarnet?",
+        "description": "Canvas ofrece álbumes de fotos, nosotros creamos herramientas de transmisión culinaria.",
+        "pros": ["Interfaz intuitiva", "Uso compartido familiar simplificado"],
+        "cons": [
+          "Editor no adaptado a listas de ingredientes",
+          "Precio elevado por unidad"
+        ],
+        "table": {
+          "feature_1": ["Escaneo OCR", "Sí", "No"],
+          "feature_2": ["Formato Recetas", "Automático", "Manual"]
+        }
+      },
+      "photobox": {
+        "name": "Photobox",
+        "meta_title": "Kulinae vs Photobox: ¿Cuál elegir para tus recetas?",
+        "meta_desc": "Photobox es ideal para fotos, pero Kulinae está diseñado para la cocina. Descubre por qué la IA lo cambia todo.",
+        "hero_title": "¿Por qué elegir Kulinae en lugar de {name}?",
+        "description": "Photobox destaca en álbumes de vacaciones, pero convertir tus garabatos de cocina en texto digital no es su fuerte. El nuestro sí.",
+        "pros": [
+          "Transcripción automática de ingredientes",
+          "Formato de página optimizado para leer en la cocina",
+          "Acceso a tus recetas desde el móvil durante las compras"
+        ],
+        "cons": [
+          "Editor de texto básico y rígido",
+          "Sin inteligencia de organización (entrantes/platos/postres)",
+          "Requiere escribir todo a mano de nuevo"
+        ],
+        "table": {
+          "feature_1": ["Escaneo por IA", "Incluido (Gratis)", "No disponible"],
+          "feature_2": ["Indexación Culinaria", "Automática", "Manual"],
+          "feature_3": [
+            "Uso en cocina",
+            "Optimizado para móvil",
+            "Solo libro físico"
+          ]
+        }
+      },
+      "vistaprint": {
+        "name": "Vistaprint",
+        "meta_title": "Vistaprint vs Kulinae: Comparativa Libros de Cocina",
+        "meta_desc": "No pierdas horas en el editor de Vistaprint. Kulinae genera tu diseño culinario en un clic.",
+        "hero_title": "Kulinae vs {name}: Ahorra 10h de diseño",
+        "description": "Vistaprint es una herramienta para marketing profesional. Para un recetario, es como usar un martillo neumático cuando necesitas un cuchillo de chef.",
+        "pros": [
+          "Diseño automático (Cero esfuerzo)",
+          "Búsqueda instantánea por ingrediente",
+          "Copia de seguridad segura de tus secretos familiares"
+        ],
+        "cons": [
+          "Interfaz de creación compleja y técnica",
+          "Sin gestión de base de datos de recetas",
+          "Gastos de envío a menudo elevados"
+        ],
+        "table": {
+          "feature_1": ["Diseño", "Instantáneo", "Manual (Largo)"],
+          "feature_2": ["Búsqueda", "Por palabra clave", "Solo visual"],
+          "feature_3": ["Conversión Foto->Texto", "Sí", "No"]
+        }
+      },
+      "blurb": {
+        "name": "Blurb",
+        "meta_title": "Kulinae vs Blurb: Crear un verdadero libro de cocina",
+        "meta_desc": "Blurb es potente pero complejo. Descubre cómo Kulinae simplifica tu legado culinario.",
+        "hero_title": "Tu recetario: ¿MonCarnet o {name}?",
+        "description": "Blurb se dirige a autoeditores. Si quieres un cuaderno limpio, inteligente y fácil de rellenar, MonCarnet es para ti.",
+        "pros": [
+          "Importación de fotos de recetas en papel",
+          "Comunidad de apasionados de la cocina",
+          "Herramientas de planificación de comidas integradas"
+        ],
+        "cons": [
+          "Curva de aprendizaje elevada",
+          "Software pesado para instalar (BookWright)",
+          "Sin aplicación complementaria para cocinar"
+        ],
+        "table": {
+          "feature_1": ["Simplicidad", "Máxima", "Baja"],
+          "feature_2": ["Herramienta OCR", "Sí", "No"],
+          "feature_3": ["Acceso Cocina", "Web + Móvil", "Solo PC"]
+        }
+      },
+      "mytaste": {
+        "name": "MyTaste",
+        "meta_title": "Kulinae vs MyTaste: Organiza tu cocina",
+        "meta_desc": "MyTaste almacena enlaces web, nosotros creamos tu libro. Descubre la diferencia entre un agregador y un cuaderno real.",
+        "hero_title": "Kulinae vs {name}",
+        "description": "Guardar enlaces de internet está bien, pero poseer tus propias recetas y poder imprimirlas en un libro de prestigio es mucho mejor.",
+        "pros": [
+          "Propiedad total de tus datos",
+          "Opción de impresión premium",
+          "Sin publicidad intrusiva"
+        ],
+        "cons": [
+          "Simple almacenamiento de enlaces",
+          "Sin opción de creación de objeto físico",
+          "Interfaz a menudo anticuada"
+        ],
+        "table": {
+          "feature_1": ["Impresión en papel", "Sí (Libro lujo)", "No"],
+          "feature_2": ["Digitalización Papel", "Sí (IA)", "No"],
+          "feature_3": ["Publicidad", "Ninguna", "Presente"]
+        }
+      },
+      "cookidoo": {
+        "name": "Cookidoo",
+        "meta_title": "Kulinae vs Cookidoo: Tus recetas son lo primero",
+        "meta_desc": "¿Cansado de estar encerrado en el ecosistema Thermomix? Recupera el control con Kulinae.",
+        "hero_title": "Sal del ecosistema {name}",
+        "description": "Cookidoo te impone sus recetas. Kulinae te permite realzar las tuyas, las de tu abuela y las de tus amigos.",
+        "pros": [
+          "Libertad total (cualquier robot, cualquier método)",
+          "Importación de tus propias fotos",
+          "Libro físico personalizable"
+        ],
+        "cons": [
+          "Suscripción obligatoria para tus propias notas",
+          "Limitado a usuarios de la marca",
+          "Sin exportación física posible"
+        ],
+        "table": {
+          "feature_1": ["Libertad de contenido", "Total", "Restringida"],
+          "feature_2": ["Libro Impreso", "Sí", "No"],
+          "feature_3": ["Precio", "Asequible", "Suscripción anual"]
+        }
+      },
+      "manuellement": {
+        "name": "Manualmente (Cuaderno de Papel)",
+        "meta_title": "Cuaderno de recetas papel vs Digital: El duelo",
+        "meta_desc": "¿Por qué pasar del viejo cuaderno de espiral al cuaderno inteligente? Descubre las ventajas.",
+        "hero_title": "El cuaderno digital vs {name}",
+        "description": "El encanto del papel es innegable, pero perder una receta única es irreversible. Une lo mejor de ambos mundos.",
+        "pros": [
+          "Búsqueda por ingrediente en 2 segundos",
+          "Uso compartido ilimitado por email/SMS",
+          "Copia de seguridad eterna (no teme a las manchas de salsa)"
+        ],
+        "cons": [
+          "Riesgo de pérdida o deterioro",
+          "Imposible de clasificar o reorganizar",
+          "Difícil de duplicar para los hijos"
+        ],
+        "table": {
+          "feature_1": [
+            "Copia de seguridad",
+            "Nube segura",
+            "Riesgo de pérdida"
+          ],
+          "feature_2": ["Búsqueda", "Instantánea", "Hojear manualmente"],
+          "feature_3": ["Compartir", "1 clic", "Copiar a mano"]
+        }
+      }
+    }
+  }
+}

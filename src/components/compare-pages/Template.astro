@@ -1,0 +1,55 @@
+---
+// src/components/ComparisonLayout.astro
+const { contentData } = Astro.props;
+---
+
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{contentData.meta_title}</title>
+    <meta name="description" content={contentData.meta_desc} />
+  </head>
+  <body class="bg-surface font-sans text-text-primary">
+    <main class="max-w-4xl mx-auto py-12 px-6">
+      <header class="mb-12">
+        <h1 class="text-4xl md:text-6xl font-black tracking-tight mb-6">
+          {contentData.hero_title}
+        </h1>
+        <p class="text-xl text-text-muted leading-relaxed">
+          {contentData.description}
+        </p>
+      </header>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-green-50 p-8 rounded-2xl border border-green-100">
+          <h2 class="text-xl font-bold text-green-900 mb-4">
+            {contentData.common?.why_choose_us ?? "Pourquoi nous choisir ?"}
+          </h2>
+          <ul class="space-y-3">
+            {contentData.pros.map((pro : string) => (
+              <li class="flex gap-2 items-start text-green-800">
+                <span class="text-green-600 font-bold">✓</span>
+                {pro}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="bg-red-50 p-8 rounded-2xl border border-red-100">
+          <h2 class="text-xl font-bold text-red-900 mb-4">
+            {contentData.common?.limitations_title ?? "Les limites de {competitor}"}
+          </h2>
+          <ul class="space-y-3">
+            {contentData.cons.map((con : string) => (
+              <li class="flex gap-2 items-start text-red-800">
+                <span class="text-red-500 font-bold">✕</span>
+                {con}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+---
+import Shape from "../../assets/hp/shape.svg";
+
+const { contentData } = Astro.props;
+
+const FAQ_DATA = [
+  {
+    q: "Comment fonctionne la reconnaissance de texte OCR ?",
+    a: "Il vous suffit de prendre en photo votre recette papier...",
+  },
+  {
+    q: "Puis-je partager mon carnet de recettes avec mes amis ?",
+    a: "Oui, vous pouvez partager un lien sécurisé...",
+  },
+  {
+    q: "Comment commander mon carnet de recettes imprimé ?",
+    a: "Rendez-vous dans l'onglet impression...",
+  },
+  {
+    q: "Puis-je modifier mes recettes après les avoir ajoutées ?",
+    a: "Oui, tout est éditable à tout moment.",
+  },
+  {
+    q: "Quels sont les prix pour l'impression du carnet ?",
+    a: "À partir de 32€.",
+  },
+  {
+    q: "C'est quoi l'option fonds perdus ?",
+    a: "C'est une marge de sécurité pour l'impression.",
+  },
+];
+
+---
+
+
+<!-- JSON-LD FAQ -->
+  		<!-- <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": FAQ_DATA.map(faq => ({
+          "@type": "Question",
+          "name": faq.q,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.a
+          }
+        }))
+      })} /> -->
+
+   <section id="faq" class="py-24 px-6 relative overflow-hidden">
+  <img src={Shape.src} class="absolute left-0 bottom-0 w-[300px] opacity-20 -z-10" />
+  <img src={Shape.src} class="absolute right-0 top-20 w-[300px] rotate-180 opacity-20 -z-10" />
+
+  <div class="max-w-4xl mx-auto space-y-12">
+    <h2 class="text-4xl font-black text-center">{contentData.faq.title}</h2>
+
+    <div class="space-y-4">
+      {FAQ_DATA.map((faq) => (
+        <details class="group outline-1 overflow-hidden outline-neutral-400 rounded-card bg-surface transition-all duration-300">
+          <summary class="hover:bg-neutral-100 list-none font-bold cursor-pointer flex justify-between items-center p-6">
+            {faq.q}
+            <span class="text-2xl font-medium transition-transform duration-300 group-open:rotate-45">
+              +
+            </span>
+          </summary>
+          <div class="px-6 pb-6 text-gray-600 border-t border-gray-50 pt-4">
+            <p>{faq.a}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+
+    <div class="text-center pt-8">
+      <p class="text-text-muted mb-4">{contentData.faq.notFound}</p>
+      <a href="mailto:contact@moncarnetderecettes.fr" class="px-6 py-3 border rounded-pill font-bold hover:bg-brand hover:text-white transition-colors">
+        {contentData.faq.contact}
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Masque la flèche par défaut de <summary> sur tous les navigateurs */
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary {
+    display: flex;
+  }
+</style>
+
+<script>
+  // Optionnel : Fermer les autres questions quand on en ouvre une nouvelle
+  const details = document.querySelectorAll("details");
+
+  details.forEach((targetDetail) => {
+    targetDetail.addEventListener("click", () => {
+      // On attend un court instant que l'attribut 'open' soit mis à jour
+      setTimeout(() => {
+        if (targetDetail.open) {
+          details.forEach((detail) => {
+            if (detail !== targetDetail) {
+              detail.removeAttribute("open");
+            }
+          });
+        }
+      }, 10);
+    });
+  });
+</script>

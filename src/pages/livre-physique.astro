@@ -1,0 +1,170 @@
+---
+import { Image } from "astro:assets";
+import Shape from "../assets/hp/shape.svg";
+import BookHeroImg from "../assets/hp/book-sample.jpg";
+import Layout from "../layouts/Layout.astro";
+import dataFromJson from "../assets/data/lang/fr.json"; 
+
+// Simulation du système de traduction (à adapter selon ton setup Astro i18n)
+// Si tu n'as pas encore de système, ces variables récupèrent les clés.
+const { PhysicalBookPage } = dataFromJson;
+
+// Pour les boucles de clés
+const specsKeys = ["0", "1", "2", "3"];
+const giftPoints = [0, 1, 2];
+---
+
+<Layout
+  title="Votre cuisine mérite son propre livre | Carnet de recettes personnalisé"
+  description="Créez votre carnet de recettes personnalisé. Importez vos recettes en photo, organisez-les et imprimez un livre élégant livré chez vous."
+  image="/og-image.jpg"
+  url="https://www.moncarnetderecettes.fr/livre-physique"
+>
+<div class="min-h-screen font-sans text-text-primary bg-surface">
+  <main>
+    {/* --- HERO SECTION --- */}
+    <header class="relative px-6 py-20 md:px-12 md:py-32 overflow-hidden bg-brand-light/30">
+      <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
+        <div class="lg:w-1/2 space-y-8">
+          <h1 class="text-5xl md:text-7xl font-black leading-tight tracking-tight">
+            {PhysicalBookPage.hero.title}
+          </h1>
+          <p class="text-xl text-text-secondary leading-relaxed">
+            {PhysicalBookPage.hero.description}
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="/signup"
+              class="px-10 py-5 bg-brand text-white rounded-pill font-bold hover:bg-brand-hover transition shadow-xl shadow-rose-900/20"
+            >
+              {PhysicalBookPage.hero.ctaPrimary}
+            </a>
+            <a
+              href="#specs"
+              class="px-10 py-5 bg-white border border-border text-text-primary rounded-pill font-bold hover:bg-surface-subtle-hover transition"
+            >
+              {PhysicalBookPage.hero.ctaSecondary}
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:w-1/2">
+          <Image
+            src={BookHeroImg}
+            alt="Livre de recettes physique MonCarnetDeRecettes"
+            width={700}
+            height={500}
+            class="rounded-3xl shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </header>
+
+    {/* --- SPECS SECTION --- */}
+    <section id="specs" class="py-24 px-6 md:px-12">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+          {specsKeys.map((key) => (
+            <div class="space-y-4">
+              <div class="w-14 h-14 bg-brand rounded-2xl flex items-center justify-center text-white shadow-lg shadow-brand/20">
+                <svg
+                  class="w-7 h-7"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold">
+                {/* @ts-ignore */}
+                {PhysicalBookPage.specs[key].title}
+              </h3>
+              <p class="text-text-muted leading-relaxed">
+                {/* @ts-ignore */}
+                {PhysicalBookPage.specs[key].description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    {/* --- GIFT SECTION --- */}
+    <section class="py-24 px-6 md:px-12 bg-surface-subtle">
+      <div class="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-16">
+        <div class="lg:w-1/2 space-y-8">
+          <h2 class="text-4xl md:text-5xl font-black leading-tight">
+            {PhysicalBookPage.gift.title}
+          </h2>
+          <p class="text-lg text-text-secondary">
+            {PhysicalBookPage.gift.description}
+          </p>
+          <ul class="space-y-4">
+            {giftPoints.map((idx) => (
+              <li class="flex items-center gap-3 font-bold text-text-primary">
+                <div class="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                {PhysicalBookPage.gift.points[idx]}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="lg:w-1/2">
+          <Image
+            src={BookHeroImg}
+            alt="Offrir un livre de recettes"
+            width={600}
+            height={600}
+            class="rounded-panel shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    {/* --- CTA FINAL --- */}
+    <section class="py-24 px-6">
+      <div class="max-w-5xl mx-auto bg-text-primary rounded-hero p-12 md:p-20 text-center text-white relative overflow-hidden">
+        <Image
+          src={Shape}
+          alt=""
+          class="absolute top-0 right-0 size-64 opacity-10 translate-x-1/4 -translate-y-1/4"
+        />
+        <div class="relative z-10 space-y-8">
+          <h2 class="text-4xl md:text-5xl font-black tracking-tight">
+            {PhysicalBookPage.cta.title}
+          </h2>
+          <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+            {PhysicalBookPage.cta.description}
+          </p>
+          <a
+            href="/signup"
+            class="px-10 py-5 bg-brand text-white rounded-pill font-black hover:scale-105 transition shadow-2xl inline-block"
+          >
+            {PhysicalBookPage.cta.button}
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+</Layout>
