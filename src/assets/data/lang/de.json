@@ -136,7 +136,7 @@
       "title": "Mehr als eine einfache Notizen-App",
       "table": {
         "feature": "Funktionen",
-        "us": "Kulinae",
+        "us": "Kulinia",
         "others": "Notizen / Fotos",
         "rows": [
           ["Texterkennung (KI)", "Inklusive", "Nein"],
@@ -226,7 +226,7 @@
   },
   "FAQPage": {
     "title": "Häufig gestellte Fragen",
-    "description": "Alles, was du über Kulinae wissen musst – von der digitalen Erstellung bis zum Druck deines Buches.",
+    "description": "Alles, was du über Kulinia wissen musst – von der digitalen Erstellung bis zum Druck deines Buches.",
     "categories": {
       "general": "Allgemein",
       "digital": "Digitales Buch & KI",
@@ -303,25 +303,25 @@
       "signup": "Kostenlos starten"
     },
     "footer": {
-      "title": "Kulinae",
+      "title": "Kulinia",
       "description": "Speichere, organisiere und drucke deine Rezepte in einem eleganten Notizbuch."
     }
   },
   "ComparisonPage": {
     "common": {
       "vs": "vs",
-      "our_brand": "Kulinae",
+      "our_brand": "Kulinia",
       "cta_signup": "Kostenlos testen",
       "table_feature_label": "Funktionen",
-      "why_choose_us": "Warum Kulinae wählen?",
+      "why_choose_us": "Warum Kulinia wählen?",
       "limitations_title": "Die Grenzen von {competitor}"
     },
     "competitors": {
       "gelato": {
         "name": "Gelato",
-        "meta_title": "Kulinae vs Gelato: Die beste Wahl für dein Buch?",
-        "meta_desc": "Vollständiger Vergleich zwischen Kulinae und Gelato. Erfahre, warum unsere spezialisierte Kochlösung allgemeine Druckdienste schlägt.",
-        "hero_title": "Kulinae vs {name}",
+        "meta_title": "Kulinia vs Gelato: Die beste Wahl für dein Buch?",
+        "meta_desc": "Vollständiger Vergleich zwischen Kulinia und Gelato. Erfahre, warum unsere spezialisierte Kochlösung allgemeine Druckdienste schlägt.",
+        "hero_title": "Kulinia vs {name}",
         "description": "Gelato ist zwar ein Riese im Print-on-Demand, aber es fehlt das Wesentliche für einen Koch: Software-Intelligenz.",
         "pros": [
           "KI-Rezept-Scan (OCR) inklusive",
@@ -341,8 +341,8 @@
       },
       "canvas": {
         "name": "Canvas",
-        "meta_title": "Kulinae vs Canvas: Was ist der Unterschied?",
-        "meta_desc": "Vergleiche Kulinae und Canvas für die Erstellung deines Familien-Rezeptbuchs.",
+        "meta_title": "Kulinia vs Canvas: Was ist der Unterschied?",
+        "meta_desc": "Vergleiche Kulinia und Canvas für die Erstellung deines Familien-Rezeptbuchs.",
         "hero_title": "Warum von {name} zu MonCarnet wechseln?",
         "description": "Canvas bietet Fotobücher an, wir erstellen Werkzeuge für das kulinarische Erbe.",
         "pros": [
@@ -360,9 +360,9 @@
       },
       "photobox": {
         "name": "Photobox",
-        "meta_title": "Kulinae vs Photobox: Was wählen für deine Rezepte?",
-        "meta_desc": "Photobox ist ideal für Fotos, aber Kulinae ist für die Küche konzipiert. Erfahre, warum KI alles verändert.",
-        "hero_title": "Warum Kulinae statt {name} wählen?",
+        "meta_title": "Kulinia vs Photobox: Was wählen für deine Rezepte?",
+        "meta_desc": "Photobox ist ideal für Fotos, aber Kulinia ist für die Küche konzipiert. Erfahre, warum KI alles verändert.",
+        "hero_title": "Warum Kulinia statt {name} wählen?",
         "description": "Photobox glänzt bei Urlaubsfotos, aber deine Küchennotizen in digitalen Text zu verwandeln, ist nicht ihr Metier. Unseres schon.",
         "pros": [
           "Automatische Transkription der Zutaten",
@@ -386,9 +386,9 @@
       },
       "vistaprint": {
         "name": "Vistaprint",
-        "meta_title": "Vistaprint vs Kulinae: Kochbuch-Vergleich",
-        "meta_desc": "Verschwende keine Stunden mehr im Vistaprint-Editor. Kulinae generiert dein kulinarisches Layout mit einem Klick.",
-        "hero_title": "Kulinae vs {name}: Spare 10 Std. Layout-Arbeit",
+        "meta_title": "Vistaprint vs Kulinia: Kochbuch-Vergleich",
+        "meta_desc": "Verschwende keine Stunden mehr im Vistaprint-Editor. Kulinia generiert dein kulinarisches Layout mit einem Klick.",
+        "hero_title": "Kulinia vs {name}: Spare 10 Std. Layout-Arbeit",
         "description": "Vistaprint ist ein professionelles Marketing-Tool. Für ein Kochbuch ist es ein Vorschlaghammer, wo du ein Chefmesser brauchst.",
         "pros": [
           "Automatisches Layout (Null Aufwand)",
@@ -408,8 +408,8 @@
       },
       "blurb": {
         "name": "Blurb",
-        "meta_title": "Kulinae vs Blurb: Ein echtes Kochbuch erstellen",
-        "meta_desc": "Blurb ist leistungsstark, aber komplex. Erfahre, wie Kulinae dein kulinarisches Erbe vereinfacht.",
+        "meta_title": "Kulinia vs Blurb: Ein echtes Kochbuch erstellen",
+        "meta_desc": "Blurb ist leistungsstark, aber komplex. Erfahre, wie Kulinia dein kulinarisches Erbe vereinfacht.",
         "hero_title": "Dein Rezeptbuch: MonCarnet oder {name}?",
         "description": "Blurb richtet sich an Self-Publisher. Wenn du einfach nur ein sauberes, intelligentes Buch willst, ist MonCarnet für dich.",
         "pros": [
@@ -430,9 +430,9 @@
       },
       "mytaste": {
         "name": "MyTaste",
-        "meta_title": "Kulinae vs MyTaste: Organisiere deine Küche",
+        "meta_title": "Kulinia vs MyTaste: Organisiere deine Küche",
         "meta_desc": "MyTaste speichert Web-Links, wir erstellen dein Buch. Erfahre den Unterschied zwischen einem Aggregator und einem echten Buch.",
-        "hero_title": "Kulinae vs {name}",
+        "hero_title": "Kulinia vs {name}",
         "description": "Web-Links zu speichern ist gut, aber die eigenen Rezepte zu besitzen und sie in einem Premium-Buch drucken zu können, ist besser.",
         "pros": [
           "Volle Eigentümerschaft deiner Daten",
@@ -452,10 +452,10 @@
       },
       "cookidoo": {
         "name": "Cookidoo",
-        "meta_title": "Kulinae vs Cookidoo: Deine eigenen Rezepte zuerst",
-        "meta_desc": "Keine Lust mehr, im Thermomix-Ökosystem gefangen zu sein? Hol dir die Kontrolle mit Kulinae zurück.",
+        "meta_title": "Kulinia vs Cookidoo: Deine eigenen Rezepte zuerst",
+        "meta_desc": "Keine Lust mehr, im Thermomix-Ökosystem gefangen zu sein? Hol dir die Kontrolle mit Kulinia zurück.",
         "hero_title": "Raus aus dem {name}-Ökosystem",
-        "description": "Cookidoo schreibt dir Rezepte vor. Kulinae lässt dich deine eigenen, die deiner Oma und die deiner Freunde veredeln.",
+        "description": "Cookidoo schreibt dir Rezepte vor. Kulinia lässt dich deine eigenen, die deiner Oma und die deiner Freunde veredeln.",
         "pros": [
           "Volle Freiheit (alle Küchenmaschinen, alle Methoden)",
           "Import eigener Fotos",

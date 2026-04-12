@@ -1,20 +1,8 @@
 ---
-const competitors = [
-  "gelato",
-  "canvas",
-  "photobox",
-  "vistaprint",
-  "blurb",
-  "cookidoo",
-  "manuellement",
-];
 
-const mainLinks = [
-  { label: "Livre numérique", href: "/livre-numerique" },
-  { label: "Livre physique", href: "/livre-physique" },
-  { label: "Prix", href: "/prix" },
-  { label: "FAQ", href: "/faq" },
-];
+import navData from "../../assets/data/lang/nav/fr.json";
+
+const { navbarLinks, login, signup } = navData;
 ---
 
 <header class="sticky top-0 z-30 left-0 right-0 bg-white border-b border-b-neutral-300">
@@ -29,7 +17,7 @@ const mainLinks = [
             d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
         </svg>
       </div>
-      <span class="hidden sm:block">Kulinae</span>
+      <span class="hidden sm:block">Kulinia</span>
     </a>
 
     <!-- Desktop -->
@@ -37,7 +25,7 @@ const mainLinks = [
 
       <div class="flex items-center gap-1 text-sm font-medium text-text-secondary">
 
-        {mainLinks.map((link) => (
+        {navbarLinks.map((link) => (
           <a
             href={link.href}
             class="px-4 py-2 hover:bg-surface-subtle-hover rounded-full transition"
@@ -46,34 +34,14 @@ const mainLinks = [
           </a>
         ))}
 
-        <!-- Dropdown CSS hover -->
-        <div class="relative group">
-          <button class="flex items-center gap-1 px-4 py-2 hover:bg-surface-subtle-hover rounded-full transition">
-            Comparatifs
-            <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-
-          <div class="absolute top-full left-0 w-48 bg-surface border border-border mt-1 rounded-xl shadow-xl py-2 hidden group-hover:block">
-            {competitors.map((id) => (
-              <a
-                href={`/compare/${id}`}
-                class="block px-4 py-2 text-sm hover:bg-surface-subtle-hover transition"
-              >
-                vs {id.charAt(0).toUpperCase() + id.slice(1)}
-              </a>
-            ))}
-          </div>
-        </div>
       </div>
 
       <div class="flex gap-3 text-sm">
-        <a href="/login" class="px-5 py-2.5 border border-border-strong text-text-primary rounded-full hover:bg-surface-subtle-hover transition font-medium">
-              Se connecter
+        <a href={login.href} class="px-5 py-2.5 border border-border-strong text-text-primary rounded-full hover:bg-surface-subtle-hover transition font-medium">
+             {login.label}
         </a>
-        <a href="/signup" class="px-5 py-2.5 bg-brand text-white rounded-full font-bold hover:bg-brand-hover transition shadow-sm">
-              Commencer gratuitement
+        <a href={signup.href} class="px-5 py-2.5 bg-brand text-white rounded-full font-bold hover:bg-brand-hover transition shadow-sm">
+              {signup.label}
         </a>
       </div>
     </div>
@@ -89,32 +57,11 @@ const mainLinks = [
       <div class="absolute left-0 right-0 bg-surface border-t border-border px-6 py-6">
 
         <div class="flex flex-col gap-2">
-          {mainLinks.map((link) => (
+          {navbarLinks.map((link) => (
             <a href={link.href} class="px-4 py-3 text-base font-medium">
               {link.label}
             </a>
           ))}
-
-          <div class="px-4 py-2 text-xs font-bold uppercase tracking-wider text-text-muted mt-2">
-            Comparatifs
-          </div>
-
-          <div class="grid grid-cols-2 gap-1">
-            {competitors.map((id) => (
-              <a href={`/compare/${id}`} class="px-4 py-2 text-sm text-text-secondary">
-                vs {id.charAt(0).toUpperCase() + id.slice(1)}
-              </a>
-            ))}
-          </div>
-
-          <div class="mt-6 pt-6 border-t border-border space-y-3">
-            <a href="/login" class="block text-center py-3 font-medium border border-border rounded-full">
-              Se connecter
-            </a>
-            <a href="/signup" class="block text-center py-3 bg-brand text-white rounded-full font-bold">
-              Commencer gratuitement
-            </a>
-          </div>
         </div>
       </div>
     </details>

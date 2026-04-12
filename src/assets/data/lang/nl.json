@@ -136,7 +136,7 @@
       "title": "Meer dan een simpele notitie-app",
       "table": {
         "feature": "Functies",
-        "us": "Kulinae",
+        "us": "Kulinia",
         "others": "Notities / Foto's",
         "rows": [
           ["Tekstherkenning (AI)", "Inbegrepen", "Nee"],
@@ -226,7 +226,7 @@
   },
   "FAQPage": {
     "title": "Veelgestelde Vragen",
-    "description": "Alles wat je moet weten over Kulinae, van digitale creatie tot het printen van je boek.",
+    "description": "Alles wat je moet weten over Kulinia, van digitale creatie tot het printen van je boek.",
     "categories": {
       "general": "Algemeen",
       "digital": "Digitaal Boek & AI",
@@ -303,25 +303,25 @@
       "signup": "Gratis starten"
     },
     "footer": {
-      "title": "Kulinae",
+      "title": "Kulinia",
       "description": "Bewaar, organiseer en print je recepten in een elegant kookboek."
     }
   },
   "ComparisonPage": {
     "common": {
       "vs": "vs",
-      "our_brand": "Kulinae",
+      "our_brand": "Kulinia",
       "cta_signup": "Gratis proberen",
       "table_feature_label": "Functies",
-      "why_choose_us": "Waarom kiezen voor Kulinae?",
+      "why_choose_us": "Waarom kiezen voor Kulinia?",
       "limitations_title": "De beperkingen van {competitor}"
     },
     "competitors": {
       "gelato": {
         "name": "Gelato",
-        "meta_title": "Kulinae vs Gelato: De beste keuze voor je boek?",
-        "meta_desc": "Volledige vergelijking tussen Kulinae en Gelato. Ontdek waarom onze gespecialiseerde kookoplossing algemene printdiensten verslaat.",
-        "hero_title": "Kulinae vs {name}",
+        "meta_title": "Kulinia vs Gelato: De beste keuze voor je boek?",
+        "meta_desc": "Volledige vergelijking tussen Kulinia en Gelato. Ontdek waarom onze gespecialiseerde kookoplossing algemene printdiensten verslaat.",
+        "hero_title": "Kulinia vs {name}",
         "description": "Hoewel Gelato een reus is in print-on-demand, missen ze de essentie voor een kok: software-intelligentie.",
         "pros": [
           "AI receptenscan (OCR) inbegrepen",
@@ -341,8 +341,8 @@
       },
       "canvas": {
         "name": "Canvas",
-        "meta_title": "Kulinae vs Canvas: Wat is het verschil?",
-        "meta_desc": "Vergelijk Kulinae en Canvas voor het maken van je familiereceptenboek.",
+        "meta_title": "Kulinia vs Canvas: Wat is het verschil?",
+        "meta_desc": "Vergelijk Kulinia en Canvas voor het maken van je familiereceptenboek.",
         "hero_title": "Waarom {name} verlaten voor MonCarnet?",
         "description": "Canvas biedt fotoboeken, wij maken tools voor culinaire overdracht.",
         "pros": ["Intuïtieve interface", "Eenvoudig delen met familie"],
@@ -357,9 +357,9 @@
       },
       "photobox": {
         "name": "Photobox",
-        "meta_title": "Kulinae vs Photobox: Wat te kiezen?",
-        "meta_desc": "Photobox is ideaal voor foto's, maar Kulinae is ontworpen voor de keuken. Ontdek waarom AI alles verandert.",
-        "hero_title": "Waarom kiezen voor Kulinae in plaats van {name}?",
+        "meta_title": "Kulinia vs Photobox: Wat te kiezen?",
+        "meta_desc": "Photobox is ideaal voor foto's, maar Kulinia is ontworpen voor de keuken. Ontdek waarom AI alles verandert.",
+        "hero_title": "Waarom kiezen voor Kulinia in plaats van {name}?",
         "description": "Photobox blinkt uit in vakantiealbums, maar je keukenaantekeningen omzetten in digitale tekst is niet hun vak. Het onze wel.",
         "pros": [
           "Automatische transcriptie van ingrediënten",
@@ -383,9 +383,9 @@
       },
       "vistaprint": {
         "name": "Vistaprint",
-        "meta_title": "Vistaprint vs Kulinae: Kookboek Vergelijking",
-        "meta_desc": "Verspil geen uren meer in de Vistaprint-editor. Kulinae genereert je culinaire lay-out in één klik.",
-        "hero_title": "Kulinae vs {name}: Bespaar 10 uur opmaak",
+        "meta_title": "Vistaprint vs Kulinia: Kookboek Vergelijking",
+        "meta_desc": "Verspil geen uren meer in de Vistaprint-editor. Kulinia genereert je culinaire lay-out in één klik.",
+        "hero_title": "Kulinia vs {name}: Bespaar 10 uur opmaak",
         "description": "Vistaprint is een professionele marketingtool. Voor een kookboek is het een sloophamer waar je een koksmes nodig hebt.",
         "pros": [
           "Automatische opmaak (Nul inspanning)",
@@ -405,8 +405,8 @@
       },
       "blurb": {
         "name": "Blurb",
-        "meta_title": "Kulinae vs Blurb: Maak een echt kookboek",
-        "meta_desc": "Blurb is krachtig maar complex. Ontdek hoe Kulinae je culinaire erfgoed vereenvoudigt.",
+        "meta_title": "Kulinia vs Blurb: Maak een echt kookboek",
+        "meta_desc": "Blurb is krachtig maar complex. Ontdek hoe Kulinia je culinaire erfgoed vereenvoudigt.",
         "hero_title": "Je receptenboek: MonCarnet of {name}?",
         "description": "Blurb richt zich op self-publishers. Als je gewoon een schoon, intelligent en makkelijk in te vullen boek wilt, is MonCarnet voor jou.",
         "pros": [
@@ -427,9 +427,9 @@
       },
       "mytaste": {
         "name": "MyTaste",
-        "meta_title": "Kulinae vs MyTaste: Organiseer je keuken",
+        "meta_title": "Kulinia vs MyTaste: Organiseer je keuken",
         "meta_desc": "MyTaste slaat weblinks op, wij maken je boek. Ontdek het verschil tussen een verzamelaar en een echt kookboek.",
-        "hero_title": "Kulinae vs {name}",
+        "hero_title": "Kulinia vs {name}",
         "description": "Internetlinks opslaan is goed, maar je eigen recepten bezitten en ze kunnen printen in een luxe boek is beter.",
         "pros": [
           "Volledig eigendom van je gegevens",
@@ -449,10 +449,10 @@
       },
       "cookidoo": {
         "name": "Cookidoo",
-        "meta_title": "Kulinae vs Cookidoo: Jouw recepten eerst",
-        "meta_desc": "Klaar met opgesloten zitten in het Thermomix-ecosysteem? Neem de controle terug met Kulinae.",
+        "meta_title": "Kulinia vs Cookidoo: Jouw recepten eerst",
+        "meta_desc": "Klaar met opgesloten zitten in het Thermomix-ecosysteem? Neem de controle terug met Kulinia.",
         "hero_title": "Verlaat het {name}-ecosysteem",
-        "description": "Cookidoo legt recepten aan je op. Met Kulinae kun je die van jezelf, je oma en je vrienden laten stralen.",
+        "description": "Cookidoo legt recepten aan je op. Met Kulinia kun je die van jezelf, je oma en je vrienden laten stralen.",
         "pros": [
           "Totale vrijheid (elk apparaat, elke methode)",
           "Import van eigen foto's",

@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "Créez votre carnet de recettes personnalisé | Impression & PDF",
-    "description": "Créez, organisez et imprimez vos recettes dans un carnet élégant. Importez vos recettes en photo, personnalisez votre livre et recevez-le chez vous.",
+    "title": "Créez votre livre de recettes personnalisé | Impression & PDF",
+    "description": "Créez, organisez et imprimez vos recettes dans un livre élégant. Importez vos recettes en photo, personnalisez votre livre et recevez-le chez vous.",
     "keywords": [
-      "carnet de recettes",
+      "livre de recettes",
       "livre de cuisine personnalisé",
       "recettes maison",
-      "impression carnet recettes",
+      "impression livre recettes",
       "créer livre cuisine",
       "recettes PDF",
       "organiser recettes",
@@ -22,14 +22,14 @@
       "url": "https://www.votresite.com/",
       "site_name": "Carnet de recettes",
       "title": "Votre cuisine mérite son propre livre",
-      "description": "Transformez vos recettes en un carnet élégant à imprimer ou partager.",
+      "description": "Transformez vos recettes en un livre élégant à imprimer ou partager.",
       "image": "https://www.votresite.com/og-image.jpg"
     },
 
     "twitter": {
       "card": "summary_large_image",
-      "title": "Créez votre carnet de recettes personnalisé",
-      "description": "Organisez et imprimez vos recettes dans un carnet unique.",
+      "title": "Créez votre livre de recettes personnalisé",
+      "description": "Organisez et imprimez vos recettes dans un livre unique.",
       "image": "https://www.votresite.com/og-image.jpg"
     },
 
@@ -42,14 +42,14 @@
   },
   "hero": {
     "title": "Votre cuisine mérite son propre livre.",
-    "description": "Sauvegardez, organisez et imprimez vos recettes dans un carnet élégant, à partager ou à garder précieusement.",
-    "ctaPrimary": "Créer mon carnet",
+    "description": "Sauvegardez, organisez et imprimez vos recettes dans un livre élégant, à partager ou à garder précieusement.",
+    "ctaPrimary": "Créer mon livre",
     "ctaSecondary": "Comment ça marche ?"
   },
   "steps": [
     {
       "tag": "Étape n°1",
-      "title": "Créez votre carnet de recettes numérique",
+      "title": "Créez votre livre de recettes numérique",
       "features": [
         {
           "title": "Aucune limite de temps",
@@ -67,7 +67,7 @@
     },
     {
       "tag": "Étape n°2",
-      "title": "Personnalisez votre carnet physique",
+      "title": "Personnalisez votre livre physique",
       "features": [
         {
           "title": "Mise en page automatique",
@@ -78,14 +78,14 @@
           "desc": "Des styles prédéfinis vous permettent de personnaliser l'apparence en un clic."
         },
         {
-          "title": "Commandez votre carnet",
+          "title": "Commandez votre livre",
           "desc": "Simple, rapide et sécurisé. Livraison à domicile sous 5 jours."
         }
       ]
     }
   ],
   "pricing": {
-    "title": "2 options pour donner vie à votre carnet",
+    "title": "2 options pour donner vie à votre livre",
     "description": "Choisissez la simplicité du tout-en-un ou l'indépendance de l'export PDF.",
     "options": [
       {
@@ -94,14 +94,14 @@
         "desc": "On s'occupe de tout. Impression premium via nos partenaires et livraison directement chez vous. Zéro charge mentale.",
         "price": "32 €",
         "details": "Impression Carnet A5 rigide mat 48 pages",
-        "cta": "Créer mon carnet"
+        "cta": "Créer mon livre"
       },
       {
         "title": "Option PDF (Débrouillard)",
-        "desc": "Vous achetez l'export PDF haute définition de votre carnet, et vous gérez l'impression vous-même chez l'imprimeur de votre choix.",
+        "desc": "Vous achetez l'export PDF haute définition de votre livre, et vous gérez l'impression vous-même chez l'imprimeur de votre choix.",
         "price": "9 €",
         "details": "Fichier PDF prêt à imprimer (Fonds perdus inclus)",
-        "cta": "Créer mon carnet"
+        "cta": "Créer mon livre"
       }
     ]
   },
@@ -113,7 +113,7 @@
         "a": "Il vous suffit de prendre en photo votre recette papier. Notre technologie extrait automatiquement le texte."
       },
       {
-        "q": "Puis-je partager mon carnet ?",
+        "q": "Puis-je partager mon livre ?",
         "a": "Oui, vous pouvez partager un lien sécurisé avec vos proches."
       }
     ],
@@ -121,8 +121,8 @@
     "contact": "Contactez-nous"
   },
   "cta": {
-    "title": "Prêt à créer votre carnet de recettes ?",
+    "title": "Prêt à créer votre livre de recettes ?",
     "description": "Rejoignez la communauté de passionnés de cuisine et donnez vie à votre bibliothèque culinaire.",
-    "cta": "Créer mon carnet"
+    "cta": "Créer mon livre"
   }
 }

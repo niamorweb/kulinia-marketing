@@ -1,0 +1,82 @@
+{
+  "navbarLinks": [
+    {
+      "name": "digital-book",
+      "label": "Livre numérique",
+      "href": "/livre-numerique"
+    },
+    {
+      "name": "physical-book",
+      "label": "Livre physique",
+      "href": "/livre-physique"
+    },
+    { "name": "pricing", "label": "Prix", "href": "/prix" },
+    { "name": "faq", "label": "FAQ", "href": "/faq" },
+    { "name": "compare", "label": "Comparatifs", "href": "/comparatif" }
+  ],
+  "footerLinks": [
+    {
+      "name": "product",
+      "label": "Produit",
+      "links": [
+        { "label": "Livre numérique", "href": "/livre-numerique" },
+        { "label": "Livre physique", "href": "/livre-physique" },
+        { "label": "Prix", "href": "/prix" },
+        { "label": "FAQ", "href": "/faq" },
+        { "label": "Comparatifs", "href": "/comparatif" }
+      ]
+    },
+    {
+      "name": "compare",
+      "label": "Comparatifs",
+      "links": [
+        {
+          "name": "photobox",
+          "label": "Photobox",
+          "href": "/comparatif/photobox"
+        },
+        {
+          "name": "vistaprint",
+          "label": "Vistaprint",
+          "href": "/comparatif/vistaprint"
+        },
+        { "name": "gelato", "label": "Gelato", "href": "/comparatif/gelato" },
+        { "name": "lulu", "label": "Lulu", "href": "/comparatif/lulu" },
+        { "name": "canvas", "label": "Canvas", "href": "/comparatif/canvas" },
+
+        {
+          "name": "cookidoo",
+          "label": "Cookidoo",
+          "href": "/comparatif/Cookidoo"
+        },
+        {
+          "name": "blurb",
+          "label": "Blurb",
+          "href": "/comparatif/Blurb"
+        },
+        {
+          "name": "manual",
+          "label": "Fait main",
+          "href": "/comparatif/fait-main"
+        }
+      ]
+    },
+    {
+      "name": "legal",
+      "label": "Légal",
+      "links": [
+        { "label": "Mentions légales", "href": "/legal/mentions" },
+        { "label": "Politique de confidentialité", "href": "/legal/privacy" },
+        { "label": "Conditions d'utilisation", "href": "/legal/terms" }
+      ]
+    }
+  ],
+  "login": {
+    "label": "Se connecter",
+    "href": "/connexion"
+  },
+  "signup": {
+    "label": "Commencer gratuitement",
+    "href": "/inscription"
+  }
+}

@@ -2,14 +2,14 @@
   "HomePage": {
     "hero": {
       "title": "Votre cuisine mérite son propre livre.",
-      "description": "Sauvegardez, organisez et imprimez vos recettes dans un carnet élégant, à partager ou à garder précieusement.",
-      "ctaPrimary": "Créer mon carnet",
+      "description": "Sauvegardez, organisez et imprimez vos recettes dans un livre élégant, à partager ou à garder précieusement.",
+      "ctaPrimary": "Créer mon livre",
       "ctaSecondary": "Comment ça marche ?"
     },
     "steps": [
       {
         "tag": "Étape n°1",
-        "title": "Créez votre carnet de recettes numérique",
+        "title": "Créez votre livre de recettes numérique",
         "features": [
           {
             "title": "Aucune limite de temps",
@@ -27,7 +27,7 @@
       },
       {
         "tag": "Étape n°2",
-        "title": "Personnalisez votre carnet physique",
+        "title": "Personnalisez votre livre physique",
         "features": [
           {
             "title": "Mise en page automatique",
@@ -38,14 +38,14 @@
             "desc": "Des styles prédéfinis vous permettent de personnaliser l'apparence en un clic."
           },
           {
-            "title": "Commandez votre carnet",
+            "title": "Commandez votre livre",
             "desc": "Simple, rapide et sécurisé. Livraison à domicile sous 5 jours."
           }
         ]
       }
     ],
     "pricing": {
-      "title": "2 options pour donner vie à votre carnet",
+      "title": "2 options pour donner vie à votre livre",
       "description": "Choisissez la simplicité du tout-en-un ou l'indépendance de l'export PDF.",
       "options": [
         {
@@ -54,14 +54,14 @@
           "desc": "On s'occupe de tout. Impression premium via nos partenaires et livraison directement chez vous. Zéro charge mentale.",
           "price": "32 €",
           "details": "Impression Carnet A5 rigide mat 48 pages",
-          "cta": "Créer mon carnet"
+          "cta": "Créer mon livre"
         },
         {
           "title": "Option PDF (Débrouillard)",
-          "desc": "Vous achetez l'export PDF haute définition de votre carnet, et vous gérez l'impression vous-même chez l'imprimeur de votre choix.",
+          "desc": "Vous achetez l'export PDF haute définition de votre livre, et vous gérez l'impression vous-même chez l'imprimeur de votre choix.",
           "price": "9 €",
           "details": "Fichier PDF prêt à imprimer (Fonds perdus inclus)",
-          "cta": "Créer mon carnet"
+          "cta": "Créer mon livre"
         }
       ]
     },
@@ -73,7 +73,7 @@
           "a": "Il vous suffit de prendre en photo votre recette papier. Notre technologie extrait automatiquement le texte."
         },
         {
-          "q": "Puis-je partager mon carnet ?",
+          "q": "Puis-je partager mon livre ?",
           "a": "Oui, vous pouvez partager un lien sécurisé avec vos proches."
         }
       ],
@@ -81,16 +81,16 @@
       "contact": "Contactez-nous"
     },
     "cta": {
-      "title": "Prêt à créer votre carnet de recettes ?",
+      "title": "Prêt à créer votre livre de recettes ?",
       "description": "Rejoignez la communauté de passionnés de cuisine et donnez vie à votre bibliothèque culinaire.",
-      "cta": "Créer mon carnet"
+      "cta": "Créer mon livre"
     }
   },
   "DigitalBookPage": {
     "hero": {
       "title": "Votre bibliothèque culinaire, partout avec vous.",
       "description": "Fini les feuilles volantes et les captures d'écran éparpillées. Centralisez vos recettes dans un espace élégant, intelligent et accessible sur tous vos appareils.",
-      "ctaPrimary": "Démarrer mon carnet",
+      "ctaPrimary": "Démarrer mon livre",
       "ctaSecondary": "Voir les fonctionnalités"
     },
     "features": [
@@ -128,7 +128,7 @@
         },
         {
           "title": "Partagez",
-          "desc": "Envoyez une recette spécifique à un ami ou partagez l'accès complet à votre carnet numérique."
+          "desc": "Envoyez une recette spécifique à un ami ou partagez l'accès complet à votre livre numérique."
         }
       ]
     },
@@ -136,7 +136,7 @@
       "title": "Plus qu'une simple application de notes",
       "table": {
         "feature": "Fonctionnalités",
-        "us": "Kulinae",
+        "us": "Kulinia",
         "others": "Notes / Photos",
         "rows": [
           ["Reconnaissance de texte (IA)", "Inclus", "Non"],
@@ -148,7 +148,7 @@
     },
     "cta": {
       "title": "Commencez votre collection aujourd'hui",
-      "description": "L'accès au carnet numérique est gratuit. Vous ne payez que si vous décidez d'imprimer ou d'exporter votre carnet.",
+      "description": "L'accès au livre numérique est gratuit. Vous ne payez que si vous décidez d'imprimer ou d'exporter votre livre.",
       "button": "Créer mon compte gratuitement"
     }
   },
@@ -199,13 +199,13 @@
   "PricingPage": {
     "hero": {
       "title": "Un prix simple, pour un souvenir éternel.",
-      "description": "Commencez gratuitement votre carnet numérique. Ne payez que lorsque vous souhaitez immortaliser vos recettes sur papier ou les exporter."
+      "description": "Commencez gratuitement votre livre numérique. Ne payez que lorsque vous souhaitez immortaliser vos recettes sur papier ou les exporter."
     },
     "options": [
       {
         "badge": "Recommandé",
         "title": "Livre Physique Premium",
-        "desc": "L'expérience complète. Nous imprimons votre carnet sur du papier haute qualité avec une couverture rigide et nous vous le livrons à domicile.",
+        "desc": "L'expérience complète. Nous imprimons votre livre sur du papier haute qualité avec une couverture rigide et nous vous le livrons à domicile.",
         "price": "32 €",
         "details": "Livre A5, 48 pages, finition mate. Livraison incluse.",
         "cta": "Commander mon livre"
@@ -226,7 +226,7 @@
   },
   "FAQPage": {
     "title": "Questions Fréquentes",
-    "description": "Tout ce que vous devez savoir sur Kulinae, de la création numérique à l'impression de votre livre.",
+    "description": "Tout ce que vous devez savoir sur Kulinia, de la création numérique à l'impression de votre livre.",
     "categories": {
       "general": "Général",
       "digital": "Carnet Numérique & IA",
@@ -236,7 +236,7 @@
       {
         "category": "digital",
         "q": "Comment fonctionne la reconnaissance de texte (OCR) ?",
-        "a": "Prenez simplement une photo de votre recette manuscrite ou imprimée. Notre IA analyse l'image, identifie les ingrédients, les quantités et les étapes, puis les retranscrit automatiquement dans votre carnet. Vous pouvez ensuite corriger ou compléter le texte si besoin."
+        "a": "Prenez simplement une photo de votre recette manuscrite ou imprimée. Notre IA analyse l'image, identifie les ingrédients, les quantités et les étapes, puis les retranscrit automatiquement dans votre livre. Vous pouvez ensuite corriger ou compléter le texte si besoin."
       },
       {
         "category": "digital",
@@ -245,12 +245,12 @@
       },
       {
         "category": "general",
-        "q": "Puis-je partager mon carnet avec mes proches ?",
-        "a": "Absolument. Vous pouvez générer un lien de partage pour une recette unique ou pour l'ensemble de votre carnet. Vos proches pourront le consulter gratuitement sur leur téléphone ou ordinateur."
+        "q": "Puis-je partager mon livre avec mes proches ?",
+        "a": "Absolument. Vous pouvez générer un lien de partage pour une recette unique ou pour l'ensemble de votre livre. Vos proches pourront le consulter gratuitement sur leur téléphone ou ordinateur."
       },
       {
         "category": "physical",
-        "q": "Quels sont les délais de livraison pour le carnet physique ?",
+        "q": "Quels sont les délais de livraison pour le livre physique ?",
         "a": "Une fois votre commande validée, l'impression prend généralement 2 jours ouvrés. La livraison à domicile prend ensuite entre 3 et 5 jours selon votre localisation."
       },
       {
@@ -276,7 +276,7 @@
     "title": "Oups ! Cette page n'existe pas.",
     "description": "La page que vous cherchez n'existe pas ou a été déplacée.",
     "ctaPrimary": "Retour à l'accueil",
-    "ctaSecondary": "Créer mon carnet",
+    "ctaSecondary": "Créer mon livre",
     "altImage": "Illustration d'un plat vide ou d'une erreur de cuisine"
   },
   "LoginPage": {
@@ -303,30 +303,30 @@
       "signup": "Commencer gratuitement"
     },
     "footer": {
-      "title": "Kulinae",
-      "description": "Sauvegardez, organisez et imprimez vos recettes dans un carnet élégant."
+      "title": "Kulinia",
+      "description": "Sauvegardez, organisez et imprimez vos recettes dans un livre élégant."
     }
   },
   "ComparisonPage": {
     "common": {
       "vs": "vs",
-      "our_brand": "Kulinae",
+      "our_brand": "Kulinia",
       "cta_signup": "Essayer gratuitement",
       "table_feature_label": "Fonctionnalités",
-      "why_choose_us": "Pourquoi choisir Kulinae ?",
+      "why_choose_us": "Pourquoi choisir Kulinia ?",
       "limitations_title": "Les limites de {competitor}"
     },
     "competitors": {
       "gelato": {
         "name": "Gelato",
-        "meta_title": "Kulinae vs Gelato : Le meilleur choix pour votre carnet ?",
-        "meta_desc": "Comparatif complet entre Kulinae et Gelato. Découvrez pourquoi notre solution dédiée à la cuisine bat les services d'impression généralistes.",
-        "hero_title": "Kulinae vs {name}",
+        "meta_title": "Kulinia vs Gelato : Le meilleur choix pour votre livre ?",
+        "meta_desc": "Comparatif complet entre Kulinia et Gelato. Découvrez pourquoi notre solution dédiée à la cuisine bat les services d'impression généralistes.",
+        "hero_title": "Kulinia vs {name}",
         "description": "Si Gelato est un géant de l'impression à la demande, il lui manque l'essentiel pour un cuisinier : l'intelligence logicielle.",
         "pros": [
           "Scan de recettes par IA (OCR) inclus",
           "Mise en page automatique spécialisée cuisine",
-          "Gestionnaire de carnet numérique mobile"
+          "Gestionnaire de livre numérique mobile"
         ],
         "cons": [
           "Pas de reconnaissance de texte pour vos photos",
@@ -341,8 +341,8 @@
       },
       "canvas": {
         "name": "Canvas",
-        "meta_title": "Kulinae vs Canvas : Quelle différence ?",
-        "meta_desc": "Comparez Kulinae et Canvas pour la création de votre livre de recettes familial.",
+        "meta_title": "Kulinia vs Canvas : Quelle différence ?",
+        "meta_desc": "Comparez Kulinia et Canvas pour la création de votre livre de recettes familial.",
         "hero_title": "Pourquoi quitter {name} pour MonCarnet ?",
         "description": "Canvas propose des livres photos, nous créons des outils de transmission culinaire.",
         "pros": ["Interface intuitive", "Partage familial simplifié"],
@@ -357,9 +357,9 @@
       },
       "photobox": {
         "name": "Photobox",
-        "meta_title": "Kulinae vs Photobox : Lequel choisir pour vos recettes ?",
-        "meta_desc": "Photobox est idéal pour les photos, mais Kulinae est conçu pour la cuisine. Découvrez pourquoi l'IA change tout pour votre carnet.",
-        "hero_title": "Pourquoi choisir Kulinae plutôt que {name} ?",
+        "meta_title": "Kulinia vs Photobox : Lequel choisir pour vos recettes ?",
+        "meta_desc": "Photobox est idéal pour les photos, mais Kulinia est conçu pour la cuisine. Découvrez pourquoi l'IA change tout pour votre livre.",
+        "hero_title": "Pourquoi choisir Kulinia plutôt que {name} ?",
         "description": "Photobox excelle dans l'album photo de vacances, mais transformer vos gribouillis de cuisine en texte numérique n'est pas leur métier. Nous, si.",
         "pros": [
           "Retranscription automatique des ingrédients",
@@ -383,10 +383,10 @@
       },
       "vistaprint": {
         "name": "Vistaprint",
-        "meta_title": "Vistaprint vs Kulinae : Comparatif Livres de Cuisine",
-        "meta_desc": "Ne perdez plus des heures sur l'éditeur Vistaprint. Kulinae génère votre mise en page culinaire en un clic.",
-        "hero_title": "Kulinae vs {name} : Gagnez 10h de mise en page",
-        "description": "Vistaprint est un outil professionnel pour le marketing. Pour un carnet de recettes, c'est un marteau-piqueur là où vous avez besoin d'un couteau de chef.",
+        "meta_title": "Vistaprint vs Kulinia : Comparatif Livres de Cuisine",
+        "meta_desc": "Ne perdez plus des heures sur l'éditeur Vistaprint. Kulinia génère votre mise en page culinaire en un clic.",
+        "hero_title": "Kulinia vs {name} : Gagnez 10h de mise en page",
+        "description": "Vistaprint est un outil professionnel pour le marketing. Pour un livre de recettes, c'est un marteau-piqueur là où vous avez besoin d'un couteau de chef.",
         "pros": [
           "Mise en page automatique (Zéro effort)",
           "Recherche instantanée par ingrédient",
@@ -405,10 +405,10 @@
       },
       "blurb": {
         "name": "Blurb",
-        "meta_title": "Kulinae vs Blurb : Créer un vrai livre de cuisine",
-        "meta_desc": "Blurb est puissant mais complexe. Découvrez comment Kulinae simplifie la création de votre héritage culinaire.",
-        "hero_title": "Votre carnet de recettes : MonCarnet ou {name} ?",
-        "description": "Blurb s'adresse aux auto-éditeurs. Si vous voulez juste un carnet propre, intelligent et facile à remplir, MonCarnet est fait pour vous.",
+        "meta_title": "Kulinia vs Blurb : Créer un vrai livre de cuisine",
+        "meta_desc": "Blurb est puissant mais complexe. Découvrez comment Kulinia simplifie la création de votre héritage culinaire.",
+        "hero_title": "Votre livre de recettes : MonCarnet ou {name} ?",
+        "description": "Blurb s'adresse aux auto-éditeurs. Si vous voulez juste un livre propre, intelligent et facile à remplir, MonCarnet est fait pour vous.",
         "pros": [
           "Importation de photos de recettes papier",
           "Communauté de passionnés de cuisine",
@@ -427,9 +427,9 @@
       },
       "mytaste": {
         "name": "MyTaste",
-        "meta_title": "Kulinae vs MyTaste : Organisez votre cuisine",
-        "meta_desc": "MyTaste stocke des liens web, nous créons votre livre. Découvrez la différence entre un agrégateur et un véritable carnet.",
-        "hero_title": "Kulinae vs {name}",
+        "meta_title": "Kulinia vs MyTaste : Organisez votre cuisine",
+        "meta_desc": "MyTaste stocke des liens web, nous créons votre livre. Découvrez la différence entre un agrégateur et un véritable livre.",
+        "hero_title": "Kulinia vs {name}",
         "description": "Stocker des liens internet c'est bien, posséder ses propres recettes et pouvoir les imprimer dans un livre de prestige, c'est mieux.",
         "pros": [
           "Propriété totale de vos données",
@@ -449,10 +449,10 @@
       },
       "cookidoo": {
         "name": "Cookidoo",
-        "meta_title": "Kulinae vs Cookidoo : Vos propres recettes avant tout",
-        "meta_desc": "Marre d'être enfermé dans l'écosystème Thermomix ? Reprenez le contrôle de vos recettes personnelles avec Kulinae.",
+        "meta_title": "Kulinia vs Cookidoo : Vos propres recettes avant tout",
+        "meta_desc": "Marre d'être enfermé dans l'écosystème Thermomix ? Reprenez le contrôle de vos recettes personnelles avec Kulinia.",
         "hero_title": "Sortez de l'écosystème {name}",
-        "description": "Cookidoo vous impose ses recettes. Kulinae vous permet de sublimer les vôtres, celles de votre grand-mère et celles de vos amis.",
+        "description": "Cookidoo vous impose ses recettes. Kulinia vous permet de sublimer les vôtres, celles de votre grand-mère et celles de vos amis.",
         "pros": [
           "Liberté totale (tous robots, toutes méthodes)",
           "Importation de vos propres photos",
@@ -472,8 +472,8 @@
       "manuellement": {
         "name": "Manuellement (Cahier Papier)",
         "meta_title": "Cahier de recettes papier vs Numérique : Le match",
-        "meta_desc": "Pourquoi passer du vieux cahier à spirales au carnet intelligent ? Découvrez les avantages de la numérisation pour vos recettes.",
-        "hero_title": "Le carnet numérique vs {name}",
+        "meta_desc": "Pourquoi passer du vieux cahier à spirales au livre intelligent ? Découvrez les avantages de la numérisation pour vos recettes.",
+        "hero_title": "Le livre numérique vs fait-main",
         "description": "Le charme du papier est indéniable, mais la perte d'une recette unique est irréversible. Alliez le meilleur des deux mondes.",
         "pros": [
           "Recherche par ingrédient en 2 secondes",

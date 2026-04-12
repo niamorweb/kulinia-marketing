@@ -5,9 +5,9 @@ import Footer from "../components/layout/Footer.astro";
 
 const {
   title = "Carnet de recettes personnalisé",
-  description = "Créez, organisez et imprimez vos recettes dans un carnet élégant.",
-  image = "/og-image.jpg",
-  url = "https://www.moncarnetderecettes.fr/"
+  description = "Créez, organisez et imprimez vos recettes dans un livre élégant.",
+  image = "https://www.kulinia.com/og-image.jpg",
+  url = "https://www.kulinia.com/"
 } = Astro.props;
 ---
 
@@ -16,12 +16,13 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- SEO -->
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href={url} />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -37,23 +38,21 @@ const {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />
 
-    <!-- Perf -->
-    <link rel="preload" as="image" href={image} />
 
     <!-- JSON-LD (SEO avancé) -->
 		<script type="application/ld+json" set:html={JSON.stringify({
 			"@context": "https://schema.org",
 			"@type": "WebSite",
-			"name": "Mon Carnet de Recettes",
-			"url": "https://www.moncarnetderecettes.fr/",
-			"description": "Créez votre carnet de recettes personnalisé..."
+			"name": "Kulinia",
+			"url": "https://www.kulinia.com/",
+			"description": description
 		})} />
+		  <slot name="head" />
 	  </head>
 	<body>
 		<Header />
 		<slot />
 		<Footer />
-		  <slot name="head" />
 
 	</body>
 </html>

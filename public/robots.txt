@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kulinia-marketing.romain-lthl.workers.dev/sitemap-index.xml

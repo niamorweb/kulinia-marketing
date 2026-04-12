@@ -5,37 +5,19 @@ import "../styles/global.css";
 import Layout from "../layouts/Layout.astro";
 import contentData from "../assets/data/lang/homepage/fr.json";
 import Faq from "../components/homepage/Faq.astro";
+import { Image } from "astro:assets";
 
-
-
-const PRICING = [
-  {
-    title: "Essentiel",
-    desc: "Pour démarrer",
-    price: "32€",
-    details: "48 pages",
-    cta: "Choisir",
-    badge: "Le plus choisi",
-  },
-  {
-    title: "Premium",
-    desc: "Pour les passionnés",
-    price: "49€",
-    details: "80 pages",
-    cta: "Choisir",
-  },
-];
 ---
 
 <Layout 
   title="Votre cuisine mérite son propre livre | Carnet de recettes personnalisé"
-  description="Créez votre carnet de recettes personnalisé. Importez vos recettes en photo, organisez-les et imprimez un livre élégant livré chez vous."
+  description="Créez votre livre de recettes personnalisé. Importez vos recettes en photo, organisez-les et imprimez un livre élégant livré chez vous."
   image="/og-image.jpg"
-  url="https://www.moncarnetderecettes.fr/"
+  url="https://www.kulinia.com/"
   >
   <Fragment slot="head">
   <!-- Keywords (optionnel mais ok) -->
-  <meta name="keywords" content="carnet de recettes, livre de cuisine personnalisé, recettes maison, impression carnet, OCR recette" />
+  <meta name="keywords" content="livre de recettes, livre de cuisine personnalisé, recettes maison, impression livre, OCR recette" />
 
   
 </Fragment>
@@ -70,9 +52,13 @@ const PRICING = [
         <div class="w-1/2"></div>
       </div>
 
-      <img
+      <Image
         src={BookSampleImg.src}
-        alt="Exemple carnet"
+        width={1000}
+        height={900}
+        loading="eager"
+        fetchpriority="high"
+        alt="Exemple livre"
         class="absolute right-0 top-0 lg:translate-x-1/3 object-cover rounded-xl"
       />
     </header>

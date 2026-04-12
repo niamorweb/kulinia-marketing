@@ -1,4 +1,9 @@
 ---
+
+import footerData from "../../assets/data/lang/nav/fr.json";
+
+const { footerLinks } = footerData;
+
 const competitors = [
   "gelato",
   "canvas",
@@ -49,20 +54,20 @@ const year = new Date().getFullYear();
             d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
         </svg>
         </div>
-        <span>Kulinae.</span>
+        <span>Kulinia.</span>
       </div>
 
       <p class="text-text-muted text-sm">
-        Votre carnet de recettes numérique et imprimé.
+        Votre livre de recettes numérique et imprimé.
       </p>
     </div>
 
     <!-- Links -->
     <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 md:w-3/4 md:justify-items-end">
-      {FOOTER_LINKS.map((col) => (
+      {footerLinks.map((col) => (
         <div class="space-y-4">
           <h3 class="font-bold text-text-primary text-sm uppercase tracking-wider">
-            {col.title}
+            {col.label}
           </h3>
 
           <ul class="space-y-3 text-sm text-text-muted">
@@ -85,7 +90,7 @@ const year = new Date().getFullYear();
   <!-- Bottom bar -->
   <div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-border/50 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-text-faint">
 
-    <p>© {year} Kulinae.</p>
+    <p>© {year} Kulinia.</p>
 
     <!-- Placeholder LocaleSwitcher -->
     <div class="text-text-muted text-sm">

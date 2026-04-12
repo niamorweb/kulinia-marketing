@@ -1,23 +1,23 @@
 {
   "common": {
     "vs": "vs",
-    "our_brand": "Kulinae",
+    "our_brand": "Kulinia",
     "cta_signup": "Essayer gratuitement",
     "table_feature_label": "Fonctionnalités",
-    "why_choose_us": "Pourquoi choisir Kulinae ?",
+    "why_choose_us": "Pourquoi choisir Kulinia ?",
     "limitations_title": "Les limites de {competitor}"
   },
   "competitors": {
     "gelato": {
       "name": "Gelato",
-      "meta_title": "Kulinae vs Gelato : Le meilleur choix pour votre carnet ?",
-      "meta_desc": "Comparatif complet entre Kulinae et Gelato. Découvrez pourquoi notre solution dédiée à la cuisine bat les services d'impression généralistes.",
-      "hero_title": "Kulinae vs Gelato",
+      "meta_title": "Kulinia vs Gelato : Le meilleur choix pour votre livre ?",
+      "meta_desc": "Comparatif complet entre Kulinia et Gelato. Découvrez pourquoi notre solution dédiée à la cuisine bat les services d'impression généralistes.",
+      "hero_title": "Kulinia vs Gelato",
       "description": "Si Gelato est un géant de l'impression à la demande, il lui manque l'essentiel pour un cuisinier : l'intelligence logicielle.",
       "pros": [
         "Scan de recettes par IA (OCR) inclus",
         "Mise en page automatique spécialisée cuisine",
-        "Gestionnaire de carnet numérique mobile"
+        "Gestionnaire de livre numérique mobile"
       ],
       "cons": [
         "Pas de reconnaissance de texte pour vos photos",
@@ -32,8 +32,8 @@
     },
     "canvas": {
       "name": "Canvas",
-      "meta_title": "Kulinae vs Canvas : Quelle différence ?",
-      "meta_desc": "Comparez Kulinae et Canvas pour la création de votre livre de recettes familial.",
+      "meta_title": "Kulinia vs Canvas : Quelle différence ?",
+      "meta_desc": "Comparez Kulinia et Canvas pour la création de votre livre de recettes familial.",
       "hero_title": "Pourquoi quitter Canvas pour MonCarnet ?",
       "description": "Canvas propose des livres photos, nous créons des outils de transmission culinaire.",
       "pros": ["Interface intuitive", "Partage familial simplifié"],
@@ -48,9 +48,9 @@
     },
     "photobox": {
       "name": "Photobox",
-      "meta_title": "Kulinae vs Photobox : Lequel choisir pour vos recettes ?",
-      "meta_desc": "Photobox est idéal pour les photos, mais Kulinae est conçu pour la cuisine. Découvrez pourquoi l'IA change tout pour votre carnet.",
-      "hero_title": "Pourquoi choisir Kulinae plutôt que Photobox ?",
+      "meta_title": "Kulinia vs Photobox : Lequel choisir pour vos recettes ?",
+      "meta_desc": "Photobox est idéal pour les photos, mais Kulinia est conçu pour la cuisine. Découvrez pourquoi l'IA change tout pour votre livre.",
+      "hero_title": "Pourquoi choisir Kulinia plutôt que Photobox ?",
       "description": "Photobox excelle dans l'album photo de vacances, mais transformer vos gribouillis de cuisine en texte numérique n'est pas leur métier. Nous, si.",
       "pros": [
         "Retranscription automatique des ingrédients",
@@ -74,10 +74,10 @@
     },
     "vistaprint": {
       "name": "Vistaprint",
-      "meta_title": "Vistaprint vs Kulinae : Comparatif Livres de Cuisine",
-      "meta_desc": "Ne perdez plus des heures sur l'éditeur Vistaprint. Kulinae génère votre mise en page culinaire en un clic.",
-      "hero_title": "Kulinae vs Vistaprint : Gagnez 10h de mise en page",
-      "description": "Vistaprint est un outil professionnel pour le marketing. Pour un carnet de recettes, c'est un marteau-piqueur là où vous avez besoin d'un couteau de chef.",
+      "meta_title": "Vistaprint vs Kulinia : Comparatif Livres de Cuisine",
+      "meta_desc": "Ne perdez plus des heures sur l'éditeur Vistaprint. Kulinia génère votre mise en page culinaire en un clic.",
+      "hero_title": "Kulinia vs Vistaprint : Gagnez 10h de mise en page",
+      "description": "Vistaprint est un outil professionnel pour le marketing. Pour un livre de recettes, c'est un marteau-piqueur là où vous avez besoin d'un couteau de chef.",
       "pros": [
         "Mise en page automatique (Zéro effort)",
         "Recherche instantanée par ingrédient",
@@ -96,10 +96,10 @@
     },
     "blurb": {
       "name": "Blurb",
-      "meta_title": "Kulinae vs Blurb : Créer un vrai livre de cuisine",
-      "meta_desc": "Blurb est puissant mais complexe. Découvrez comment Kulinae simplifie la création de votre héritage culinaire.",
-      "hero_title": "Votre carnet de recettes : MonCarnet ou Blurb?",
-      "description": "Blurb s'adresse aux auto-éditeurs. Si vous voulez juste un carnet propre, intelligent et facile à remplir, MonCarnet est fait pour vous.",
+      "meta_title": "Kulinia vs Blurb : Créer un vrai livre de cuisine",
+      "meta_desc": "Blurb est puissant mais complexe. Découvrez comment Kulinia simplifie la création de votre héritage culinaire.",
+      "hero_title": "Votre livre de recettes : MonCarnet ou Blurb?",
+      "description": "Blurb s'adresse aux auto-éditeurs. Si vous voulez juste un livre propre, intelligent et facile à remplir, MonCarnet est fait pour vous.",
       "pros": [
         "Importation de photos de recettes papier",
         "Communauté de passionnés de cuisine",
@@ -118,9 +118,9 @@
     },
     "lulu": {
       "name": "Lulu",
-      "meta_title": "Kulinae vs Lulu : Organisez votre cuisine",
-      "meta_desc": "Lulu stocke des liens web, nous créons votre livre. Découvrez la différence entre un agrégateur et un véritable carnet.",
-      "hero_title": "Kulinae vs Lulu",
+      "meta_title": "Kulinia vs Lulu : Organisez votre cuisine",
+      "meta_desc": "Lulu stocke des liens web, nous créons votre livre. Découvrez la différence entre un agrégateur et un véritable livre.",
+      "hero_title": "Kulinia vs Lulu",
       "description": "Stocker des liens internet c'est bien, posséder ses propres recettes et pouvoir les imprimer dans un livre de prestige, c'est mieux.",
       "pros": [
         "Propriété totale de vos données",
@@ -140,9 +140,9 @@
     },
     "mytaste": {
       "name": "MyTaste",
-      "meta_title": "Kulinae vs MyTaste : Organisez votre cuisine",
-      "meta_desc": "MyTaste stocke des liens web, nous créons votre livre. Découvrez la différence entre un agrégateur et un véritable carnet.",
-      "hero_title": "Kulinae vs MyTaste",
+      "meta_title": "Kulinia vs MyTaste : Organisez votre cuisine",
+      "meta_desc": "MyTaste stocke des liens web, nous créons votre livre. Découvrez la différence entre un agrégateur et un véritable livre.",
+      "hero_title": "Kulinia vs MyTaste",
       "description": "Stocker des liens internet c'est bien, posséder ses propres recettes et pouvoir les imprimer dans un livre de prestige, c'est mieux.",
       "pros": [
         "Propriété totale de vos données",
@@ -162,10 +162,10 @@
     },
     "cookidoo": {
       "name": "Cookidoo",
-      "meta_title": "Kulinae vs Cookidoo : Vos propres recettes avant tout",
-      "meta_desc": "Marre d'être enfermé dans l'écosystème Thermomix ? Reprenez le contrôle de vos recettes personnelles avec Kulinae.",
+      "meta_title": "Kulinia vs Cookidoo : Vos propres recettes avant tout",
+      "meta_desc": "Marre d'être enfermé dans l'écosystème Thermomix ? Reprenez le contrôle de vos recettes personnelles avec Kulinia.",
       "hero_title": "Sortez de l'écosystème Cookidoo",
-      "description": "Cookidoo vous impose ses recettes. Kulinae vous permet de sublimer les vôtres, celles de votre grand-mère et celles de vos amis.",
+      "description": "Cookidoo vous impose ses recettes. Kulinia vous permet de sublimer les vôtres, celles de votre grand-mère et celles de vos amis.",
       "pros": [
         "Liberté totale (tous robots, toutes méthodes)",
         "Importation de vos propres photos",
@@ -185,8 +185,8 @@
     "manuellement": {
       "name": "Manuellement (Cahier Papier)",
       "meta_title": "Cahier de recettes papier vs Numérique : Le match",
-      "meta_desc": "Pourquoi passer du vieux cahier à spirales au carnet intelligent ? Découvrez les avantages de la numérisation pour vos recettes.",
-      "hero_title": "Le carnet numérique vs fait maison",
+      "meta_desc": "Pourquoi passer du vieux cahier à spirales au livre intelligent ? Découvrez les avantages de la numérisation pour vos recettes.",
+      "hero_title": "Le livre numérique vs fait main",
       "description": "Le charme du papier est indéniable, mais la perte d'une recette unique est irréversible. Alliez le meilleur des deux mondes.",
       "pros": [
         "Recherche par ingrédient en 2 secondes",
