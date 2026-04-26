@@ -4,32 +4,7 @@ import Shape from "../../assets/hp/shape.svg";
 
 const { contentData } = Astro.props;
 
-const FAQ_DATA = [
-  {
-    q: "Comment fonctionne la reconnaissance de texte OCR ?",
-    a: "Il vous suffit de prendre en photo votre recette papier...",
-  },
-  {
-    q: "Puis-je partager mon livre de recettes avec mes amis ?",
-    a: "Oui, vous pouvez partager un lien sécurisé...",
-  },
-  {
-    q: "Comment commander mon livre de recettes imprimé ?",
-    a: "Rendez-vous dans l'onglet impression...",
-  },
-  {
-    q: "Puis-je modifier mes recettes après les avoir ajoutées ?",
-    a: "Oui, tout est éditable à tout moment.",
-  },
-  {
-    q: "Quels sont les prix pour l'impression du livre ?",
-    a: "À partir de 32€.",
-  },
-  {
-    q: "C'est quoi l'option fonds perdus ?",
-    a: "C'est une marge de sécurité pour l'impression.",
-  },
-];
+const FAQ_DATA = contentData.faq.items;
 
 ---
 
@@ -50,8 +25,8 @@ const FAQ_DATA = [
           }
         }))
       })} />
-  <Image width={300} height={300} alt="Shape illustration" src={Shape.src} class="absolute left-0 bottom-0 w-[300px] opacity-20 -z-10" />
-  <Image width={300} height={300} alt="Shape illustration" src={Shape.src} class="absolute right-0 top-20 w-[300px] rotate-180 opacity-20 -z-10" />
+  <Image width={300} height={300} alt="Shape illustration" src={Shape} class="absolute left-0 bottom-0 w-[300px] opacity-20 -z-10" />
+  <Image width={300} height={300} alt="Shape illustration" src={Shape} class="absolute right-0 top-20 w-[300px] rotate-180 opacity-20 -z-10" />
 
   <div class="max-w-4xl mx-auto space-y-12">
     <h2 class="text-4xl font-black text-center">{contentData.faq.title}</h2>

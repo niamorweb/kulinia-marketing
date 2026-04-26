@@ -1,0 +1,124 @@
+{
+  "seo": {
+    "title": "Crea il tuo libro di ricette personalizzato | Stampa e PDF",
+    "description": "Crea, organizza e stampa le tue ricette in un libro elegante. Importa le tue ricette per foto, personalizza il tuo libro e ricevi a casa.",
+    "keywords": [
+      "libro di ricette",
+      "libro di cucina personalizzato",
+      "ricette casalinghe",
+      "stampa libro ricette",
+      "creare libro cucina",
+      "recettes PDF",
+      "organiser recettes",
+      "scan recettes OCR"
+    ],
+    "author": "Nom de votre service",
+    "robots": "index, follow",
+    "canonical": "https://www.votresite.com/",
+    "openGraph": {
+      "type": "website",
+      "locale": "fr_FR",
+      "url": "https://www.votresite.com/",
+      "site_name": "Carnet de recettes",
+      "title": "Votre cuisine mérite son propre livre",
+      "description": "Transformez vos recettes en un livre élégant à imprimer ou partager.",
+      "image": "https://www.votresite.com/og-image.jpg"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Créez votre livre de recettes personnalisé",
+      "description": "Organisez et imprimez vos recettes dans un livre unique.",
+      "image": "https://www.votresite.com/og-image.jpg"
+    },
+    "icons": {
+      "favicon": "/favicon.ico",
+      "appleTouchIcon": "/apple-touch-icon.png"
+    },
+    "themeColor": "#ffffff"
+  },
+  "hero": {
+    "title": "La tua cucina merita il suo libro.",
+    "description": "Salva, organizza e stampa le tue ricette in un libro elegante, da condividere o conservare per sempre.",
+    "ctaPrimary": "Crea il mio libro",
+    "ctaSecondary": "Come funziona?"
+  },
+  "steps": [
+    {
+      "tag": "Passo 1",
+      "title": "Crea il tuo libro di ricette digitale",
+      "features": [
+        {
+          "title": "Nessun limite di tempo",
+          "desc": "Inserisci le ricette manualmente o importale con una foto."
+        },
+        {
+          "title": "Interfaccia elegante e intuitiva",
+          "desc": "Un’esperienza fluida per gestire la tua libreria culinaria senza fatica."
+        },
+        {
+          "title": "Scansiona le tue ricette cartacee",
+          "desc": "Scatta una foto e la nostra IA trascrive ingredienti e passaggi."
+        }
+      ]
+    },
+    {
+      "tag": "Passo 2",
+      "title": "Personalizza il tuo libro fisico",
+      "features": [
+        {
+          "title": "Impaginazione automatica",
+          "desc": "Le ricette vengono formattate automaticamente per un risultato professionale."
+        },
+        {
+          "title": "Template veloci",
+          "desc": "Stili predefiniti per personalizzare l’aspetto con un clic."
+        },
+        {
+          "title": "Ordina il tuo libro",
+          "desc": "Semplice, veloce e sicuro. Consegna a domicilio in 5 giorni."
+        }
+      ]
+    }
+  ],
+  "pricing": {
+    "title": "2 opzioni per dare vita al tuo libro",
+    "description": "Scegli la semplicità dell’all-in-one o l’indipendenza dell’export PDF.",
+    "options": [
+      {
+        "badge": "La più scelta",
+        "title": "Opzione chiavi in mano",
+        "desc": "Ci occupiamo di tutto. Stampa premium e consegna a domicilio.",
+        "price": "32 €",
+        "details": "Libro A5 copertina rigida 48 pagine",
+        "cta": "Crea il mio libro"
+      },
+      {
+        "title": "Opzione PDF (fai da te)",
+        "desc": "Acquista il PDF ad alta risoluzione e stampalo tu stesso.",
+        "price": "9 €",
+        "details": "PDF pronto per la stampa (abbondanza inclusa)",
+        "cta": "Crea il mio libro"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Tutte le risposte alle tue domande.",
+    "items": [
+      {
+        "q": "Come funziona il riconoscimento OCR?",
+        "a": "Scatta una foto della tua ricetta cartacea. La nostra tecnologia estrae automaticamente il testo."
+      },
+      {
+        "q": "Posso condividere il mio libro?",
+        "a": "Sì, puoi condividere un link sicuro con le persone a cui tieni."
+      }
+    ],
+    "notFound": "Non hai trovato la risposta alla tua domanda?",
+    "contact": "Contattaci"
+  },
+  "cta": {
+    "title": "Pronto a creare il tuo libro di ricette?",
+    "description": "Unisciti alla community di appassionati di cucina e porta la tua libreria culinaria alla vita.",
+    "cta": "Crea il mio libro"
+  }
+}

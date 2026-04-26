@@ -1,0 +1,247 @@
+---
+import dataFromJson from "../../assets/data/lang/fr.json";
+
+import BookPhysicalAndDigital from "../../templates/BookPhysicalAndDigital.astro";
+
+const { DigitalBookPage } = dataFromJson;
+---
+
+<!-- <Layout
+  title="Votre cuisine mérite son propre livre | Carnet de recettes numérique personnalisé"
+  description="Créez votre livre de recettes numérique personnalisé. Importez vos recettes en photo, organisez-les et accédez-y depuis n'importe où."
+  image="/og-image-digital-book.jpg"
+  url="https://www.kulinia.com/livre-numerique"
+>
+  <Fragment slot="head">
+    <meta
+      name="keywords"
+      content="livre de recettes numérique, livre de cuisine numérique, recettes maison, application livre de recettes, organiser recettes en ligne"
+    />
+  </Fragment>
+  <div class="min-h-screen font-sans text-text-primary bg-surface">
+    <main>
+      <header
+        class="relative px-6 py-20 md:px-12 md:py-32 overflow-hidden bg-white"
+      >
+        <div
+          class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16"
+        >
+          <div class="lg:w-1/2 space-y-8">
+            <h1
+              class="text-5xl md:text-7xl font-black leading-tight tracking-tight"
+            >
+              Toutes vos recettes<br />
+              au même endroit
+            </h1>
+            <p class="text-text-secondary leading-relaxed">
+              Scannez, organisez et retrouvez vos recettes en quelques secondes.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a
+                href="/signup"
+                class="px-10 py-5 bg-brand text-white rounded-pill font-bold hover:bg-brand-hover transition shadow-xl shadow-rose-900/20"
+              >
+                Créer mon livre
+              </a>
+              <a
+                href="#specs"
+                class="px-10 py-5 bg-white border border-border text-text-primary rounded-pill font-bold hover:bg-surface-subtle-hover transition"
+              >
+                En savoir plus
+              </a>
+            </div>
+          </div>
+
+          <div class="lg:w-1/2">
+            <Image
+              src={heroImage}
+              alt="Livre de recettes physique MonCarnetDeRecettes"
+              width={700}
+              height={500}
+              class="rounded-3xl shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </header>
+      <section
+        id="features"
+        class="py-20 px-6 md:px-12 bg-bgPage bg-brand-light"
+      >
+        <div class="max-w-6xl mx-auto">
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+            {
+              DigitalBookPage.features.slice(0, 2).map((item, idx) => (
+                <div class="space-y-4">
+                  <div class="text-xs text-textSecondary tracking-widest uppercase">
+                    0{idx + 1}
+                  </div>
+                  <h3 class="text-lg font-medium text-textPrimary leading-snug">
+                    {item.title}
+                  </h3>
+                  <p class="text-sm text-textSecondary leading-relaxed">
+                    {item.description}
+                  </p>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-24 px-6 md:px-12 bg-bgHero border-y border-black/5 bg-brand-light"
+      >
+        <div class="max-w-6xl mx-auto flex flex-col gap-10 items-center">
+          <div class="text-center max-w-md">
+            <p
+              class="text-xs text-textSecondary tracking-widest uppercase mb-3"
+            >
+              Simple et intuitif
+            </p>
+            <h2 class="text-4xl md:text-5xl font-black tracking-tight">
+              Voyez-le <span class="text-[--color-brand]">en action</span> —<br
+              />
+              trente secondes suffisent.
+            </h2>
+          </div>
+          <div class="relative w-full">
+            <div
+              class="aspect-[19/8] w-full rounded-xl overflow-hidden border border-black/10 bg-black/5"
+            >
+              <img
+                src="/placeholder-dashboard.jpg"
+                alt="Interface de lecture"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-24 px-6 md:px-12 bg-bgHero border-y border-black/5 bg-brand-light"
+      >
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+          <div class="relative">
+            <div class="size-125 z-0 w-full mx-auto absolute">
+              <Image
+                src={Shape}
+                alt=" Shape background"
+                class="w-full h-full"
+                width={300}
+                height={300}
+              />
+            </div>
+            <div
+              class="aspect-[4/3] z-10 relative rounded-xl overflow-hidden border border-black/10 bg-black/5"
+            >
+              <img
+                src="/placeholder-dashboard.jpg"
+                alt="Interface de lecture"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
+          <div class="space-y-6 max-w-md">
+            <div class="text-xs text-textSecondary tracking-widest uppercase">
+              Expérience
+            </div>
+
+            <h2 class="text-4xl md:text-5xl font-black tracking-tight">
+              Une lecture fluide,<br />sans distraction
+            </h2>
+
+            <p class="text-textSecondary leading-relaxed">
+              Concentrez-vous sur l’essentiel. Une interface épurée pensée pour
+              lire, annoter et naviguer rapidement dans vos contenus.
+            </p>
+
+            <p class="text-textSecondary leading-relaxed">
+              Synchronisation automatique, reprise instantanée, organisation
+              intelligente — tout est conçu pour disparaître au profit de votre
+              lecture.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-6 md:px-12 bg-brand-light">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-black tracking-tight mb-12">
+            Pourquoi choisir Kulinia ?
+          </h2>
+
+          <div
+            class="overflow-hidden border border-black/10 bg-white rounded-xl"
+          >
+            <table class="w-full text-sm border-collapse">
+              <thead class="bg-black text-white">
+                <tr>
+                  <th class="p-5 text-left">Fonctionnalité</th>
+                  <th class="p-5 text-left">Kulinia</th>
+                  <th class="p-5 text-left">Autres</th>
+                </tr>
+              </thead>
+
+              <tbody class="divide-y divide-black/5">
+                <tr>
+                  <td class="p-5">Accès multi-appareils</td>
+                  <td class="p-5">✔️ Instantané</td>
+                  <td class="p-5">❌ Limité</td>
+                </tr>
+
+                <tr>
+                  <td class="p-5">Recherche</td>
+                  <td class="p-5">✔️ Ultra rapide</td>
+                  <td class="p-5">❌ Lente</td>
+                </tr>
+
+                <tr>
+                  <td class="p-5">Organisation</td>
+                  <td class="p-5">✔️ Automatique</td>
+                  <td class="p-5">❌ Manuelle</td>
+                </tr>
+
+                <tr>
+                  <td class="p-5">Gain de temps</td>
+                  <td class="p-5">✔️ Élevé</td>
+                  <td class="p-5">❌ Faible</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-24 px-6 text-center bg-brand-light">
+        <div
+          class="max-w-4xl w-full p-12 bg-white outline-1 outline-neutral-200 rounded-3xl mx-auto space-y-6"
+        >
+          <h2
+            class="text-4xl md:text-5xl font-black tracking-tight tracking-tight"
+          >
+            Commencez à organiser vos recettes dès aujourd’hui
+          </h2>
+
+          <p class="text-textSecondary">
+            Rejoignez les utilisateurs qui ont déjà simplifié leur cuisine.
+          </p>
+
+          <div class="flex flex-col gap-4 mt-8 items-center justify-center">
+            <a
+              href="/signup"
+              class="inline-flex w-fit items-center justify-center px-8 py-4 text-white bg-brand rounded-full text-sm font-medium hover:opacity-90 transition"
+            >
+              Créer mon livre gratuitement
+            </a>
+
+            <p class="text-sm text-textSecondary">Gratuit • sans engagement</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</Layout> -->
+<BookPhysicalAndDigital contentData={DigitalBookPage} />

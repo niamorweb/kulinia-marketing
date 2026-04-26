@@ -1,0 +1,173 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const comparisons = [
+  {
+    slug: "gelato",
+    name: "Gelato",
+    description:
+      "Un géant de l’impression à la demande, mais pas conçu pour les recettes.",
+  },
+  {
+    slug: "canvas",
+    name: "Canvas",
+    description:
+      "Un outil créatif généraliste, mais pas pensé pour structurer des recettes.",
+  },
+  {
+    slug: "photobox",
+    name: "Photobox",
+    description:
+      "Idéal pour les photos, mais limité pour la création de livres culinaires.",
+  },
+  {
+    slug: "vistaprint",
+    name: "Vistaprint",
+    description:
+      "Puissant pour le marketing, mais trop complexe pour un livre de cuisine.",
+  },
+  {
+    slug: "blurb",
+    name: "Blurb",
+    description:
+      "Un outil d’auto-édition complet, mais difficile pour un usage simple.",
+  },
+  {
+    slug: "mytaste",
+    name: "MyTaste",
+    description:
+      "Un agrégateur de recettes, pas un véritable outil de création de livre.",
+  },
+  {
+    slug: "cookidoo",
+    name: "Cookidoo",
+    description:
+      "Un écosystème fermé, alors que Kulinia vous laisse totalement libre.",
+  },
+  {
+    slug: "manuellement",
+    name: "Cahier papier",
+    description:
+      "Le charme du papier, mais sans sauvegarde ni organisation intelligente.",
+  },
+];
+---
+
+<Layout
+  title="Comparatif | Kulinia vs les alternatives"
+  description="Découvrez pourquoi Kulinia est la meilleure solution pour créer votre livre de recettes face aux outils génériques."
+  url="https://www.kulinia.com/comparaison"
+>
+  <div class="min-h-screen bg-surface text-text-primary font-sans">
+    {/* --- HERO --- */}
+    <section class="py-24 px-6 md:px-12 bg-white text-center">
+      <div class="max-w-4xl mx-auto space-y-6">
+        <h1 class="text-5xl md:text-6xl font-black tracking-tight">
+          Comparer. Comprendre. Choisir Kulinia.
+        </h1>
+        <p class="text-text-secondary text-lg">
+          Découvrez pourquoi une solution spécialisée cuisine fait toute la
+          différence face aux outils génériques.
+        </p>
+      </div>
+    </section>
+
+    {/* --- GRID COMPARISONS --- */}
+    <section class="py-24 px-6 md:px-12 bg-brand-light">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {
+            comparisons.map((c) => (
+              <a
+                href={`/comparaison/${c.slug}`}
+                class="group bg-white rounded-3xl p-8 shadow-sm border border-border hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between"
+              >
+                <div class="space-y-4">
+                  <div class="flex items-center justify-between">
+                    <h2 class="text-2xl font-black">Kulinia vs {c.name}</h2>
+                    <span class="text-brand font-black">vs</span>
+                  </div>
+
+                  <p class="text-text-muted leading-relaxed">{c.description}</p>
+                </div>
+
+                <div class="pt-6 flex items-center justify-between">
+                  <span class="text-sm text-text-secondary">
+                    Voir le comparatif
+                  </span>
+
+                  <svg
+                    class="w-5 h-5 text-brand group-hover:translate-x-1 transition"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </div>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    {/* --- WHY SECTION --- */}
+    <section class="py-24 px-6 md:px-12 bg-white">
+      <div class="max-w-5xl mx-auto text-center space-y-10">
+        <h2 class="text-4xl md:text-5xl font-black">Pourquoi Kulinia ?</h2>
+
+        <div class="grid md:grid-cols-3 gap-10 text-left">
+          <div class="space-y-3">
+            <h3 class="font-bold text-xl">Conçu pour la cuisine</h3>
+            <p class="text-text-muted">
+              Contrairement aux outils généralistes, tout est pensé pour vos
+              recettes.
+            </p>
+          </div>
+
+          <div class="space-y-3">
+            <h3 class="font-bold text-xl">IA intégrée</h3>
+            <p class="text-text-muted">
+              Scan, OCR et organisation automatique de vos recettes.
+            </p>
+          </div>
+
+          <div class="space-y-3">
+            <h3 class="font-bold text-xl">Livre physique</h3>
+            <p class="text-text-muted">
+              Transformez vos recettes numériques en un vrai livre imprimé.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* --- CTA FINAL --- */}
+    <section class="py-24 px-6 bg-brand-light">
+      <div
+        class="max-w-5xl mx-auto bg-text-primary text-white text-center rounded-3xl p-12 md:p-20 space-y-8"
+      >
+        <h2 class="text-4xl md:text-5xl font-black">
+          Passez à une vraie solution cuisine
+        </h2>
+
+        <p class="text-gray-300 text-lg">
+          Vos recettes méritent mieux qu’un outil générique.
+        </p>
+
+        <a
+          href="/signup"
+          class="inline-block px-10 py-5 bg-brand text-white font-black rounded-pill hover:scale-105 transition shadow-2xl"
+        >
+          Essayer gratuitement
+        </a>
+      </div>
+    </section>
+  </div>
+</Layout>

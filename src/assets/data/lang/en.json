@@ -139,10 +139,26 @@
         "us": "Kulinia",
         "others": "Notes / Photos",
         "rows": [
-          ["Text recognition (AI)", "Included", "No"],
-          ["Automatic formatting", "Yes", "No"],
-          ["Collaborative sharing", "Yes", "Difficult"],
-          ["Print-ready", "In 1 click", "Impossible"]
+          [
+            "Text recognition (AI)",
+            "Included",
+            "No"
+          ],
+          [
+            "Automatic formatting",
+            "Yes",
+            "No"
+          ],
+          [
+            "Collaborative sharing",
+            "Yes",
+            "Difficult"
+          ],
+          [
+            "Print-ready",
+            "In 1 click",
+            "Impossible"
+          ]
         ]
       }
     },
@@ -334,9 +350,21 @@
           "Generalist service without a culinary soul"
         ],
         "table": {
-          "feature_1": ["OCR Scan", "Yes (Unlimited)", "No"],
-          "feature_2": ["Mobile App", "Yes", "No"],
-          "feature_3": ["Cooking Focused", "100%", "Generalist"]
+          "feature_1": [
+            "OCR Scan",
+            "Yes (Unlimited)",
+            "No"
+          ],
+          "feature_2": [
+            "Mobile App",
+            "Yes",
+            "No"
+          ],
+          "feature_3": [
+            "Cooking Focused",
+            "100%",
+            "Generalist"
+          ]
         }
       },
       "canvas": {
@@ -345,11 +373,25 @@
         "meta_desc": "Compare Kulinia and Canvas for creating your family recipe book.",
         "hero_title": "Why switch from {name} to MonCarnet?",
         "description": "Canvas offers photo books; we create tools for culinary heritage.",
-        "pros": ["Intuitive interface", "Simplified family sharing"],
-        "cons": ["Editor not adapted for ingredient lists", "High unit price"],
+        "pros": [
+          "Intuitive interface",
+          "Simplified family sharing"
+        ],
+        "cons": [
+          "Editor not adapted for ingredient lists",
+          "High unit price"
+        ],
         "table": {
-          "feature_1": ["OCR Scan", "Yes", "No"],
-          "feature_2": ["Recipe Format", "Automatic", "Manual"]
+          "feature_1": [
+            "OCR Scan",
+            "Yes",
+            "No"
+          ],
+          "feature_2": [
+            "Recipe Format",
+            "Automatic",
+            "Manual"
+          ]
         }
       },
       "photobox": {
@@ -369,9 +411,21 @@
           "Requires retyping everything by hand"
         ],
         "table": {
-          "feature_1": ["AI Scan", "Included (Free)", "Unavailable"],
-          "feature_2": ["Culinary Indexing", "Automatic", "Manual"],
-          "feature_3": ["Kitchen Use", "Mobile Optimized", "Physical book only"]
+          "feature_1": [
+            "AI Scan",
+            "Included (Free)",
+            "Unavailable"
+          ],
+          "feature_2": [
+            "Culinary Indexing",
+            "Automatic",
+            "Manual"
+          ],
+          "feature_3": [
+            "Kitchen Use",
+            "Mobile Optimized",
+            "Physical book only"
+          ]
         }
       },
       "vistaprint": {
@@ -391,9 +445,21 @@
           "Often high shipping costs"
         ],
         "table": {
-          "feature_1": ["Layout", "Instant", "Manual (Long)"],
-          "feature_2": ["Search", "By keyword", "Visual only"],
-          "feature_3": ["Photo->Text Conversion", "Yes", "No"]
+          "feature_1": [
+            "Layout",
+            "Instant",
+            "Manual (Long)"
+          ],
+          "feature_2": [
+            "Search",
+            "By keyword",
+            "Visual only"
+          ],
+          "feature_3": [
+            "Photo->Text Conversion",
+            "Yes",
+            "No"
+          ]
         }
       },
       "blurb": {
@@ -413,9 +479,21 @@
           "No companion app for cooking"
         ],
         "table": {
-          "feature_1": ["Simplicity", "Maximum", "Low"],
-          "feature_2": ["OCR Tool", "Yes", "No"],
-          "feature_3": ["Kitchen Access", "Web + Mobile", "PC only"]
+          "feature_1": [
+            "Simplicity",
+            "Maximum",
+            "Low"
+          ],
+          "feature_2": [
+            "OCR Tool",
+            "Yes",
+            "No"
+          ],
+          "feature_3": [
+            "Kitchen Access",
+            "Web + Mobile",
+            "PC only"
+          ]
         }
       },
       "mytaste": {
@@ -435,9 +513,21 @@
           "Often dated interface"
         ],
         "table": {
-          "feature_1": ["Paper Printing", "Yes (Luxury book)", "No"],
-          "feature_2": ["Paper Digitization", "Yes (AI)", "No"],
-          "feature_3": ["Advertising", "None", "Present"]
+          "feature_1": [
+            "Paper Printing",
+            "Yes (Luxury book)",
+            "No"
+          ],
+          "feature_2": [
+            "Paper Digitization",
+            "Yes (AI)",
+            "No"
+          ],
+          "feature_3": [
+            "Advertising",
+            "None",
+            "Present"
+          ]
         }
       },
       "cookidoo": {
@@ -457,9 +547,21 @@
           "No physical export possible"
         ],
         "table": {
-          "feature_1": ["Content Freedom", "Total", "Restricted"],
-          "feature_2": ["Printed Book", "Yes", "No"],
-          "feature_3": ["Price", "Affordable", "Annual subscription"]
+          "feature_1": [
+            "Content Freedom",
+            "Total",
+            "Restricted"
+          ],
+          "feature_2": [
+            "Printed Book",
+            "Yes",
+            "No"
+          ],
+          "feature_3": [
+            "Price",
+            "Affordable",
+            "Annual subscription"
+          ]
         }
       },
       "manuellement": {
@@ -479,11 +581,99 @@
           "Hard to duplicate for children"
         ],
         "table": {
-          "feature_1": ["Backup", "Secure Cloud", "Risk of loss"],
-          "feature_2": ["Search", "Instant", "Manual flipping"],
-          "feature_3": ["Sharing", "1 click", "Handwritten copying"]
+          "feature_1": [
+            "Backup",
+            "Secure Cloud",
+            "Risk of loss"
+          ],
+          "feature_2": [
+            "Search",
+            "Instant",
+            "Manual flipping"
+          ],
+          "feature_3": [
+            "Sharing",
+            "1 click",
+            "Handwritten copying"
+          ]
         }
       }
     }
+  },
+  "ComparisonRootPage": {
+    "hero": {
+      "title": "Why Kulinia is the best choice for your recipes",
+      "description": "Compare our cooking-first approach with other general solutions."
+    },
+    "features": [
+      {
+        "title": "Designed for cooking",
+        "description": "A product built to structure your recipes, not just print photos."
+      },
+      {
+        "title": "Photo recipe import",
+        "description": "Snap your notes or paper recipes and let AI transcribe them."
+      },
+      {
+        "title": "Smart organization",
+        "description": "Sort recipes by dish, ingredient, or occasion in a few clicks."
+      },
+      {
+        "title": "Premium printed book",
+        "description": "Receive a stylish cookbook ready to gift and keep."
+      }
+    ],
+    "cta": {
+      "button": "Create my book",
+      "description": "Try Kulinia for free and feel the difference."
+    }
+  },
+  "LegalPage": {
+    "hero": {
+      "title": "Terms of Use",
+      "description": "The rules that govern the use of Kulinia."
+    },
+    "sections": [
+      {
+        "title": "1. Purpose",
+        "content": "Kulinia provides a platform to create, organize, and print recipe books. These terms define user rights and obligations."
+      },
+      {
+        "title": "2. User account",
+        "content": "You must provide accurate information and protect your login details. Report unauthorized use immediately."
+      },
+      {
+        "title": "3. Intellectual property",
+        "content": "Kulinia’s content is protected. Your recipes remain yours, but you grant us the right to host and display them."
+      },
+      {
+        "title": "4. Liability",
+        "content": "Kulinia strives to deliver a stable service. In case of interruption, our liability is limited to amounts paid in the last 12 months."
+      }
+    ]
+  },
+  "PrivacyPage": {
+    "hero": {
+      "title": "Privacy Policy",
+      "description": "Learn how we collect, use, and protect your data."
+    },
+    "sections": [
+      {
+        "title": "1. Data collected",
+        "content": "We collect your email, imported recipes, preferences, and usage data to improve the service."
+      },
+      {
+        "title": "2. Purposes",
+        "content": "Your data is used to manage your account, personalize your experience, and provide relevant services."
+      },
+      {
+        "title": "3. Retention",
+        "content": "Your data is kept while your account is active and deleted within 30 days after closure unless law requires longer."
+      },
+      {
+        "title": "4. Your rights",
+        "content": "You can request access, correction, deletion, or portability of your data at contact@kulinia.com."
+      }
+    ]
   }
 }

@@ -139,10 +139,26 @@
         "us": "Kulinia",
         "others": "Notizen / Fotos",
         "rows": [
-          ["Texterkennung (KI)", "Inklusive", "Nein"],
-          ["Automatische Formatierung", "Ja", "Nein"],
-          ["Gemeinsames Teilen", "Ja", "Schwierig"],
-          ["Bereit für den Druck", "Mit 1 Klick", "Unmöglich"]
+          [
+            "Texterkennung (KI)",
+            "Inklusive",
+            "Nein"
+          ],
+          [
+            "Automatische Formatierung",
+            "Ja",
+            "Nein"
+          ],
+          [
+            "Gemeinsames Teilen",
+            "Ja",
+            "Schwierig"
+          ],
+          [
+            "Bereit für den Druck",
+            "Mit 1 Klick",
+            "Unmöglich"
+          ]
         ]
       }
     },
@@ -334,9 +350,21 @@
           "Allgemeiner Service ohne kulinarische Seele"
         ],
         "table": {
-          "feature_1": ["OCR-Scan", "Ja (Unbegrenzt)", "Nein"],
-          "feature_2": ["Mobile App", "Ja", "Nein"],
-          "feature_3": ["Fokus Küche", "100%", "Allgemein"]
+          "feature_1": [
+            "OCR-Scan",
+            "Ja (Unbegrenzt)",
+            "Nein"
+          ],
+          "feature_2": [
+            "Mobile App",
+            "Ja",
+            "Nein"
+          ],
+          "feature_3": [
+            "Fokus Küche",
+            "100%",
+            "Allgemein"
+          ]
         }
       },
       "canvas": {
@@ -354,8 +382,16 @@
           "Hoher Einzelpreis"
         ],
         "table": {
-          "feature_1": ["OCR-Scan", "Ja", "Nein"],
-          "feature_2": ["Rezept-Format", "Automatisch", "Manuell"]
+          "feature_1": [
+            "OCR-Scan",
+            "Ja",
+            "Nein"
+          ],
+          "feature_2": [
+            "Rezept-Format",
+            "Automatisch",
+            "Manuell"
+          ]
         }
       },
       "photobox": {
@@ -375,8 +411,16 @@
           "Erfordert alles manuell abzutippen"
         ],
         "table": {
-          "feature_1": ["KI-Scan", "Inklusive (Gratis)", "Nicht verfügbar"],
-          "feature_2": ["Kulinarische Indexierung", "Automatisch", "Manuell"],
+          "feature_1": [
+            "KI-Scan",
+            "Inklusive (Gratis)",
+            "Nicht verfügbar"
+          ],
+          "feature_2": [
+            "Kulinarische Indexierung",
+            "Automatisch",
+            "Manuell"
+          ],
           "feature_3": [
             "Küchennutzung",
             "Mobil optimiert",
@@ -401,9 +445,21 @@
           "Oft hohe Versandkosten"
         ],
         "table": {
-          "feature_1": ["Layout", "Sofort", "Manuell (Lang)"],
-          "feature_2": ["Suche", "Nach Stichwort", "Nur visuell"],
-          "feature_3": ["Foto->Text Konvertierung", "Ja", "Nein"]
+          "feature_1": [
+            "Layout",
+            "Sofort",
+            "Manuell (Lang)"
+          ],
+          "feature_2": [
+            "Suche",
+            "Nach Stichwort",
+            "Nur visuell"
+          ],
+          "feature_3": [
+            "Foto->Text Konvertierung",
+            "Ja",
+            "Nein"
+          ]
         }
       },
       "blurb": {
@@ -423,9 +479,21 @@
           "Keine Begleit-App zum Kochen"
         ],
         "table": {
-          "feature_1": ["Einfachheit", "Maximal", "Gering"],
-          "feature_2": ["OCR-Tool", "Ja", "Nein"],
-          "feature_3": ["Küchenzugriff", "Web + Mobil", "Nur PC"]
+          "feature_1": [
+            "Einfachheit",
+            "Maximal",
+            "Gering"
+          ],
+          "feature_2": [
+            "OCR-Tool",
+            "Ja",
+            "Nein"
+          ],
+          "feature_3": [
+            "Küchenzugriff",
+            "Web + Mobil",
+            "Nur PC"
+          ]
         }
       },
       "mytaste": {
@@ -445,9 +513,21 @@
           "Oft veraltete Oberfläche"
         ],
         "table": {
-          "feature_1": ["Druck auf Papier", "Ja (Luxusbuch)", "Nein"],
-          "feature_2": ["Papier-Digitalisierung", "Ja (KI)", "Nein"],
-          "feature_3": ["Werbung", "Keine", "Vorhanden"]
+          "feature_1": [
+            "Druck auf Papier",
+            "Ja (Luxusbuch)",
+            "Nein"
+          ],
+          "feature_2": [
+            "Papier-Digitalisierung",
+            "Ja (KI)",
+            "Nein"
+          ],
+          "feature_3": [
+            "Werbung",
+            "Keine",
+            "Vorhanden"
+          ]
         }
       },
       "cookidoo": {
@@ -467,9 +547,21 @@
           "Kein physischer Export möglich"
         ],
         "table": {
-          "feature_1": ["Inhaltsfreiheit", "Total", "Eingeschränkt"],
-          "feature_2": ["Gedrucktes Buch", "Ja", "Nein"],
-          "feature_3": ["Preis", "Erschwinglich", "Jahres-Abo"]
+          "feature_1": [
+            "Inhaltsfreiheit",
+            "Total",
+            "Eingeschränkt"
+          ],
+          "feature_2": [
+            "Gedrucktes Buch",
+            "Ja",
+            "Nein"
+          ],
+          "feature_3": [
+            "Preis",
+            "Erschwinglich",
+            "Jahres-Abo"
+          ]
         }
       },
       "manuellement": {
@@ -489,11 +581,99 @@
           "Schwer für die Kinder zu duplizieren"
         ],
         "table": {
-          "feature_1": ["Backup", "Sichere Cloud", "Verlustrisiko"],
-          "feature_2": ["Suche", "Sofort", "Manuelles Blättern"],
-          "feature_3": ["Teilen", "1 Klick", "Abschreiben per Hand"]
+          "feature_1": [
+            "Backup",
+            "Sichere Cloud",
+            "Verlustrisiko"
+          ],
+          "feature_2": [
+            "Suche",
+            "Sofort",
+            "Manuelles Blättern"
+          ],
+          "feature_3": [
+            "Teilen",
+            "1 Klick",
+            "Abschreiben per Hand"
+          ]
         }
       }
     }
+  },
+  "ComparisonRootPage": {
+    "hero": {
+      "title": "Warum Kulinia die beste Wahl für Ihre Rezepte ist",
+      "description": "Vergleichen Sie unseren auf Küche ausgerichteten Ansatz mit anderen allgemeinen Lösungen."
+    },
+    "features": [
+      {
+        "title": "Für die Küche entwickelt",
+        "description": "Ein Produkt, das Ihre Rezepte strukturiert, nicht nur Fotos druckt."
+      },
+      {
+        "title": "Foto-Rezeptimport",
+        "description": "Fotografieren Sie Ihre Notizen oder Papierrezepte und lassen Sie die KI sie transkribieren."
+      },
+      {
+        "title": "Intelligente Organisation",
+        "description": "Sortieren Sie Rezepte nach Gericht, Zutat oder Anlass in wenigen Klicks."
+      },
+      {
+        "title": "Premiumdruckbuch",
+        "description": "Erhalten Sie ein stilvolles Kochbuch, bereit zum Verschenken und Aufbewahren."
+      }
+    ],
+    "cta": {
+      "button": "Mein Buch erstellen",
+      "description": "Probieren Sie Kulinia kostenlos und erleben Sie den Unterschied."
+    }
+  },
+  "LegalPage": {
+    "hero": {
+      "title": "Nutzungsbedingungen",
+      "description": "Die Regeln für die Nutzung von Kulinia."
+    },
+    "sections": [
+      {
+        "title": "1. Zweck",
+        "content": "Kulinia bietet eine Plattform zum Erstellen, Organisieren und Drucken von Rezeptbüchern. Diese Bedingungen regeln Rechte und Pflichten der Nutzer."
+      },
+      {
+        "title": "2. Nutzerkonto",
+        "content": "Sie müssen genaue Informationen angeben und Ihre Zugangsdaten schützen. Melden Sie unbefugte Nutzung sofort."
+      },
+      {
+        "title": "3. Geistiges Eigentum",
+        "content": "Kulinia-Inhalte sind geschützt. Ihre Rezepte bleiben Ihr Eigentum, aber Sie gewähren uns das Recht, sie zu hosten und anzuzeigen."
+      },
+      {
+        "title": "4. Haftung",
+        "content": "Kulinia bemüht sich um einen stabilen Dienst. Bei Unterbrechungen ist unsere Haftung auf die in den letzten 12 Monaten gezahlten Beträge begrenzt."
+      }
+    ]
+  },
+  "PrivacyPage": {
+    "hero": {
+      "title": "Datenschutzrichtlinie",
+      "description": "Erfahren Sie, wie wir Ihre Daten sammeln, verwenden und schützen."
+    },
+    "sections": [
+      {
+        "title": "1. Gesammelte Daten",
+        "content": "Wir erfassen Ihre E-Mail, importierte Rezepte, Präferenzen und Nutzungsdaten, um den Dienst zu verbessern."
+      },
+      {
+        "title": "2. Zwecke",
+        "content": "Ihre Daten werden verwendet, um Ihr Konto zu verwalten, das Erlebnis anzupassen und relevante Dienste bereitzustellen."
+      },
+      {
+        "title": "3. Aufbewahrung",
+        "content": "Ihre Daten werden aktiv gehalten, solange Ihr Konto aktiv ist, und innerhalb von 30 Tagen nach Kontoaufgabe gelöscht, sofern nicht gesetzlich länger erforderlich."
+      },
+      {
+        "title": "4. Ihre Rechte",
+        "content": "Sie können Zugang, Berichtigung, Löschung oder Datenübertragbarkeit unter contact@kulinia.com anfordern."
+      }
+    ]
   }
 }

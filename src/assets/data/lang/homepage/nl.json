@@ -1,0 +1,124 @@
+{
+  "seo": {
+    "title": "Maak uw gepersonaliseerde kookboek | Afdrukken en PDF",
+    "description": "Maak, organiseer en druk uw recepten in een elegant boek. Importeer uw recepten per foto, personaliseer uw boek en ontvang het thuis.",
+    "keywords": [
+      "kookboek",
+      "gepersonaliseerd kookboek",
+      "thuisrecepten",
+      "kookboek afdrukken",
+      "kookboek maken",
+      "recettes PDF",
+      "organiser recettes",
+      "scan recettes OCR"
+    ],
+    "author": "Nom de votre service",
+    "robots": "index, follow",
+    "canonical": "https://www.votresite.com/",
+    "openGraph": {
+      "type": "website",
+      "locale": "fr_FR",
+      "url": "https://www.votresite.com/",
+      "site_name": "Carnet de recettes",
+      "title": "Votre cuisine mérite son propre livre",
+      "description": "Transformez vos recettes en un livre élégant à imprimer ou partager.",
+      "image": "https://www.votresite.com/og-image.jpg"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Créez votre livre de recettes personnalisé",
+      "description": "Organisez et imprimez vos recettes dans un livre unique.",
+      "image": "https://www.votresite.com/og-image.jpg"
+    },
+    "icons": {
+      "favicon": "/favicon.ico",
+      "appleTouchIcon": "/apple-touch-icon.png"
+    },
+    "themeColor": "#ffffff"
+  },
+  "hero": {
+    "title": "Uw keuken verdient zijn eigen boek.",
+    "description": "Bewaar, organiseer en druk uw recepten in een elegant boek, om te delen of voor altijd te bewaren.",
+    "ctaPrimary": "Mijn boek maken",
+    "ctaSecondary": "Hoe werkt het?"
+  },
+  "steps": [
+    {
+      "tag": "Stap 1",
+      "title": "Maak je digitale receptenboek",
+      "features": [
+        {
+          "title": "Geen tijdslimiet",
+          "desc": "Voer je recepten handmatig in of importeer ze met een foto."
+        },
+        {
+          "title": "Strakke en intuïtieve interface",
+          "desc": "Een vloeiende ervaring om je kookbibliotheek moeiteloos te beheren."
+        },
+        {
+          "title": "Scan je papierrecepten",
+          "desc": "Maak een foto en onze AI zet ingrediënten en stappen om in tekst."
+        }
+      ]
+    },
+    {
+      "tag": "Stap 2",
+      "title": "Personaliseer je fysieke boek",
+      "features": [
+        {
+          "title": "Automatische lay-out",
+          "desc": "Al je recepten worden automatisch opgemaakt voor een professioneel resultaat."
+        },
+        {
+          "title": "Snelle sjablonen",
+          "desc": "Vooraf ingestelde stijlen om het uiterlijk met één klik aan te passen."
+        },
+        {
+          "title": "Bestel je boek",
+          "desc": "Eenvoudig, snel en veilig. Thuisbezorgd binnen 5 dagen."
+        }
+      ]
+    }
+  ],
+  "pricing": {
+    "title": "2 opties om je boek tot leven te brengen",
+    "description": "Kies de eenvoud van alles-in-één of de vrijheid van PDF-export.",
+    "options": [
+      {
+        "badge": "Meest gekozen",
+        "title": "Alles-in-één optie",
+        "desc": "Wij regelen alles. Premium drukwerk en bezorging aan huis.",
+        "price": "32 €",
+        "details": "A5 hardcoverboek, 48 pagina’s",
+        "cta": "Maak mijn boek"
+      },
+      {
+        "title": "PDF-optie (DIY)",
+        "desc": "Koop de hoge resolutie PDF en druk deze zelf af.",
+        "price": "9 €",
+        "details": "Printklare PDF (afloop inbegrepen)",
+        "cta": "Maak mijn boek"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Alle antwoorden op je vragen.",
+    "items": [
+      {
+        "q": "Hoe werkt OCR-tekstherkenning?",
+        "a": "Maak een foto van je papierrecept. Onze technologie haalt automatisch de tekst eruit."
+      },
+      {
+        "q": "Kan ik mijn boek delen?",
+        "a": "Ja, je kunt een veilige link delen met je dierbaren."
+      }
+    ],
+    "notFound": "Niet gevonden wat je zocht?",
+    "contact": "Neem contact op"
+  },
+  "cta": {
+    "title": "Klaar om je receptenboek te maken?",
+    "description": "Word lid van de kookcommunity en breng je culinaire bibliotheek tot leven.",
+    "cta": "Maak mijn boek"
+  }
+}

@@ -2,95 +2,95 @@
   "navbarLinks": [
     {
       "name": "digital-book",
-      "label": "Livre numérique",
-      "href": "/fr/livre-numerique"
+      "label": "Digitaal Boek",
+      "href": "/nl/digitaal-boek"
     },
     {
       "name": "physical-book",
-      "label": "Livre physique",
-      "href": "/fr/livre-physique"
+      "label": "Fysiek Boek",
+      "href": "/nl/fysiek-boek"
     },
     {
       "name": "pricing",
-      "label": "Prix",
-      "href": "/fr/prix"
+      "label": "Prijzen",
+      "href": "/nl/prijzen"
     },
     {
       "name": "faq",
       "label": "FAQ",
-      "href": "/fr/faq"
+      "href": "/nl/faq"
     },
     {
       "name": "compare",
-      "label": "Comparatifs",
-      "href": "/fr/comparatif"
+      "label": "Vergelijkingen",
+      "href": "/nl/vergelijking"
     }
   ],
   "footerLinks": [
     {
       "name": "product",
-      "label": "Produit",
+      "label": "Product",
       "links": [
         {
-          "label": "Livre numérique",
-          "href": "/fr/livre-numerique"
+          "label": "Digitaal Boek",
+          "href": "/nl/digitaal-boek"
         },
         {
-          "label": "Livre physique",
-          "href": "/fr/livre-physique"
+          "label": "Fysiek Boek",
+          "href": "/nl/fysiek-boek"
         },
         {
-          "label": "Prix",
-          "href": "/fr/prix"
+          "label": "Prijzen",
+          "href": "/nl/prijzen"
         },
         {
           "label": "FAQ",
-          "href": "/fr/faq"
+          "href": "/nl/faq"
         },
         {
-          "label": "Comparatifs",
-          "href": "/fr/comparatif"
+          "label": "Vergelijkingen",
+          "href": "/comparatif"
         }
       ]
     },
     {
       "name": "compare",
-      "label": "Comparatifs",
+      "label": "Vergelijkingen",
       "links": [
         {
           "name": "photobox",
           "label": "Photobox",
-          "href": "/fr/comparatif/photobox"
+          "href": "/nl/vergelijking/photobox"
         },
         {
           "name": "vistaprint",
           "label": "Vistaprint",
-          "href": "/fr/comparatif/vistaprint"
+          "href": "/nl/vergelijking/vistaprint"
         },
         {
           "name": "gelato",
           "label": "Gelato",
-          "href": "/fr/comparatif/gelato"
+          "href": "/nl/vergelijking/gelato"
         },
         {
           "name": "canvas",
           "label": "Canvas",
-          "href": "/fr/comparatif/canvas"
+          "href": "/nl/vergelijking/canvas"
         },
         {
           "name": "cookidoo",
           "label": "Cookidoo",
-          "href": "/fr/comparatif/cookidoo"
+          "href": "/nl/vergelijking/cookidoo"
         },
         {
           "name": "blurb",
           "label": "Blurb",
-          "href": "/fr/comparatif/blurb"
+          "href": "/nl/vergelijking/blurb"
         },
         {
           "name": "manual",
           "label": "Fait main",
-          "href": "/fr/comparatif/manuellement"
+          "href": "/nl/vergelijking/handmatig"
         }
       ]
     },
@@ -100,15 +100,15 @@
       "links": [
         {
           "label": "Mentions légales",
-          "href": "/fr/cgu"
+          "href": "/nl/voorwaarden"
         },
         {
           "label": "Politique de confidentialité",
-          "href": "/fr/politique-de-confidentialite"
+          "href": "/nl/gegevensbescherming"
         },
         {
           "label": "Conditions d'utilisation",
-          "href": "/fr/cgu"
+          "href": "/nl/voorwaarden"
         }
       ]
     }

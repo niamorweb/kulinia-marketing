@@ -139,10 +139,26 @@
         "us": "Kulinia",
         "others": "Notities / Foto's",
         "rows": [
-          ["Tekstherkenning (AI)", "Inbegrepen", "Nee"],
-          ["Automatische opmaak", "Ja", "Nee"],
-          ["Samen delen", "Ja", "Moeilijk"],
-          ["Klaar om te printen", "In 1 klik", "Onmogelijk"]
+          [
+            "Tekstherkenning (AI)",
+            "Inbegrepen",
+            "Nee"
+          ],
+          [
+            "Automatische opmaak",
+            "Ja",
+            "Nee"
+          ],
+          [
+            "Samen delen",
+            "Ja",
+            "Moeilijk"
+          ],
+          [
+            "Klaar om te printen",
+            "In 1 klik",
+            "Onmogelijk"
+          ]
         ]
       }
     },
@@ -334,9 +350,21 @@
           "Algemene service zonder culinaire ziel"
         ],
         "table": {
-          "feature_1": ["OCR Scan", "Ja (Onbeperkt)", "Nee"],
-          "feature_2": ["Mobiele App", "Ja", "Nee"],
-          "feature_3": ["Focus op Koken", "100%", "Algemeen"]
+          "feature_1": [
+            "OCR Scan",
+            "Ja (Onbeperkt)",
+            "Nee"
+          ],
+          "feature_2": [
+            "Mobiele App",
+            "Ja",
+            "Nee"
+          ],
+          "feature_3": [
+            "Focus op Koken",
+            "100%",
+            "Algemeen"
+          ]
         }
       },
       "canvas": {
@@ -345,14 +373,25 @@
         "meta_desc": "Vergelijk Kulinia en Canvas voor het maken van je familiereceptenboek.",
         "hero_title": "Waarom {name} verlaten voor MonCarnet?",
         "description": "Canvas biedt fotoboeken, wij maken tools voor culinaire overdracht.",
-        "pros": ["Intuïtieve interface", "Eenvoudig delen met familie"],
+        "pros": [
+          "Intuïtieve interface",
+          "Eenvoudig delen met familie"
+        ],
         "cons": [
           "Editor niet aangepast aan ingrediëntenlijsten",
           "Hoge prijs per stuk"
         ],
         "table": {
-          "feature_1": ["OCR Scan", "Ja", "Nee"],
-          "feature_2": ["Receptformaat", "Automatisch", "Handmatig"]
+          "feature_1": [
+            "OCR Scan",
+            "Ja",
+            "Nee"
+          ],
+          "feature_2": [
+            "Receptformaat",
+            "Automatisch",
+            "Handmatig"
+          ]
         }
       },
       "photobox": {
@@ -372,8 +411,16 @@
           "Vereist alles handmatig overtypen"
         ],
         "table": {
-          "feature_1": ["AI Scan", "Inbegrepen (Gratis)", "Niet beschikbaar"],
-          "feature_2": ["Culinaire Indexering", "Automatisch", "Handmatig"],
+          "feature_1": [
+            "AI Scan",
+            "Inbegrepen (Gratis)",
+            "Niet beschikbaar"
+          ],
+          "feature_2": [
+            "Culinaire Indexering",
+            "Automatisch",
+            "Handmatig"
+          ],
           "feature_3": [
             "Gebruik in de keuken",
             "Mobiel geoptimaliseerd",
@@ -398,9 +445,21 @@
           "Vaak hoge verzendkosten"
         ],
         "table": {
-          "feature_1": ["Opmaak", "Direct", "Handmatig (Lang)"],
-          "feature_2": ["Zoeken", "Op trefwoord", "Alleen visueel"],
-          "feature_3": ["Foto->Tekst conversie", "Ja", "Nee"]
+          "feature_1": [
+            "Opmaak",
+            "Direct",
+            "Handmatig (Lang)"
+          ],
+          "feature_2": [
+            "Zoeken",
+            "Op trefwoord",
+            "Alleen visueel"
+          ],
+          "feature_3": [
+            "Foto->Tekst conversie",
+            "Ja",
+            "Nee"
+          ]
         }
       },
       "blurb": {
@@ -420,9 +479,21 @@
           "Geen companion-app voor bij het koken"
         ],
         "table": {
-          "feature_1": ["Eenvoud", "Maximaal", "Laag"],
-          "feature_2": ["OCR tool", "Ja", "Nee"],
-          "feature_3": ["Toegang Keuken", "Web + Mobiel", "Alleen PC"]
+          "feature_1": [
+            "Eenvoud",
+            "Maximaal",
+            "Laag"
+          ],
+          "feature_2": [
+            "OCR tool",
+            "Ja",
+            "Nee"
+          ],
+          "feature_3": [
+            "Toegang Keuken",
+            "Web + Mobiel",
+            "Alleen PC"
+          ]
         }
       },
       "mytaste": {
@@ -442,9 +513,21 @@
           "Vaak verouderde interface"
         ],
         "table": {
-          "feature_1": ["Papierprint", "Ja (Luxeboek)", "Nee"],
-          "feature_2": ["Papier Digitalisering", "Ja (AI)", "Nee"],
-          "feature_3": ["Reclame", "Geen", "Aanwezig"]
+          "feature_1": [
+            "Papierprint",
+            "Ja (Luxeboek)",
+            "Nee"
+          ],
+          "feature_2": [
+            "Papier Digitalisering",
+            "Ja (AI)",
+            "Nee"
+          ],
+          "feature_3": [
+            "Reclame",
+            "Geen",
+            "Aanwezig"
+          ]
         }
       },
       "cookidoo": {
@@ -464,9 +547,21 @@
           "Geen fysieke export mogelijk"
         ],
         "table": {
-          "feature_1": ["Inhoudsvrijheid", "Totaal", "Beperkt"],
-          "feature_2": ["Gedrukt Boek", "Ja", "Nee"],
-          "feature_3": ["Prijs", "Betaalbaar", "Jaarabonnement"]
+          "feature_1": [
+            "Inhoudsvrijheid",
+            "Totaal",
+            "Beperkt"
+          ],
+          "feature_2": [
+            "Gedrukt Boek",
+            "Ja",
+            "Nee"
+          ],
+          "feature_3": [
+            "Prijs",
+            "Betaalbaar",
+            "Jaarabonnement"
+          ]
         }
       },
       "manuellement": {
@@ -486,11 +581,99 @@
           "Moeilijk te dupliceren voor de kinderen"
         ],
         "table": {
-          "feature_1": ["Backup", "Veilige cloud", "Risico op verlies"],
-          "feature_2": ["Zoeken", "Direct", "Handmatig bladeren"],
-          "feature_3": ["Delen", "1 klik", "Met de hand overschrijven"]
+          "feature_1": [
+            "Backup",
+            "Veilige cloud",
+            "Risico op verlies"
+          ],
+          "feature_2": [
+            "Zoeken",
+            "Direct",
+            "Handmatig bladeren"
+          ],
+          "feature_3": [
+            "Delen",
+            "1 klik",
+            "Met de hand overschrijven"
+          ]
         }
       }
     }
+  },
+  "ComparisonRootPage": {
+    "hero": {
+      "title": "Waarom Kulinia de beste keuze is voor je recepten",
+      "description": "Vergelijk onze keukengerichte aanpak met andere algemene oplossingen."
+    },
+    "features": [
+      {
+        "title": "Ontworpen voor koken",
+        "description": "Een product dat je recepten structureert, niet alleen foto’s afdrukt."
+      },
+      {
+        "title": "Foto-receptimport",
+        "description": "Maak een foto van je aantekeningen of papierrecepten en laat AI ze transcriberen."
+      },
+      {
+        "title": "Slimme organisatie",
+        "description": "Sorteer recepten op gerecht, ingrediënt of gelegenheid met een paar klikken."
+      },
+      {
+        "title": "Premium gedrukt boek",
+        "description": "Ontvang een stijlvol kookboek dat klaar is om cadeau te geven en te bewaren."
+      }
+    ],
+    "cta": {
+      "button": "Maak mijn boek",
+      "description": "Probeer Kulinia gratis en voel het verschil."
+    }
+  },
+  "LegalPage": {
+    "hero": {
+      "title": "Gebruiksvoorwaarden",
+      "description": "De regels voor het gebruik van Kulinia."
+    },
+    "sections": [
+      {
+        "title": "1. Doel",
+        "content": "Kulinia biedt een platform om receptenboeken te maken, organiseren en afdrukken. Deze voorwaarden regelen de rechten en plichten van gebruikers."
+      },
+      {
+        "title": "2. Gebruikersaccount",
+        "content": "Je moet correcte informatie verstrekken en je inloggegevens beschermen. Meld ongeautoriseerd gebruik onmiddellijk."
+      },
+      {
+        "title": "3. Intellectueel eigendom",
+        "content": "Kulinia-inhoud is beschermd. Je recepten blijven van jou, maar je geeft ons toestemming ze te hosten en weer te geven."
+      },
+      {
+        "title": "4. Aansprakelijkheid",
+        "content": "Kulinia streeft naar een stabiele dienst. Bij onderbrekingen is onze aansprakelijkheid beperkt tot de laatste 12 maanden betaalde bedragen."
+      }
+    ]
+  },
+  "PrivacyPage": {
+    "hero": {
+      "title": "Privacybeleid",
+      "description": "Lees hoe we je gegevens verzamelen, gebruiken en beschermen."
+    },
+    "sections": [
+      {
+        "title": "1. Verzamelde gegevens",
+        "content": "We verzamelen je e-mail, geïmporteerde recepten, voorkeuren en gebruiksgegevens om de dienst te verbeteren."
+      },
+      {
+        "title": "2. Doeleinden",
+        "content": "Je gegevens worden gebruikt om je account te beheren, je ervaring te personaliseren en relevante diensten te leveren."
+      },
+      {
+        "title": "3. Bewaring",
+        "content": "Je gegevens worden bewaard zolang je account actief is en binnen 30 dagen na sluiting verwijderd, tenzij de wet anders vereist."
+      },
+      {
+        "title": "4. Jouw rechten",
+        "content": "Je kunt toegang, correctie, verwijdering of overdraagbaarheid van je gegevens aanvragen via contact@kulinia.com."
+      }
+    ]
   }
 }

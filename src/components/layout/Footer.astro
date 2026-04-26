@@ -1,8 +1,9 @@
 ---
 
-import footerData from "../../assets/data/lang/nav/fr.json";
+const { locale = "fr" } = Astro.props;
 
-const { footerLinks } = footerData;
+const footerData = await import(`../../assets/data/lang/nav/${locale}.json`);
+const { footerLinks } = footerData.default;
 
 const competitors = [
   "gelato",
@@ -92,9 +93,20 @@ const year = new Date().getFullYear();
 
     <p>© {year} Kulinia.</p>
 
-    <!-- Placeholder LocaleSwitcher -->
-    <div class="text-text-muted text-sm">
-      FR / EN
+    <!-- Language Selector -->
+    <div class="flex items-center gap-2">
+      <span class="text-text-muted text-sm">Langue:</span>
+      <select 
+        onchange="window.location.href = `/${this.value}/`"
+        class="bg-surface border border-border rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-brand/50"
+      >
+        <option value="fr" selected={locale === 'fr'}>Français</option>
+        <option value="en" selected={locale === 'en'}>English</option>
+        <option value="de" selected={locale === 'de'}>Deutsch</option>
+        <option value="es" selected={locale === 'es'}>Español</option>
+        <option value="it" selected={locale === 'it'}>Italiano</option>
+        <option value="nl" selected={locale === 'nl'}>Nederlands</option>
+      </select>
     </div>
 
   </div>

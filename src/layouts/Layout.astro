@@ -7,12 +7,22 @@ const {
   title = "Carnet de recettes personnalisé",
   description = "Créez, organisez et imprimez vos recettes dans un livre élégant.",
   image = "https://www.kulinia.com/og-image.jpg",
-  url = "https://www.kulinia.com/"
+  url = "https://www.kulinia.com/",
+  locale = "fr"
 } = Astro.props;
+
+const ogLocales = {
+  fr: "fr_FR",
+  en: "en_US",
+  de: "de_DE",
+  es: "es_ES",
+  it: "it_IT",
+  nl: "nl_NL"
+};
 ---
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang={locale}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,7 +36,7 @@ const {
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale" content={ogLocales[locale] || "fr_FR"} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={image} />
@@ -44,15 +54,15 @@ const {
 			"@context": "https://schema.org",
 			"@type": "WebSite",
 			"name": "Kulinia",
-			"url": "https://www.kulinia.com/",
+			"url": `https://www.kulinia.com/${locale}/`,
 			"description": description
 		})} />
 		  <slot name="head" />
 	  </head>
 	<body>
-		<Header />
+		<Header locale={locale} />
 		<slot />
-		<Footer />
+		<Footer locale={locale} />
 
 	</body>
 </html>

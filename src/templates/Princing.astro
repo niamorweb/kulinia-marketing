@@ -1,0 +1,170 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const plans = [
+    {
+        name: "Essentiel",
+        price: "19€",
+        description: "Pour découvrir votre livre de recettes personnalisé",
+        features: [
+            "Jusqu’à 30 recettes",
+            "Export PDF",
+            "Organisation simple",
+            "Support email",
+        ],
+        cta: "Commencer",
+    },
+    {
+        name: "Standard",
+        price: "39€",
+        highlight: true,
+        description: "Le choix idéal pour un vrai livre de cuisine",
+        features: [
+            "Jusqu’à 100 recettes",
+            "Livre imprimé inclus",
+            "Design personnalisé",
+            "Organisation avancée",
+            "Livraison standard",
+        ],
+        cta: "Choisir Standard",
+    },
+    {
+        name: "Premium",
+        price: "59€",
+        description: "L’expérience complète sans compromis",
+        features: [
+            "Recettes illimitées",
+            "Livre premium imprimé",
+            "Couverture personnalisée",
+            "Mise en page avancée",
+            "Livraison prioritaire",
+        ],
+        cta: "Passer Premium",
+    },
+];
+---
+
+<Layout
+    title="Nos tarifs | Livre de recettes personnalisé"
+    description="Choisissez l’offre qui vous convient pour créer votre livre de recettes personnalisé et imprimé."
+    url="https://www.kulinia.com/prix"
+>
+    <div class="min-h-screen bg-surface text-text-primary font-sans">
+        {/* --- HERO --- */}
+        <section class="py-24 px-6 md:px-12 bg-white text-center">
+            <div class="max-w-4xl mx-auto space-y-6">
+                <h1 class="text-5xl md:text-6xl font-black tracking-tight">
+                    Des prix simples, sans surprise
+                </h1>
+                <p class="text-text-secondary text-lg">
+                    Choisissez l’offre qui correspond à votre cuisine. Un seul
+                    objectif : transformer vos recettes en un livre que vous
+                    aurez envie d’ouvrir tous les jours.
+                </p>
+            </div>
+        </section>
+
+        {/* --- PRICING --- */}
+        <section class="py-24 px-6 md:px-12 bg-brand-light">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
+                {
+                    plans.map((plan) => (
+                        <div
+                            class={`rounded-3xl p-8 shadow-lg border bg-white flex flex-col justify-between gap-8 relative ${
+                                plan.highlight
+                                    ? "border-brand scale-105 shadow-2xl"
+                                    : "border-border"
+                            }`}
+                        >
+                            {plan.highlight && (
+                                <span class="absolute top-6 right-6 bg-brand text-white text-xs font-bold px-3 py-1 rounded-full">
+                                    Populaire
+                                </span>
+                            )}
+
+                            <div class="space-y-4">
+                                <h3 class="text-2xl font-black">{plan.name}</h3>
+
+                                <p class="text-4xl font-black text-brand">
+                                    {plan.price}
+                                </p>
+
+                                <p class="text-text-muted">
+                                    {plan.description}
+                                </p>
+
+                                <ul class="space-y-3 pt-4">
+                                    {plan.features.map((f) => (
+                                        <li class="flex items-center gap-3 text-text-primary">
+                                            <div class="w-5 h-5 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
+                                                <svg
+                                                    class="w-3 h-3"
+                                                    fill="none"
+                                                    viewBox="0 0 24 24"
+                                                    stroke="currentColor"
+                                                >
+                                                    <path
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        stroke-width="3"
+                                                        d="M5 13l4 4L19 7"
+                                                    />
+                                                </svg>
+                                            </div>
+                                            {f}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            <a
+                                href="/signup"
+                                class={`w-full text-center py-4 rounded-pill font-bold transition ${
+                                    plan.highlight
+                                        ? "bg-brand text-white hover:bg-brand-hover shadow-xl"
+                                        : "bg-white border border-border hover:bg-surface-subtle-hover"
+                                }`}
+                            >
+                                {plan.cta}
+                            </a>
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+
+        {/* --- COMPARISON STRIP --- */}
+        <section class="py-20 px-6 md:px-12 bg-white">
+            <div class="max-w-5xl mx-auto text-center space-y-6">
+                <h2 class="text-3xl md:text-4xl font-black">
+                    Tout est inclus pour créer un vrai livre
+                </h2>
+                <p class="text-text-secondary">
+                    Pas d’abonnement caché. Vous payez une fois, votre livre
+                    vous appartient pour toujours.
+                </p>
+            </div>
+        </section>
+
+        {/* --- CTA FINAL --- */}
+        <section class="py-24 px-6 bg-brand-light">
+            <div
+                class="max-w-5xl mx-auto bg-text-primary text-white text-center rounded-3xl p-12 md:p-20 space-y-8"
+            >
+                <h2 class="text-4xl md:text-5xl font-black">
+                    Prêt à créer votre livre ?
+                </h2>
+                <p class="text-gray-300 text-lg">
+                    Commencez gratuitement et construisez votre carnet de
+                    recettes en quelques minutes.
+                </p>
+                <a
+                    href="/signup"
+                    class="inline-block px-10 py-5 bg-brand text-white font-black rounded-pill hover:scale-105 transition shadow-2xl"
+                >
+                    Commencer maintenant
+                </a>
+            </div>
+        </section>
+    </div>
+</Layout>
