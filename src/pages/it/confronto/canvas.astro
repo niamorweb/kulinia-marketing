@@ -1,0 +1,17 @@
+---
+import dataFromJson from "../../../assets/data/lang/compare/it.json";
+import Layout from "../../../layouts/Layout.astro";
+import Template from "../../../components/compare-pages/Template.astro";
+
+const contentData = dataFromJson.competitors.canvas;
+const locale = "it";
+---
+
+<Layout
+    title={contentData.meta_title}
+    description={contentData.meta_desc}
+    image="/og-image-compare.jpg"
+    url="https://www.kulinia.com/it/confronto/canvas"
+    locale={locale}
+    ><Template locale={locale} contentData={contentData} /></Layout
+>

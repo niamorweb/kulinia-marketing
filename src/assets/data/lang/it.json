@@ -166,6 +166,41 @@
       "title": "Inizia la tua collezione oggi",
       "description": "L'accesso al ricettario digitale è gratuito. Paghi solo se decidi di stampare o esportare il tuo libro.",
       "button": "Crea il mio account gratuitamente"
+    },
+    "specs": [
+      {
+        "title": "Carta Premium",
+        "description": "Carta da 170g satinata, resistente alle manipolazioni in cucina e alle macchie leggere.",
+        "icon": "paper"
+      },
+      {
+        "title": "Copertina Rigida",
+        "description": "Finitura opaca soft-touch per un tocco elegante e una protezione duratura nel tempo.",
+        "icon": "book"
+      },
+      {
+        "title": "Apertura Piana",
+        "description": "Una rilegatura pensata per restare aperta sul piano di lavoro mentre cucini.",
+        "icon": "flat"
+      },
+      {
+        "title": "Formato A5 Ideale",
+        "description": "Il formato perfetto: abbastanza grande per leggere comodamente, abbastanza compatto per non ingombrare.",
+        "icon": "size"
+      }
+    ],
+    "howItWorks": {
+      "title": "Come funziona",
+      "description": "In pochi semplici passaggi, trasforma le tue ricette in un vero libro di cucina stampato."
+    },
+    "gift": {
+      "title": "Il regalo perfetto per i tuoi cari",
+      "description": "Tramanda il patrimonio culinario della tua famiglia. Ideale per chi va a vivere da solo, per un matrimonio o per le feste.",
+      "points": [
+        "Personalizzazione totale",
+        "Qualità di stampa fotografica",
+        "Consegna rapida in 5 giorni"
+      ]
     }
   },
   "PhysicalBookPage": {
@@ -286,6 +321,7 @@
       }
     ],
     "notFound": "Non hai trovato la risposta alla tua domanda?",
+    "supportDescription": "Il nostro team è qui per aiutarti rapidamente.",
     "contact": "Contatta il nostro supporto"
   },
   "NotFoundPage": {
@@ -564,7 +600,7 @@
           ]
         }
       },
-      "manualmente": {
+      "manuellement": {
         "name": "Manualmente (Quaderno Cartaceo)",
         "meta_title": "Quaderno ricette cartaceo vs Digitale: La sfida",
         "meta_desc": "Perché passare dal vecchio quaderno ad anelli al ricettario intelligente? Scopri i vantaggi.",
@@ -605,6 +641,19 @@
       "title": "Perché Kulinia è la scelta migliore per le tue ricette",
       "description": "Confronta il nostro approccio pensato per la cucina con altre soluzioni generiche."
     },
+    "heroCtas": {
+      "primary": "Crea il mio libro",
+      "secondary": "Vedi i confronti"
+    },
+    "seo": {
+      "keywords": "confronto libro ricette, alternativa cookidoo, alternativa photobox, creare ricettario online"
+    },
+    "trustBar": [
+      "Nessun abbonamento obbligatorio",
+      "Import IA da ricette su carta",
+      "Libro premium stampato in pochi giorni"
+    ],
+    "featuresTitle": "Una UX pensata per convertire meglio",
     "features": [
       {
         "title": "Progettato per cucinare",
@@ -623,15 +672,112 @@
         "description": "Ricevi un ricettario elegante pronto da regalare e conservare."
       }
     ],
+    "process": {
+      "eyebrow": "Come funziona",
+      "title": "3 passaggi per trasformare appunti in un vero ricettario",
+      "steps": [
+        {
+          "title": "Importa",
+          "description": "Aggiungi ricette da foto, web o inserimento manuale."
+        },
+        {
+          "title": "Organizza",
+          "description": "Kulinia struttura automaticamente ingredienti, passaggi e impaginazione."
+        },
+        {
+          "title": "Condividi o stampa",
+          "description": "Condividi un link con la famiglia o ordina il tuo libro fisico."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "items": [
+        {
+          "q": "Posso iniziare gratuitamente?",
+          "a": "Sì. Il libro digitale è gratuito. Paghi solo esportazione PDF o stampa."
+        },
+        {
+          "q": "Le ricette restano mie?",
+          "a": "Sì. Le tue ricette restano sempre di tua proprietà."
+        },
+        {
+          "q": "È facile da usare?",
+          "a": "Sì, l'interfaccia è semplice, guidata e adatta anche ai principianti."
+        }
+      ]
+    },
+    "cardCtaLabel": "Vedi confronto",
     "cta": {
       "button": "Crea il mio libro",
-      "description": "Prova Kulinia gratis e senti la differenza."
+      "description": "Prova Kulinia gratis e senti la differenza.",
+      "title": "Passa a una vera soluzione per la cucina"
+    },
+    "comparisons": [
+      {
+        "slug": "gelato",
+        "name": "Gelato",
+        "description": "Sebbene Gelato sia un gigante della stampa on-demand, gli manca l'essenziale per un cuoco: l'intelligenza del software."
+      },
+      {
+        "slug": "canvas",
+        "name": "Canvas",
+        "description": "Canvas propone fotolibri, noi creiamo strumenti di trasmissione culinaria."
+      },
+      {
+        "slug": "photobox",
+        "name": "Photobox",
+        "description": "Photobox eccelle negli album fotografici delle vacanze, ma trasformare i tuoi appunti di cucina in testo digitale non è il loro mestiere. Il nostro sì."
+      },
+      {
+        "slug": "vistaprint",
+        "name": "Vistaprint",
+        "description": "Vistaprint è uno strumento professionale per il marketing. Per un ricettario, è un martello pneumatico dove serve un coltello da chef."
+      },
+      {
+        "slug": "blurb",
+        "name": "Blurb",
+        "description": "Blurb si rivolge agli auto-editori. Se vuoi solo un ricettario pulito, intelligente e facile da compilare, MonCarnet fa per te."
+      },
+      {
+        "slug": "mytaste",
+        "name": "MyTaste",
+        "description": "Archiviare link internet va bene, ma possedere le proprie ricette e poterle stampare in un libro di prestigio è meglio."
+      },
+      {
+        "slug": "cookidoo",
+        "name": "Cookidoo",
+        "description": "Cookidoo ti impone le sue ricette. Kulinia ti permette di valorizzare le tue, quelle della nonna e degli amici."
+      },
+      {
+        "slug": "manuellement",
+        "name": "Manualmente (Quaderno Cartaceo)",
+        "description": "Il fascino della carta è innegabile, ma perdere una ricetta unica è irreversibile. Unisci il meglio dei due mondi."
+      }
+    ],
+    "whyChooseUs": {
+      "title": "Perche scegliere Kulinia?",
+      "advantages": [
+        {
+          "title": "Progettato per la cucina",
+          "description": "A differenza degli strumenti generici, tutto e pensato per le tue ricette."
+        },
+        {
+          "title": "IA integrata",
+          "description": "Scansione, OCR e organizzazione automatica delle tue ricette."
+        },
+        {
+          "title": "Libro fisico",
+          "description": "Trasforma le tue ricette digitali in un vero libro stampato."
+        }
+      ]
     }
   },
   "LegalPage": {
     "hero": {
       "title": "Termini di utilizzo",
-      "description": "Le regole che governano l’uso di Kulinia."
+      "description": "Le regole che governano l’uso di Kulinia.",
+      "backButton": "Torna alla home"
     },
     "sections": [
       {
@@ -674,6 +820,7 @@
         "title": "4. Diritti",
         "content": "Puoi richiedere accesso, rettifica, cancellazione o portabilità dei tuoi dati a contact@kulinia.com."
       }
-    ]
+    ],
+    "backButton": "Torna alla home"
   }
 }

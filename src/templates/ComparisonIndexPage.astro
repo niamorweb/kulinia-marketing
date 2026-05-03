@@ -1,38 +1,163 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-const { contentData } = Astro.props;
+type ComparisonItem = {
+    slug: string;
+    name: string;
+    description: string;
+};
+
+type WhyItem = {
+    title: string;
+    description: string;
+};
+
+type FaqItem = {
+    q: string;
+    a: string;
+};
+
+type ComparisonIndexPageProps = {
+    locale?: string;
+    title: string;
+    description: string;
+    url: string;
+    heroTitle: string;
+    heroDescription?: string;
+    comparisons?: ComparisonItem[];
+    comparisonBasePath?: string;
+    cardCtaLabel?: string;
+    showCardFooter?: boolean;
+    whyTitle?: string;
+    whyItems?: WhyItem[];
+    ctaTitle?: string;
+    ctaDescription?: string;
+    ctaButtonLabel?: string;
+    ctaButtonHref?: string;
+    primaryCtaLabel?: string;
+    primaryCtaHref?: string;
+    secondaryCtaLabel?: string;
+    secondaryCtaHref?: string;
+    trustItems?: string[];
+    benefitsTitle?: string;
+    benefitsItems?: WhyItem[];
+    processEyebrow?: string;
+    processTitle?: string;
+    processSteps?: WhyItem[];
+    faqTitle?: string;
+    faqItems?: FaqItem[];
+    seoKeywords?: string;
+};
+
+const {
+    locale = "fr",
+    title,
+    description,
+    url,
+    heroTitle,
+    heroDescription,
+    comparisons = [] as ComparisonItem[],
+    comparisonBasePath = "/comparaison",
+    cardCtaLabel,
+    showCardFooter = false,
+    whyTitle,
+    whyItems = [] as WhyItem[],
+    ctaTitle,
+    ctaDescription,
+    ctaButtonLabel,
+    ctaButtonHref,
+    primaryCtaLabel,
+    primaryCtaHref,
+    secondaryCtaLabel,
+    secondaryCtaHref,
+    trustItems = [] as string[],
+    benefitsTitle,
+    benefitsItems = [] as WhyItem[],
+    processEyebrow,
+    processTitle,
+    processSteps = [] as WhyItem[],
+    faqTitle,
+    faqItems = [] as FaqItem[],
+    seoKeywords,
+} = Astro.props as ComparisonIndexPageProps;
 ---
 
 <Layout
-    title="Comparatif | Kulinia vs les alternatives"
-    description="Découvrez pourquoi Kulinia est la meilleure solution pour créer votre livre de recettes face aux outils génériques."
-    url="https://www.kulinia.com/comparaison"
+    title={title}
+    description={description}
+    url={url}
+    locale={locale}
 >
+    <Fragment slot="head">
+        {
+            seoKeywords && (
+                <meta
+                    name="keywords"
+                    content={seoKeywords}
+                />
+            )
+        }
+    </Fragment>
     <div class="min-h-screen bg-surface text-text-primary font-sans">
         {/* --- HERO --- */}
         <section class="py-24 px-6 md:px-12 bg-white text-center">
-            <div class="max-w-4xl mx-auto space-y-6">
+            <div class="max-w-4xl mx-auto space-y-8">
                 <h1 class="text-5xl md:text-6xl font-black tracking-tight">
-                    {contentData.title}
-                    Comparer. Comprendre. Choisir Kulinia.
+                    {heroTitle}
                 </h1>
-                <p class="text-text-secondary text-lg">
-                    {contentData.description}
-                    Découvrez pourquoi une solution spécialisée cuisine fait toute
-                    la différence face aux outils génériques.
+                <p class="text-text-secondary text-lg leading-relaxed">
+                    {heroDescription}
                 </p>
+                {
+                    primaryCtaLabel && primaryCtaHref && (
+                        <div class="flex flex-col sm:flex-row justify-center gap-4">
+                            <a
+                                class="px-8 py-4 bg-brand text-white rounded-pill font-bold shadow-lg hover:bg-brand-hover transition"
+                                href={primaryCtaHref}
+                            >
+                                {primaryCtaLabel} →
+                            </a>
+                            {
+                                secondaryCtaLabel &&
+                                    secondaryCtaHref && (
+                                        <a
+                                            class="px-8 py-4 font-semibold text-brand hover:bg-surface-subtle-hover rounded-full transition"
+                                            href={secondaryCtaHref}
+                                        >
+                                            {secondaryCtaLabel}
+                                        </a>
+                                    )
+                            }
+                        </div>
+                    )
+                }
             </div>
         </section>
 
+        {
+            trustItems.length > 0 && (
+                <section class="px-6 md:px-12 pb-16 bg-white">
+                    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-4">
+                        {
+                            trustItems.map((item) => (
+                                <p class="text-sm md:text-base text-text-secondary bg-surface-subtle border border-border rounded-panel px-5 py-4 text-center font-medium">
+                                    {item}
+                                </p>
+                            ))
+                        }
+                    </div>
+                </section>
+            )
+        }
+
         {/* --- GRID COMPARISONS --- */}
-        <section class="py-24 px-6 md:px-12 bg-brand-light">
+        <section id="comparisons-grid" class="py-24 px-6 md:px-12 bg-brand-light">
             <div class="max-w-7xl mx-auto">
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {
-                        contentData.comparisons.map((c) => (
+                        comparisons.map((c) => (
                             <a
-                                href={`/comparaison/${c.slug}`}
+                                href={`${comparisonBasePath}/${c.slug}`}
                                 class="group bg-white rounded-3xl p-8 shadow-sm border border-border hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between"
                             >
                                 <div class="space-y-4">
@@ -50,25 +175,29 @@ const { contentData } = Astro.props;
                                     </p>
                                 </div>
 
-                                <div class="pt-6 flex items-center justify-between">
-                                    <span class="text-sm text-text-secondary">
-                                        Voir le comparatif
-                                    </span>
+                                {
+                                    showCardFooter && (
+                                        <div class="pt-6 flex items-center justify-between">
+                                            <span class="text-sm text-text-secondary">
+                                                {cardCtaLabel}
+                                            </span>
 
-                                    <svg
-                                        class="w-5 h-5 text-brand group-hover:translate-x-1 transition"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M9 5l7 7-7 7"
-                                        />
-                                    </svg>
-                                </div>
+                                            <svg
+                                                class="w-5 h-5 text-brand group-hover:translate-x-1 transition"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke="currentColor"
+                                            >
+                                                <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    stroke-width="2"
+                                                    d="M9 5l7 7-7 7"
+                                                />
+                                            </svg>
+                                        </div>
+                                    )
+                                }
                             </a>
                         ))
                     }
@@ -77,60 +206,157 @@ const { contentData } = Astro.props;
         </section>
 
         {/* --- WHY SECTION --- */}
-        <section class="py-24 px-6 md:px-12 bg-white">
-            <div class="max-w-5xl mx-auto text-center space-y-10">
-                <h2 class="text-4xl md:text-5xl font-black">
-                    Pourquoi Kulinia ?
-                </h2>
+        {
+            whyTitle &&
+                whyItems.length > 0 && (
+                    <section class="py-24 px-6 md:px-12 bg-white">
+                        <div class="max-w-5xl mx-auto text-center space-y-10">
+                            <h2 class="text-4xl md:text-5xl font-black">
+                                {whyTitle}
+                            </h2>
 
-                <div class="grid md:grid-cols-3 gap-10 text-left">
-                    <div class="space-y-3">
-                        <h3 class="font-bold text-xl">Conçu pour la cuisine</h3>
-                        <p class="text-text-muted">
-                            Contrairement aux outils généralistes, tout est
-                            pensé pour vos recettes.
-                        </p>
-                    </div>
+                            <div class="grid md:grid-cols-3 gap-10 text-left">
+                                {
+                                    whyItems.map((item) => (
+                                        <div class="space-y-3">
+                                            <h3 class="font-bold text-xl">
+                                                {item.title}
+                                            </h3>
+                                            <p class="text-text-muted">
+                                                {item.description}
+                                            </p>
+                                        </div>
+                                    ))
+                                }
+                            </div>
+                        </div>
+                    </section>
+                )
+        }
 
-                    <div class="space-y-3">
-                        <h3 class="font-bold text-xl">IA intégrée</h3>
-                        <p class="text-text-muted">
-                            Scan, OCR et organisation automatique de vos
-                            recettes.
-                        </p>
-                    </div>
+        {
+            benefitsTitle &&
+                benefitsItems.length > 0 && (
+                    <section class="py-24 px-6 md:px-12 bg-brand-light">
+                        <div class="max-w-6xl mx-auto space-y-10">
+                            <h2 class="text-4xl md:text-5xl font-black text-center tracking-tight">
+                                {benefitsTitle}
+                            </h2>
+                            <div class="grid md:grid-cols-3 gap-6">
+                                {
+                                    benefitsItems.map((item) => (
+                                        <article class="bg-surface rounded-panel border border-border p-8 shadow-sm">
+                                            <h3 class="text-xl font-black mb-3">
+                                                {item.title}
+                                            </h3>
+                                            <p class="text-text-muted leading-relaxed">
+                                                {item.description}
+                                            </p>
+                                        </article>
+                                    ))
+                                }
+                            </div>
+                        </div>
+                    </section>
+                )
+        }
 
-                    <div class="space-y-3">
-                        <h3 class="font-bold text-xl">Livre physique</h3>
-                        <p class="text-text-muted">
-                            Transformez vos recettes numériques en un vrai livre
-                            imprimé.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        {
+            processTitle &&
+                processSteps.length > 0 && (
+                    <section class="py-24 px-6 md:px-12 bg-white">
+                        <div class="max-w-5xl mx-auto space-y-10">
+                            <div class="text-center space-y-3">
+                                {
+                                    processEyebrow && (
+                                        <p class="text-sm uppercase tracking-[0.2em] text-brand font-bold">
+                                            {processEyebrow}
+                                        </p>
+                                    )
+                                }
+                                <h2 class="text-4xl md:text-5xl font-black tracking-tight">
+                                    {processTitle}
+                                </h2>
+                            </div>
+                            <div class="grid md:grid-cols-3 gap-6">
+                                {
+                                    processSteps.map((step, index) => (
+                                        <div class="bg-surface border border-border rounded-panel p-8">
+                                            <p class="text-brand font-black mb-3">
+                                                0{index + 1}
+                                            </p>
+                                            <h3 class="text-2xl font-black mb-3">
+                                                {step.title}
+                                            </h3>
+                                            <p class="text-text-muted leading-relaxed">
+                                                {step.description}
+                                            </p>
+                                        </div>
+                                    ))
+                                }
+                            </div>
+                        </div>
+                    </section>
+                )
+        }
+
+        {
+            faqTitle &&
+                faqItems.length > 0 && (
+                    <section class="py-24 px-6 md:px-12 bg-white">
+                        <div class="max-w-5xl mx-auto space-y-10">
+                            <h2 class="text-4xl md:text-5xl font-black text-center tracking-tight">
+                                {faqTitle}
+                            </h2>
+                            <div class="space-y-4">
+                                {
+                                    faqItems.map((item) => (
+                                        <details class="bg-surface border border-border rounded-panel p-6 group">
+                                            <summary class="font-bold text-lg cursor-pointer list-none flex justify-between items-center">
+                                                {item.q}
+                                                <span class="text-brand group-open:rotate-45 transition">
+                                                    +
+                                                </span>
+                                            </summary>
+                                            <p class="text-text-muted mt-3 leading-relaxed">
+                                                {item.a}
+                                            </p>
+                                        </details>
+                                    ))
+                                }
+                            </div>
+                        </div>
+                    </section>
+                )
+        }
 
         {/* --- CTA FINAL --- */}
-        <section class="py-24 px-6 bg-brand-light">
-            <div
-                class="max-w-5xl mx-auto bg-text-primary text-white text-center rounded-3xl p-12 md:p-20 space-y-8"
-            >
-                <h2 class="text-4xl md:text-5xl font-black">
-                    Passez à une vraie solution cuisine
-                </h2>
+        {
+            ctaTitle &&
+                ctaDescription &&
+                ctaButtonLabel &&
+                ctaButtonHref && (
+                    <section class="py-24 px-6 bg-brand-light">
+                        <div
+                            class="max-w-5xl mx-auto bg-text-primary text-white text-center rounded-3xl p-12 md:p-20 space-y-8"
+                        >
+                            <h2 class="text-4xl md:text-5xl font-black">
+                                {ctaTitle}
+                            </h2>
 
-                <p class="text-gray-300 text-lg">
-                    Vos recettes méritent mieux qu’un outil générique.
-                </p>
+                            <p class="text-gray-300 text-lg">
+                                {ctaDescription}
+                            </p>
 
-                <a
-                    href="/signup"
-                    class="inline-block px-10 py-5 bg-brand text-white font-black rounded-pill hover:scale-105 transition shadow-2xl"
-                >
-                    Essayer gratuitement
-                </a>
-            </div>
-        </section>
+                            <a
+                                href={ctaButtonHref}
+                                class="inline-block px-10 py-5 bg-brand text-white font-black rounded-pill hover:scale-105 transition shadow-2xl"
+                            >
+                                {ctaButtonLabel}
+                            </a>
+                        </div>
+                    </section>
+                )
+        }
     </div>
 </Layout>

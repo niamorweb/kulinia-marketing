@@ -1,0 +1,9 @@
+---
+import data from "../../assets/data/lang/it.json";
+import CguTemplate from "../../templates/CguTemplate.astro";
+
+const { LegalPage } = data;
+const locale = "it";
+---
+
+<CguTemplate locale={locale} contentData={LegalPage} />

@@ -166,6 +166,41 @@
       "title": "Start your collection today",
       "description": "Access to the digital book is free. You only pay if you decide to print or export your book.",
       "button": "Create my account for free"
+    },
+    "specs": [
+      {
+        "title": "Premium Paper",
+        "description": "170g satin paper, resistant to kitchen handling and light stains.",
+        "icon": "paper"
+      },
+      {
+        "title": "Hardback Cover",
+        "description": "Soft-touch matte finish for an elegant feel and long-lasting protection.",
+        "icon": "book"
+      },
+      {
+        "title": "Lay-Flat Opening",
+        "description": "A binding designed to stay open on your countertop while you cook.",
+        "icon": "flat"
+      },
+      {
+        "title": "Ideal A5 Format",
+        "description": "The perfect size: large enough for comfortable reading, compact enough not to clutter.",
+        "icon": "size"
+      }
+    ],
+    "howItWorks": {
+      "title": "How it works",
+      "description": "In just a few simple steps, turn your recipes into a real printed cookbook."
+    },
+    "gift": {
+      "title": "The perfect gift for your loved ones",
+      "description": "Pass on your family's culinary heritage. Ideal for moving out, weddings, or the holidays.",
+      "points": [
+        "Full personalization",
+        "Photo print quality",
+        "Fast 5-day delivery"
+      ]
     }
   },
   "PhysicalBookPage": {
@@ -286,6 +321,7 @@
       }
     ],
     "notFound": "Didn't find the answer to your question?",
+    "supportDescription": "Our team is here to help you quickly.",
     "contact": "Contact our support"
   },
   "NotFoundPage": {
@@ -605,6 +641,19 @@
       "title": "Why Kulinia is the best choice for your recipes",
       "description": "Compare our cooking-first approach with other general solutions."
     },
+    "heroCtas": {
+      "primary": "Create my cookbook",
+      "secondary": "Explore comparisons"
+    },
+    "seo": {
+      "keywords": "recipe book comparison, cookidoo alternative, photobox alternative, create cookbook online"
+    },
+    "trustBar": [
+      "No mandatory subscription",
+      "AI import from paper recipes",
+      "Premium printed cookbook in days"
+    ],
+    "featuresTitle": "An experience designed for speed and clarity",
     "features": [
       {
         "title": "Designed for cooking",
@@ -623,15 +672,112 @@
         "description": "Receive a stylish cookbook ready to gift and keep."
       }
     ],
+    "process": {
+      "eyebrow": "How it works",
+      "title": "3 steps from scattered notes to a polished cookbook",
+      "steps": [
+        {
+          "title": "Import",
+          "description": "Add recipes from photos, websites, or manual input in minutes."
+        },
+        {
+          "title": "Structure",
+          "description": "Kulinia formats ingredients, steps, and layout automatically."
+        },
+        {
+          "title": "Share or print",
+          "description": "Send a link to family or order a premium physical book."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I try it before paying?",
+          "a": "Yes. Your digital cookbook is free to build. You only pay for PDF export or physical printing."
+        },
+        {
+          "q": "Do I keep ownership of my recipes?",
+          "a": "Yes. Your recipes remain yours at all times. Kulinia helps you organize and publish them."
+        },
+        {
+          "q": "Is it easy for non-technical users?",
+          "a": "Absolutely. The interface is designed to be simple, guided, and fast to use."
+        }
+      ]
+    },
+    "cardCtaLabel": "View comparison",
     "cta": {
       "button": "Create my book",
-      "description": "Try Kulinia for free and feel the difference."
+      "description": "Try Kulinia for free and feel the difference.",
+      "title": "Switch to a true cooking solution"
+    },
+    "comparisons": [
+      {
+        "slug": "gelato",
+        "name": "Gelato",
+        "description": "While Gelato is a print-on-demand giant, it lacks the essentials for a cook: software intelligence."
+      },
+      {
+        "slug": "canvas",
+        "name": "Canvas",
+        "description": "Canvas offers photo books; we create tools for culinary heritage."
+      },
+      {
+        "slug": "photobox",
+        "name": "Photobox",
+        "description": "Photobox excels at holiday photo albums, but turning your kitchen scribbles into digital text isn't their job. It's ours."
+      },
+      {
+        "slug": "vistaprint",
+        "name": "Vistaprint",
+        "description": "Vistaprint is a professional marketing tool. For a recipe book, it's a jackhammer when you need a chef's knife."
+      },
+      {
+        "slug": "blurb",
+        "name": "Blurb",
+        "description": "Blurb targets self-publishers. If you just want a clean, smart, easy-to-fill book, MonCarnet is for you."
+      },
+      {
+        "slug": "mytaste",
+        "name": "MyTaste",
+        "description": "Storing internet links is fine, owning your own recipes and being able to print them in a prestige book is better."
+      },
+      {
+        "slug": "cookidoo",
+        "name": "Cookidoo",
+        "description": "Cookidoo imposes its recipes on you. Kulinia lets you showcase your own, your grandmother's, and your friends'."
+      },
+      {
+        "slug": "manuellement",
+        "name": "Manually (Paper Notebook)",
+        "description": "The charm of paper is undeniable, but the loss of a unique recipe is irreversible. Combine the best of both worlds."
+      }
+    ],
+    "whyChooseUs": {
+      "title": "Why choose Kulinia?",
+      "advantages": [
+        {
+          "title": "Designed for cooking",
+          "description": "Unlike generic tools, everything is designed around your recipes."
+        },
+        {
+          "title": "Built-in AI",
+          "description": "Scan, OCR, and automatic organization for your recipes."
+        },
+        {
+          "title": "Physical book",
+          "description": "Turn your digital recipes into a real printed book."
+        }
+      ]
     }
   },
   "LegalPage": {
     "hero": {
       "title": "Terms of Use",
-      "description": "The rules that govern the use of Kulinia."
+      "description": "The rules that govern the use of Kulinia.",
+      "backButton": "Back to homepage"
     },
     "sections": [
       {
@@ -674,6 +820,7 @@
         "title": "4. Your rights",
         "content": "You can request access, correction, deletion, or portability of your data at contact@kulinia.com."
       }
-    ]
+    ],
+    "backButton": "Back to homepage"
   }
 }

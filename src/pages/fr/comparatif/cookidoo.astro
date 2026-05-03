@@ -4,6 +4,7 @@ import Layout from "../../../layouts/Layout.astro";
 import Template from "../../../components/compare-pages/Template.astro";
 
 const currentComparisonData = dataFromJson.competitors.cookidoo;
+const locale = "fr";
 ---
 
 <Layout
@@ -11,7 +12,7 @@ const currentComparisonData = dataFromJson.competitors.cookidoo;
   description={currentComparisonData.meta_desc}
   image="/og-image-compare.jpg"
   url="https://www.kulinia.com/compare"
->
+ locale={locale}>
   <Fragment slot="head">
     <meta
       name="keywords"
@@ -19,5 +20,5 @@ const currentComparisonData = dataFromJson.competitors.cookidoo;
     />
   </Fragment>
 
-  <Template contentData={currentComparisonData} />
+  <Template locale={locale} contentData={currentComparisonData} />
 </Layout>

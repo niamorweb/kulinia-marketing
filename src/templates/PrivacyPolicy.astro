@@ -1,10 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-const { contentData } = Astro.props;
+const { contentData, locale = "fr" } = Astro.props;
 ---
 
-<Layout>
+<Layout locale={locale}>
     <main class="max-w-3xl mx-auto px-6 pt-32 pb-24 md:px-8">
         <nav class="flex items-center mb-6">
             <a

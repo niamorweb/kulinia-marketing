@@ -1,0 +1,9 @@
+---
+import dataFromJson from "../../assets/data/lang/es.json";
+import BookPhysicalAndDigital from "../../templates/BookPhysicalAndDigital.astro";
+
+const { PhysicalBookPage } = dataFromJson;
+const locale = "es";
+---
+
+<BookPhysicalAndDigital locale={locale} contentData={PhysicalBookPage} />

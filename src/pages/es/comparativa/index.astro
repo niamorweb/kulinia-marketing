@@ -1,0 +1,43 @@
+---
+import ComparisonIndexPage from "../../../templates/ComparisonIndexPage.astro";
+import dataFromJson from "../../../assets/data/lang/es.json";
+
+const { ComparisonRootPage } = dataFromJson;
+const comparisons = ComparisonRootPage.comparisons.map((item) => ({
+  ...item,
+  slug: item.slug === "mytaste" ? "lulu" : item.slug === "manuellement" ? "manualmente" : item.slug,
+}));
+const locale = "es";
+---
+
+<ComparisonIndexPage
+  locale={locale}
+  title={ComparisonRootPage.hero.title}
+  description={ComparisonRootPage.hero.description}
+  url="https://www.kulinia.com/es/comparativa"
+  heroTitle={ComparisonRootPage.hero.title}
+  heroDescription={ComparisonRootPage.hero.description}
+  primaryCtaLabel={ComparisonRootPage.heroCtas.primary}
+  primaryCtaHref="/signup"
+  secondaryCtaLabel={ComparisonRootPage.heroCtas.secondary}
+  secondaryCtaHref="#comparisons-grid"
+  trustItems={ComparisonRootPage.trustBar}
+  seoKeywords={ComparisonRootPage.seo.keywords}
+  comparisons={comparisons}
+  comparisonBasePath="/es/comparativa"
+  cardCtaLabel={ComparisonRootPage.cardCtaLabel}
+  showCardFooter={true}
+  benefitsTitle={ComparisonRootPage.featuresTitle}
+  benefitsItems={ComparisonRootPage.features}
+  processEyebrow={ComparisonRootPage.process.eyebrow}
+  processTitle={ComparisonRootPage.process.title}
+  processSteps={ComparisonRootPage.process.steps}
+  whyTitle={ComparisonRootPage.whyChooseUs.title}
+  whyItems={ComparisonRootPage.whyChooseUs.advantages}
+  faqTitle={ComparisonRootPage.faq.title}
+  faqItems={ComparisonRootPage.faq.items}
+  ctaTitle={ComparisonRootPage.cta.title}
+  ctaDescription={ComparisonRootPage.cta.description}
+  ctaButtonLabel={ComparisonRootPage.cta.button}
+  ctaButtonHref="/signup"
+/>

@@ -1,5 +1,4 @@
 ---
-// src/components/ComparisonLayout.astro
 const { contentData } = Astro.props;
 ---
 
@@ -10,8 +9,10 @@ const { contentData } = Astro.props;
     <title>{contentData.meta_title}</title>
     <meta name="description" content={contentData.meta_desc} />
   </head>
+
   <body class="bg-surface font-sans text-text-primary">
-    <main class="max-w-4xl mx-auto py-12 px-6">
+    <main class="max-w-3xl mx-auto py-12 px-6">
+      <!-- HERO -->
       <header class="mb-12">
         <h1 class="text-4xl md:text-6xl font-black tracking-tight mb-6">
           {contentData.hero_title}
@@ -21,32 +22,69 @@ const { contentData } = Astro.props;
         </p>
       </header>
 
-      <div class="grid md:grid-cols-2 gap-8">
+      <!-- ARTICLE CONTENT -->
+      <article
+        class="prose prose-lg max-w-none text-text-muted prose-headings:font-bold prose-a:text-orange-600"
+      >
+        {
+          contentData.sections.map((section: any) => (
+            <section class="mb-10">
+              {section.title && (
+                <h2 class="text-2xl md:text-3xl font-bold text-text-primary mb-4">
+                  {section.title}
+                </h2>
+              )}
+
+              {section.paragraphs?.map((p: string) => (
+                <p class="mb-4 leading-relaxed">{p}</p>
+              ))}
+
+              {section.list && (
+                <ul class="list-disc pl-6 space-y-2">
+                  {section.list.map((item: string) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              )}
+            </section>
+          ))
+        }
+      </article>
+
+      <!-- PROS / CONS -->
+      <div class="grid md:grid-cols-2 gap-8 mt-16">
         <div class="bg-green-50 p-8 rounded-2xl border border-green-100">
           <h2 class="text-xl font-bold text-green-900 mb-4">
-            {contentData.common?.why_choose_us ?? "Pourquoi nous choisir ?"}
+            {contentData.common?.why_choose_us ?? "Pourquoi choisir Kulinia ?"}
           </h2>
           <ul class="space-y-3">
-            {contentData.pros.map((pro : string) => (
-              <li class="flex gap-2 items-start text-green-800">
-                <span class="text-green-600 font-bold">✓</span>
-                {pro}
-              </li>
-            ))}
+            {
+              contentData.pros.map((pro: string) => (
+                <li class="flex gap-2 text-green-800">
+                  <span class="text-green-600 font-bold">✓</span>
+                  {pro}
+                </li>
+              ))
+            }
           </ul>
         </div>
 
         <div class="bg-red-50 p-8 rounded-2xl border border-red-100">
           <h2 class="text-xl font-bold text-red-900 mb-4">
-            {contentData.common?.limitations_title ?? "Les limites de {competitor}"}
+            {
+              contentData.common?.limitations_title ??
+                `Les limites de ${contentData.competitor}`
+            }
           </h2>
           <ul class="space-y-3">
-            {contentData.cons.map((con : string) => (
-              <li class="flex gap-2 items-start text-red-800">
-                <span class="text-red-500 font-bold">✕</span>
-                {con}
-              </li>
-            ))}
+            {
+              contentData.cons.map((con: string) => (
+                <li class="flex gap-2 text-red-800">
+                  <span class="text-red-500 font-bold">✕</span>
+                  {con}
+                </li>
+              ))
+            }
           </ul>
         </div>
       </div>

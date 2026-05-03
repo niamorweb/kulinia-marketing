@@ -4,6 +4,7 @@ import dataFromJson from "../../assets/data/lang/fr.json";
 import BookPhysicalAndDigital from "../../templates/BookPhysicalAndDigital.astro";
 
 const { DigitalBookPage } = dataFromJson;
+const locale = "fr";
 ---
 
 <!-- <Layout
@@ -11,7 +12,7 @@ const { DigitalBookPage } = dataFromJson;
   description="Créez votre livre de recettes numérique personnalisé. Importez vos recettes en photo, organisez-les et accédez-y depuis n'importe où."
   image="/og-image-digital-book.jpg"
   url="https://www.kulinia.com/livre-numerique"
->
+ locale={locale}>
   <Fragment slot="head">
     <meta
       name="keywords"
@@ -244,4 +245,4 @@ const { DigitalBookPage } = dataFromJson;
     </main>
   </div>
 </Layout> -->
-<BookPhysicalAndDigital contentData={DigitalBookPage} />
+<BookPhysicalAndDigital locale={locale} contentData={DigitalBookPage} />

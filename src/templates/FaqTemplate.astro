@@ -1,13 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-const { contentData } = Astro.props;
+const { contentData, locale = "fr" } = Astro.props;
 ---
 
 <Layout
     title="FAQ | Kulinia"
     description={contentData.description}
     url="https://www.kulinia.com/faq"
+    locale={locale}
 >
     <div class="min-h-screen bg-surface text-text-primary font-sans">
         {/* --- HERO --- */}
@@ -109,16 +110,16 @@ const { contentData } = Astro.props;
         <section class="py-24 px-6 bg-white text-center">
             <div class="max-w-3xl mx-auto space-y-6">
                 <h2 class="text-3xl md:text-4xl font-black">
-                    Vous n'avez pas trouvé votre réponse ?
+                    {contentData.notFound}
                 </h2>
                 <p class="text-text-secondary">
-                    Notre équipe est là pour vous aider rapidement.
+                    {contentData.supportDescription}
                 </p>
                 <a
                     href="/contact"
                     class="inline-block px-10 py-5 bg-brand text-white font-bold rounded-pill hover:bg-brand-hover transition shadow-xl"
                 >
-                    Contacter le support
+                    {contentData.contact}
                 </a>
             </div>
         </section>

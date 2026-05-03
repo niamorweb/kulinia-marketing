@@ -89,36 +89,36 @@
         },
         {
           "name": "manual",
-          "label": "Fait main",
+          "label": "Manual",
           "href": "/en/compare/manually"
         }
       ]
     },
     {
       "name": "legal",
-      "label": "Légal",
+      "label": "Legal",
       "links": [
         {
-          "label": "Mentions légales",
+          "label": "Legal notice",
           "href": "/en/terms"
         },
         {
-          "label": "Politique de confidentialité",
+          "label": "Privacy policy",
           "href": "/en/privacy-policy"
         },
         {
-          "label": "Conditions d'utilisation",
+          "label": "Terms of use",
           "href": "/en/terms"
         }
       ]
     }
   ],
   "login": {
-    "label": "Se connecter",
+    "label": "Log in",
     "href": "/connexion"
   },
   "signup": {
-    "label": "Commencer gratuitement",
+    "label": "Start for free",
     "href": "/inscription"
   }
 }

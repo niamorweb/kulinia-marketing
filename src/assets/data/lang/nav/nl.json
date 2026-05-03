@@ -89,36 +89,36 @@
         },
         {
           "name": "manual",
-          "label": "Fait main",
+          "label": "Handmatig",
           "href": "/nl/vergelijking/handmatig"
         }
       ]
     },
     {
       "name": "legal",
-      "label": "Légal",
+      "label": "Juridisch",
       "links": [
         {
-          "label": "Mentions légales",
+          "label": "Juridische kennisgeving",
           "href": "/nl/voorwaarden"
         },
         {
-          "label": "Politique de confidentialité",
+          "label": "Privacybeleid",
           "href": "/nl/gegevensbescherming"
         },
         {
-          "label": "Conditions d'utilisation",
+          "label": "Gebruiksvoorwaarden",
           "href": "/nl/voorwaarden"
         }
       ]
     }
   ],
   "login": {
-    "label": "Se connecter",
+    "label": "Inloggen",
     "href": "/connexion"
   },
   "signup": {
-    "label": "Commencer gratuitement",
+    "label": "Gratis starten",
     "href": "/inscription"
   }
 }

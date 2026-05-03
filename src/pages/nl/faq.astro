@@ -1,0 +1,7 @@
+---
+import dataFromJson from "../../assets/data/lang/nl.json";
+import FaqTemplate from "../../templates/FaqTemplate.astro";
+const { FAQPage } = dataFromJson;
+const locale = "nl";
+---
+<FaqTemplate locale={locale} contentData={FAQPage} />

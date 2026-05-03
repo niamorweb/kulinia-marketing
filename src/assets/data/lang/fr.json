@@ -228,6 +228,10 @@
         "icon": "size"
       }
     ],
+    "howItWorks": {
+      "title": "Comment ça fonctionne",
+      "description": "En quelques étapes simples, transformez vos recettes en un véritable livre de cuisine imprimé."
+    },
     "gift": {
       "title": "Le cadeau parfait pour vos proches",
       "description": "Transmettez le patrimoine culinaire de votre famille. Idéal pour un départ en appartement, un mariage ou les fêtes de fin d'année.",
@@ -317,6 +321,7 @@
       }
     ],
     "notFound": "Vous n'avez pas trouvé la réponse à votre question ?",
+    "supportDescription": "Notre équipe est là pour vous aider rapidement.",
     "contact": "Contactez notre support"
   },
   "NotFoundPage": {
@@ -636,6 +641,19 @@
       "title": "Pourquoi Kulinia est la meilleure solution pour vos recettes",
       "description": "Comparez notre approche dédiée à la création de livres de recettes avec les alternatives générales."
     },
+    "heroCtas": {
+      "primary": "Créer mon livre",
+      "secondary": "Voir les comparatifs"
+    },
+    "seo": {
+      "keywords": "comparatif livre de recettes, alternative cookidoo, alternative photobox, création livre cuisine"
+    },
+    "trustBar": [
+      "Aucun abonnement obligatoire",
+      "Import IA de vos recettes papier",
+      "Livre premium imprimé en quelques jours"
+    ],
+    "featuresTitle": "Une UX pensée pour aller de l'idée au livre",
     "features": [
       {
         "title": "Application pensée pour la cuisine",
@@ -654,69 +672,105 @@
         "description": "Recevez un carnet de recettes design, prêt à offrir et à conserver."
       }
     ],
+    "process": {
+      "eyebrow": "Comment ça marche",
+      "title": "3 étapes pour passer d'un brouillon à un livre prêt à offrir",
+      "steps": [
+        {
+          "title": "Importez",
+          "description": "Ajoutez vos recettes depuis une photo, un site web ou votre clavier en quelques minutes."
+        },
+        {
+          "title": "Structurez",
+          "description": "Kulinia organise automatiquement les ingrédients, les étapes et la mise en page."
+        },
+        {
+          "title": "Partagez ou imprimez",
+          "description": "Envoyez un lien à vos proches ou commandez un livre physique prêt à transmettre."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes avant de choisir",
+      "items": [
+        {
+          "q": "Puis-je tester gratuitement avant d'imprimer ?",
+          "a": "Oui. La création de votre livre numérique est gratuite. Vous payez uniquement l'impression ou l'export PDF."
+        },
+        {
+          "q": "Mes recettes restent-elles ma propriété ?",
+          "a": "Oui, vos contenus vous appartiennent. Kulinia sert uniquement à les organiser, les sécuriser et les mettre en forme."
+        },
+        {
+          "q": "Est-ce adapté si je ne suis pas à l'aise avec la technique ?",
+          "a": "Oui. L'interface est conçue pour être simple et guidée, même pour un premier projet."
+        }
+      ]
+    },
+    "cardCtaLabel": "Voir le comparatif",
     "comparisons": [
       {
         "slug": "gelato",
         "name": "Gelato",
-        "description": "Un géant de l’impression à la demande, mais pas conçu pour les recettes.",
+        "description": "Un géant de l’impression à la demande, mais pas conçu pour les recettes."
       },
       {
         "slug": "canvas",
         "name": "Canvas",
-        "description": "Un outil créatif généraliste, mais pas pensé pour structurer des recettes.",
+        "description": "Un outil créatif généraliste, mais pas pensé pour structurer des recettes."
       },
       {
         "slug": "photobox",
         "name": "Photobox",
-        "description": "Idéal pour les photos, mais limité pour la création de livres culinaires.",
+        "description": "Idéal pour les photos, mais limité pour la création de livres culinaires."
       },
       {
         "slug": "vistaprint",
         "name": "Vistaprint",
-        "description": "Puissant pour le marketing, mais trop complexe pour un livre de cuisine.",
+        "description": "Puissant pour le marketing, mais trop complexe pour un livre de cuisine."
       },
       {
         "slug": "blurb",
         "name": "Blurb",
-        "description": "Un outil d’auto-édition complet, mais difficile pour un usage simple.",
+        "description": "Un outil d’auto-édition complet, mais difficile pour un usage simple."
       },
       {
         "slug": "mytaste",
         "name": "MyTaste",
-        "description": "Un agrégateur de recettes, pas un véritable outil de création de livre.",
+        "description": "Un agrégateur de recettes, pas un véritable outil de création de livre."
       },
       {
         "slug": "cookidoo",
         "name": "Cookidoo",
-        "description": "Un écosystème fermé, alors que Kulinia vous laisse totalement libre.",
+        "description": "Un écosystème fermé, alors que Kulinia vous laisse totalement libre."
       },
       {
         "slug": "manuellement",
         "name": "Cahier papier",
-        "description": "Le charme du papier, mais sans sauvegarde ni organisation intelligente.",
-      },
+        "description": "Le charme du papier, mais sans sauvegarde ni organisation intelligente."
+      }
     ],
     "whyChooseUs": {
       "title": "Pourquoi Kulinia ?",
       "advantages": [
         {
           "title": "Conçu pour la cuisine",
-          "description": "Contrairement aux outils généralistes, tout est pensé pour vos recettes.",
+          "description": "Contrairement aux outils généralistes, tout est pensé pour vos recettes."
         },
         {
           "title": "IA intégrée",
-          "description": "Scan, OCR et organisation automatique de vos recettes.",
+          "description": "Scan, OCR et organisation automatique de vos recettes."
         },
         {
           "title": "Livre physique",
-          "description": "Transformez vos recettes numériques en un vrai livre imprimé.",
+          "description": "Transformez vos recettes numériques en un vrai livre imprimé."
         }
       ]
     },
     "cta": {
       "title": "Passez à une vraie solution cuisine",
       "description": "Vos recettes méritent mieux qu’un outil générique.",
-      "button": "Créer mon livre",
+      "button": "Créer mon livre"
     }
   },
   "LegalPage": {

@@ -1,0 +1,6 @@
+---
+import contentData from "../../assets/data/lang/homepage/nl.json";
+import HomePage from "../../templates/HomePage.astro";
+const locale = "nl";
+---
+<HomePage locale={locale} title={contentData.seo.title} description={contentData.seo.description} image="https://www.kulinia.com/og-image.jpg" url={`https://www.kulinia.com/nl/`} locale="nl" contentData={contentData} />

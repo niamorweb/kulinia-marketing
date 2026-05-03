@@ -1,0 +1,17 @@
+---
+import dataFromJson from "../../../assets/data/lang/compare/nl.json";
+import Layout from "../../../layouts/Layout.astro";
+import Template from "../../../components/compare-pages/Template.astro";
+
+const contentData = dataFromJson.competitors.lulu;
+const locale = "nl";
+---
+
+<Layout
+    title={contentData.meta_title}
+    description={contentData.meta_desc}
+    image="/og-image-compare.jpg"
+    url="https://www.kulinia.com/nl/vergelijking/lulu"
+    locale={locale}
+    ><Template locale={locale} contentData={contentData} /></Layout
+>

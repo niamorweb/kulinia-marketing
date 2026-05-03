@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
+const { locale = "fr", contentData = null } = Astro.props;
+
 const plans = [
     {
         name: "Essentiel",
@@ -48,6 +50,7 @@ const plans = [
     title="Nos tarifs | Livre de recettes personnalisé"
     description="Choisissez l’offre qui vous convient pour créer votre livre de recettes personnalisé et imprimé."
     url="https://www.kulinia.com/prix"
+    locale={locale}
 >
     <div class="min-h-screen bg-surface text-text-primary font-sans">
         {/* --- HERO --- */}

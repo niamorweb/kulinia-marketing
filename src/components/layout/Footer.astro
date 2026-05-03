@@ -1,113 +1,129 @@
 ---
-
 const { locale = "fr" } = Astro.props;
+const supportedLocales = ["fr", "en", "de", "es", "it", "nl"] as const;
+const localeFromPath = Astro.url.pathname.split("/")[1];
+const resolvedLocale = (
+  supportedLocales.includes(locale as any)
+    ? locale
+    : supportedLocales.includes(localeFromPath as any)
+      ? localeFromPath
+      : "fr"
+) as (typeof supportedLocales)[number];
 
-const footerData = await import(`../../assets/data/lang/nav/${locale}.json`);
+const footerData = await import(
+  `../../assets/data/lang/nav/${resolvedLocale}.json`
+);
 const { footerLinks } = footerData.default;
 
-const competitors = [
-  "gelato",
-  "canvas",
-  "photobox",
-  "vistaprint",
-  "blurb",
-  "cookidoo",
-  "manuellement",
-];
-
-const FOOTER_LINKS = [
-  {
-    title: "Produit",
-    links: [
-      { label: "Créer un compte", href: "/signup" },
-      { label: "Se connecter", href: "/login" },
-    ],
-  },
-  {
-    title: "Comparatifs",
-    links: competitors.map((id) => ({
-      label: `vs ${id.charAt(0).toUpperCase() + id.slice(1)}`,
-      href: `/compare/${id}`,
-    })),
-  },
-  {
-    title: "Légal",
-    links: [
-      { label: "CGU", href: "/cgu" },
-      { label: "Politique de confidentialité", href: "/politique-de-confidentialite" },
-    ],
-  },
-];
-
 const year = new Date().getFullYear();
+const footerDescriptionByLocale = {
+  fr: "Votre livre de recettes numérique et imprimé.",
+  en: "Your digital and printed recipe book.",
+  de: "Dein digitales und gedrucktes Rezeptbuch.",
+  es: "Tu libro de recetas digital e impreso.",
+  it: "Il tuo ricettario digitale e stampato.",
+  nl: "Jouw digitale en gedrukte receptenboek.",
+};
+const languageLabelByLocale = {
+  fr: "Langue:",
+  en: "Language:",
+  de: "Sprache:",
+  es: "Idioma:",
+  it: "Lingua:",
+  nl: "Taal:",
+};
+const localeKey = (
+  resolvedLocale in footerDescriptionByLocale ? resolvedLocale : "fr"
+) as keyof typeof footerDescriptionByLocale;
 ---
 
 <footer class="border-t border-border py-16 px-6 md:px-12 bg-surface">
-  <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">
-
+  <div
+    class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12"
+  >
     <!-- Logo & Description -->
     <div class="md:w-1/4 space-y-4">
       <div class="flex items-center gap-2 font-bold text-lg">
-        <div class="w-8 h-8 text-brand-muted bg-brand rounded-lg flex items-center justify-center">
+        <div
+          class="w-8 h-8 text-brand-muted bg-brand rounded-lg flex items-center justify-center"
+        >
           <!-- SVG logo -->
-           <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-        </svg>
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+            ></path>
+          </svg>
         </div>
         <span>Kulinia.</span>
       </div>
 
       <p class="text-text-muted text-sm">
-        Votre livre de recettes numérique et imprimé.
+        {footerDescriptionByLocale[localeKey]}
       </p>
     </div>
 
     <!-- Links -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 md:w-3/4 md:justify-items-end">
-      {footerLinks.map((col) => (
-        <div class="space-y-4">
-          <h3 class="font-bold text-text-primary text-sm uppercase tracking-wider">
-            {col.label}
-          </h3>
+    <div
+      class="grid grid-cols-2 sm:grid-cols-3 gap-8 md:w-3/4 md:justify-items-end"
+    >
+      {
+        footerLinks.map((col: any) => (
+          <div class="space-y-4">
+            <h3 class="font-bold text-text-primary text-sm uppercase tracking-wider">
+              {col.label}
+            </h3>
 
-          <ul class="space-y-3 text-sm text-text-muted">
-            {col.links.map((link) => (
-              <li>
-                <a
-                  href={link.href}
-                  class="hover:text-brand transition-colors whitespace-nowrap"
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+            <ul class="space-y-3 text-sm text-text-muted">
+              {col.links.map((link: any) => (
+                <li>
+                  <a
+                    href={link.href}
+                    class="hover:text-brand transition-colors whitespace-nowrap"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
     </div>
   </div>
 
   <!-- Bottom bar -->
-  <div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-border/50 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-text-faint">
-
+  <div
+    class="max-w-7xl mx-auto mt-16 pt-8 border-t border-border/50 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-text-faint"
+  >
     <p>© {year} Kulinia.</p>
 
     <!-- Language Selector -->
     <div class="flex items-center gap-2">
-      <span class="text-text-muted text-sm">Langue:</span>
-      <select 
+      <label for="language-selector" class="text-text-muted text-sm">
+        {languageLabelByLocale[localeKey]}
+      </label>
+      <select
+        id="language-selector"
         onchange="window.location.href = `/${this.value}/`"
+        aria-label={languageLabelByLocale[localeKey] ?? "Language selector"}
         class="bg-surface border border-border rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-brand/50"
       >
-        <option value="fr" selected={locale === 'fr'}>Français</option>
-        <option value="en" selected={locale === 'en'}>English</option>
-        <option value="de" selected={locale === 'de'}>Deutsch</option>
-        <option value="es" selected={locale === 'es'}>Español</option>
-        <option value="it" selected={locale === 'it'}>Italiano</option>
-        <option value="nl" selected={locale === 'nl'}>Nederlands</option>
+        <option value="fr" selected={resolvedLocale === "fr"}>Français</option>
+        <option value="en" selected={resolvedLocale === "en"}>English</option>
+        <option value="de" selected={resolvedLocale === "de"}>Deutsch</option>
+        <option value="es" selected={resolvedLocale === "es"}>Español</option>
+        <option value="it" selected={resolvedLocale === "it"}>Italiano</option>
+        <option value="nl" selected={resolvedLocale === "nl"}>Nederlands</option
+        >
       </select>
     </div>
-
   </div>
 </footer>

@@ -1,0 +1,7 @@
+---
+import Princing from "../../templates/Princing.astro";
+import dataFromJson from "../../assets/data/lang/de.json";
+const locale = "de";
+const { PricingPage } = dataFromJson;
+---
+<Princing locale={locale} contentData={PricingPage} />

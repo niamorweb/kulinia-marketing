@@ -166,6 +166,41 @@
       "title": "Beginne heute deine Sammlung",
       "description": "Der Zugriff auf das digitale Notizbuch ist kostenlos. Du zahlst nur, wenn du dich entscheidest, dein Buch zu drucken oder zu exportieren.",
       "button": "Kostenlos Konto erstellen"
+    },
+    "specs": [
+      {
+        "title": "Premium-Papier",
+        "description": "170g satiniertes Papier, widerstandsfähig gegen Küchenhandhabung und leichte Flecken.",
+        "icon": "paper"
+      },
+      {
+        "title": "Hardcover",
+        "description": "Mattes Soft-Touch-Finish für eine elegante Haptik und dauerhaften Schutz.",
+        "icon": "book"
+      },
+      {
+        "title": "Flachliegende Öffnung",
+        "description": "Eine Bindung, die so konzipiert ist, dass sie während des Kochens flach auf der Arbeitsplatte liegen bleibt.",
+        "icon": "flat"
+      },
+      {
+        "title": "Ideales A5-Format",
+        "description": "Das perfekte Format: groß genug für bequemes Lesen, kompakt genug, um nicht im Weg zu stehen.",
+        "icon": "size"
+      }
+    ],
+    "howItWorks": {
+      "title": "So funktioniert's",
+      "description": "In nur wenigen einfachen Schritten verwandelst du deine Rezepte in ein echtes gedrucktes Kochbuch."
+    },
+    "gift": {
+      "title": "Das perfekte Geschenk für deine Liebsten",
+      "description": "Gib das kulinarische Erbe deiner Familie weiter. Ideal für den Auszug in die erste Wohnung, eine Hochzeit oder die Feiertage.",
+      "points": [
+        "Vollständige Personalisierung",
+        "Fotodruck-Qualität",
+        "Schnelle Lieferung in 5 Tagen"
+      ]
     }
   },
   "PhysicalBookPage": {
@@ -286,6 +321,7 @@
       }
     ],
     "notFound": "Du hast keine Antwort auf deine Frage gefunden?",
+    "supportDescription": "Unser Team ist da, um dir schnell zu helfen.",
     "contact": "Kontaktiere unseren Support"
   },
   "NotFoundPage": {
@@ -605,6 +641,19 @@
       "title": "Warum Kulinia die beste Wahl für Ihre Rezepte ist",
       "description": "Vergleichen Sie unseren auf Küche ausgerichteten Ansatz mit anderen allgemeinen Lösungen."
     },
+    "heroCtas": {
+      "primary": "Mein Buch erstellen",
+      "secondary": "Vergleiche ansehen"
+    },
+    "seo": {
+      "keywords": "rezeptbuch vergleich, cookidoo alternative, photobox alternative, kochbuch erstellen"
+    },
+    "trustBar": [
+      "Kein Pflichtabonnement",
+      "KI-Import von Papier-Rezepten",
+      "Premium-Kochbuch in wenigen Tagen"
+    ],
+    "featuresTitle": "UX mit Fokus auf Klarheit und Conversion",
     "features": [
       {
         "title": "Für die Küche entwickelt",
@@ -623,15 +672,112 @@
         "description": "Erhalten Sie ein stilvolles Kochbuch, bereit zum Verschenken und Aufbewahren."
       }
     ],
+    "process": {
+      "eyebrow": "So funktioniert es",
+      "title": "3 Schritte vom Notizzettel zum fertigen Kochbuch",
+      "steps": [
+        {
+          "title": "Importieren",
+          "description": "Rezepte per Foto, URL oder manuelle Eingabe hinzufügen."
+        },
+        {
+          "title": "Strukturieren",
+          "description": "Kulinia formatiert Zutaten, Schritte und Layout automatisch."
+        },
+        {
+          "title": "Teilen oder drucken",
+          "description": "Per Link teilen oder ein hochwertiges Buch drucken lassen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "items": [
+        {
+          "q": "Kann ich kostenlos starten?",
+          "a": "Ja. Das digitale Kochbuch ist kostenlos. Bezahlt wird nur für PDF-Export oder Druck."
+        },
+        {
+          "q": "Bleiben meine Rezepte mein Eigentum?",
+          "a": "Ja. Sie behalten jederzeit die volle Kontrolle über Ihre Inhalte."
+        },
+        {
+          "q": "Ist die Nutzung einfach?",
+          "a": "Ja, die Oberfläche ist geführt, schnell und auch für Einsteiger geeignet."
+        }
+      ]
+    },
+    "cardCtaLabel": "Vergleich ansehen",
     "cta": {
       "button": "Mein Buch erstellen",
-      "description": "Probieren Sie Kulinia kostenlos und erleben Sie den Unterschied."
+      "description": "Probieren Sie Kulinia kostenlos und erleben Sie den Unterschied.",
+      "title": "Wechsle zu einer echten Kochlosung"
+    },
+    "comparisons": [
+      {
+        "slug": "gelato",
+        "name": "Gelato",
+        "description": "Gelato ist zwar ein Riese im Print-on-Demand, aber es fehlt das Wesentliche für einen Koch: Software-Intelligenz."
+      },
+      {
+        "slug": "canvas",
+        "name": "Canvas",
+        "description": "Canvas bietet Fotobücher an, wir erstellen Werkzeuge für das kulinarische Erbe."
+      },
+      {
+        "slug": "photobox",
+        "name": "Photobox",
+        "description": "Photobox glänzt bei Urlaubsfotos, aber deine Küchennotizen in digitalen Text zu verwandeln, ist nicht ihr Metier. Unseres schon."
+      },
+      {
+        "slug": "vistaprint",
+        "name": "Vistaprint",
+        "description": "Vistaprint ist ein professionelles Marketing-Tool. Für ein Kochbuch ist es ein Vorschlaghammer, wo du ein Chefmesser brauchst."
+      },
+      {
+        "slug": "blurb",
+        "name": "Blurb",
+        "description": "Blurb richtet sich an Self-Publisher. Wenn du einfach nur ein sauberes, intelligentes Buch willst, ist MonCarnet für dich."
+      },
+      {
+        "slug": "mytaste",
+        "name": "MyTaste",
+        "description": "Web-Links zu speichern ist gut, aber die eigenen Rezepte zu besitzen und sie in einem Premium-Buch drucken zu können, ist besser."
+      },
+      {
+        "slug": "cookidoo",
+        "name": "Cookidoo",
+        "description": "Cookidoo schreibt dir Rezepte vor. Kulinia lässt dich deine eigenen, die deiner Oma und die deiner Freunde veredeln."
+      },
+      {
+        "slug": "manuellement",
+        "name": "Manuell (Papier-Notizbuch)",
+        "description": "Der Charme von Papier ist unbestreitbar, aber der Verlust eines einzigartigen Rezepts ist unumkehrbar. Verbinde das Beste aus beiden Welten."
+      }
+    ],
+    "whyChooseUs": {
+      "title": "Warum Kulinia?",
+      "advantages": [
+        {
+          "title": "Fur die Kuche entwickelt",
+          "description": "Im Gegensatz zu allgemeinen Tools ist alles fur deine Rezepte gemacht."
+        },
+        {
+          "title": "Integrierte KI",
+          "description": "Scan, OCR und automatische Organisation deiner Rezepte."
+        },
+        {
+          "title": "Physisches Buch",
+          "description": "Verwandle deine digitalen Rezepte in ein echtes gedrucktes Buch."
+        }
+      ]
     }
   },
   "LegalPage": {
     "hero": {
       "title": "Nutzungsbedingungen",
-      "description": "Die Regeln für die Nutzung von Kulinia."
+      "description": "Die Regeln für die Nutzung von Kulinia.",
+      "backButton": "Zuruck zur Startseite"
     },
     "sections": [
       {
@@ -674,6 +820,7 @@
         "title": "4. Ihre Rechte",
         "content": "Sie können Zugang, Berichtigung, Löschung oder Datenübertragbarkeit unter contact@kulinia.com anfordern."
       }
-    ]
+    ],
+    "backButton": "Zuruck zur Startseite"
   }
 }

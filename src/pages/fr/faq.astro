@@ -3,6 +3,7 @@ import dataFromJson from "../../assets/data/lang/fr.json";
 import FaqTemplate from "../../templates/FaqTemplate.astro";
 
 const { FAQPage } = dataFromJson;
+const locale = "fr";
 ---
 
-<FaqTemplate contentData={FAQPage} />
+<FaqTemplate locale={locale} contentData={FAQPage} />

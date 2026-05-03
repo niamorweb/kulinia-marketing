@@ -1,0 +1,562 @@
+{
+    "common": {
+        "vs": "vs",
+        "our_brand": "Kulinia",
+        "cta_signup": "Prova gratuitamente",
+        "table_feature_label": "Funzionalità",
+        "why_choose_us": "Perché scegliere Kulinia?",
+        "limitations_title": "Limiti di {competitor}"
+    },
+    "competitors": {
+        "gelato": {
+            "name": "Gelato",
+            "meta_title": "Kulinia vs Gelato: quale strumento scegliere per creare un ricettario nel 2026?",
+            "meta_desc": "Confronto dettagliato tra Kulinia e Gelato. Scopri le principali differenze per creare, organizzare e stampare il tuo ricettario facilmente.",
+            "hero_title": "Kulinia vs Gelato",
+            "description": "Gelato è una potente soluzione di stampa. Ma è davvero adatta per creare ricettari? Ecco un’analisi completa.",
+            "competitor": "Gelato",
+            "sections": [
+                {
+                    "title": "Gelato: una soluzione di stampa potente ma generalista",
+                    "paragraphs": [
+                        "Gelato è oggi una delle piattaforme più conosciute nel settore della stampa on demand. Permette di produrre una grande varietà di prodotti: libri, poster, quaderni, tessili e oggetti personalizzati.",
+                        "Il suo principale vantaggio è la rete globale di tipografie, che riduce i tempi di consegna e ottimizza i costi logistici. Per e-commerce o marketing è uno strumento estremamente efficace.",
+                        "Tuttavia, questa versatilità è anche il suo limite principale. Gelato non è stato progettato per un bisogno specifico come la creazione di ricettari. È uno strumento di esecuzione, non di creazione."
+                    ]
+                },
+                {
+                    "title": "Creare un ricettario: un processo spesso sottovalutato",
+                    "paragraphs": [
+                        "Creare un ricettario è un processo molto più complesso di quanto sembri. A differenza di un semplice documento di testo, una ricetta richiede struttura chiara, gerarchia e impaginazione coerente.",
+                        "La maggior parte degli utenti parte da contenuti eterogenei: foto di ricette cartacee, appunti scritti a mano, screenshot o file sparsi.",
+                        "Prima ancora di pensare alla stampa, sono necessarie diverse fasi fondamentali."
+                    ],
+                    "list": [
+                        "Centralizzare tutte le ricette (cartacee, digitali, foto)",
+                        "Estrarre e strutturare le informazioni (ingredienti, passaggi, tempi)",
+                        "Uniformare l’impaginazione per un risultato professionale",
+                        "Organizzare le ricette in categorie coerenti"
+                    ]
+                },
+                {
+                    "title": "Perché Gelato mostra rapidamente i suoi limiti",
+                    "paragraphs": [
+                        "Su Gelato, tutta la fase di creazione è a carico dell’utente. La piattaforma presume che tu abbia già un file pronto per la stampa.",
+                        "Ciò significa gestire da soli layout, coerenza visiva e struttura dei contenuti. Per un ricettario è un lavoro importante.",
+                        "Inoltre, Gelato non offre funzionalità specifiche per la cucina: nessun formato ricetta, nessuna automazione, nessun supporto strutturale.",
+                        "Risultato: anche se la stampa è semplice, la fase iniziale diventa lunga e tecnica."
+                    ]
+                },
+                {
+                    "title": "Kulinia: un approccio centrato sulle ricette",
+                    "paragraphs": [
+                        "Kulinia adotta un approccio completamente diverso. Invece di partire dalla stampa, si concentra sulla creazione e organizzazione delle ricette.",
+                        "L’obiettivo è permettere a chiunque di trasformare le proprie ricette in un libro strutturato senza competenze tecniche.",
+                        "Grazie all’intelligenza artificiale, è possibile scansionare ricette cartacee ed estrarre automaticamente le informazioni.",
+                        "L’impaginazione viene poi generata automaticamente secondo gli standard di un ricettario."
+                    ]
+                },
+                {
+                    "title": "Un enorme risparmio di tempo",
+                    "paragraphs": [
+                        "Uno dei principali vantaggi di Kulinia è il risparmio di tempo.",
+                        "Si può passare da un quaderno cartaceo a un libro pronto alla stampa in pochi passaggi.",
+                        "L’utente si concentra sulle ricette, non sull’impaginazione."
+                    ]
+                },
+                {
+                    "title": "Confronto concreto",
+                    "paragraphs": [
+                        "La scelta dipende dal punto di partenza.",
+                        "Se hai già un file pronto, Gelato può essere adatto.",
+                        "Se parti da contenuti non strutturati, Kulinia è la soluzione migliore.",
+                        "Semplifica tutto il processo."
+                    ]
+                },
+                {
+                    "title": "Verdetto",
+                    "paragraphs": [
+                        "Gelato è ottimo per la stampa.",
+                        "Kulinia gestisce anche la creazione.",
+                        "Per un ricettario semplice e fluido, Kulinia è più adatto."
+                    ]
+                }
+            ],
+            "pros": [
+                "Scansione automatica delle ricette (OCR)",
+                "Impaginazione istantanea",
+                "Pensato per la cucina",
+                "Grande risparmio di tempo",
+                "Nessuna competenza tecnica richiesta"
+            ],
+            "cons": [
+                "Nessun supporto alla creazione su Gelato",
+                "Impaginazione manuale",
+                "Non adatto alle ricette",
+                "Processo lungo"
+            ],
+            "common": {
+                "why_choose_us": "Perché scegliere Kulinia?",
+                "limitations_title": "Perché Gelato mostra i suoi limiti"
+            }
+        },
+        "canvas": {
+            "name": "Canvas",
+            "meta_title": "Kulinia vs Canva: creare un ricettario facilmente",
+            "meta_desc": "Scopri perché uno strumento dedicato alla cucina fa la differenza rispetto a Canva.",
+            "hero_title": "Kulinia vs Canva",
+            "description": "Canva è un leader nel design, ma un ricettario richiede molto di più.",
+            "competitor": "Canva",
+            "sections": [
+                {
+                    "title": "Canva: potenza grafica",
+                    "paragraphs": [
+                        "Canva è uno strumento di design accessibile a tutti.",
+                        "Permette di creare contenuti visivi professionali.",
+                        "È estremamente flessibile."
+                    ]
+                },
+                {
+                    "title": "Creare un ricettario: complicato",
+                    "paragraphs": [
+                        "Ogni pagina deve essere creata manualmente.",
+                        "Nessuna automazione.",
+                        "Problema principale: struttura."
+                    ],
+                    "list": [
+                        "Nessuna struttura ricette",
+                        "Nessuna separazione ingredienti/passaggi",
+                        "Nessuna logica culinaria",
+                        "Rischio incoerenze"
+                    ]
+                },
+                {
+                    "title": "Problema",
+                    "paragraphs": [
+                        "Canva non comprende la cucina.",
+                        "Tratta tutto come testo.",
+                        "Diventa complesso."
+                    ]
+                },
+                {
+                    "title": "Kulinia",
+                    "paragraphs": [
+                        "Struttura automatica.",
+                        "Design automatico.",
+                        "Approccio basato sui dati."
+                    ]
+                },
+                {
+                    "title": "Esperienza",
+                    "paragraphs": [
+                        "Canva = design.",
+                        "Kulinia = contenuto."
+                    ]
+                },
+                {
+                    "title": "Verdetto",
+                    "paragraphs": [
+                        "Canva è generico.",
+                        "Kulinia è specializzato."
+                    ]
+                }
+            ],
+            "pros": [
+                "Struttura automatica",
+                "Risparmio tempo",
+                "Pensato per cucina",
+                "Coerenza"
+            ],
+            "cons": [
+                "Manuale su Canva",
+                "Nessuna struttura",
+                "Errori possibili",
+                "Tempo elevato"
+            ],
+            "common": {
+                "why_choose_us": "Perché scegliere Kulinia invece di Canva?",
+                "limitations_title": "Limiti di Canva"
+            }
+        },
+        "photobox": {
+            "name": "Photobox",
+            "meta_title": "Kulinia vs Photobox: creare un ricettario davvero utile",
+            "meta_desc": "Photobox o Kulinia? Scopri perché un album fotografico non basta per creare un vero ricettario.",
+            "hero_title": "Kulinia vs Photobox",
+            "description": "Photobox è perfetto per i ricordi, ma le ricette richiedono una struttura completamente diversa.",
+            "competitor": "Photobox",
+            "sections": [
+                {
+                    "title": "Photobox: lo specialista dei ricordi visivi",
+                    "paragraphs": [
+                        "Photobox è una delle piattaforme di stampa fotografica più diffuse in Europa.",
+                        "Il suo obiettivo è trasformare le foto in oggetti fisici come album, calendari o libri fotografici.",
+                        "L’esperienza è centrata sull’emozione visiva."
+                    ]
+                },
+                {
+                    "title": "Perché un album fotografico non basta",
+                    "paragraphs": [
+                        "Una ricetta non è un’immagine ma un contenuto strutturato.",
+                        "Photobox tratta ogni pagina come un design grafico.",
+                        "Questo limita l’uso culinario."
+                    ],
+                    "list": [
+                        "Nessuna struttura ingredienti/passaggi",
+                        "Nessuna logica ricette",
+                        "Organizzazione manuale",
+                        "Nessuna automazione"
+                    ]
+                },
+                {
+                    "title": "Problema: leggibilità",
+                    "paragraphs": [
+                        "Un ricettario deve essere funzionale.",
+                        "La leggibilità è essenziale.",
+                        "Troppo design può essere un problema."
+                    ]
+                },
+                {
+                    "title": "Kulinia",
+                    "paragraphs": [
+                        "Struttura automatica.",
+                        "Ricette chiare.",
+                        "Uso reale in cucina."
+                    ],
+                    "list": [
+                        "Formato ottimizzato",
+                        "Organizzazione automatica",
+                        "Accesso mobile",
+                        "IA"
+                    ]
+                },
+                {
+                    "title": "Uso reale",
+                    "paragraphs": [
+                        "Photobox = ricordi.",
+                        "Kulinia = strumento."
+                    ]
+                },
+                {
+                    "title": "Verdetto",
+                    "paragraphs": [
+                        "Photobox valorizza le immagini.",
+                        "Kulinia organizza le ricette."
+                    ]
+                }
+            ],
+            "pros": [
+                "Struttura automatica",
+                "Ottimizzato per cucina",
+                "Accesso mobile",
+                "Chiarezza"
+            ],
+            "cons": [
+                "Nessuna struttura",
+                "Manuale",
+                "Nessuna IA culinaria",
+                "Non pratico"
+            ],
+            "common": {
+                "why_choose_us": "Perché scegliere Kulinia invece di Photobox?",
+                "limitations_title": "Limiti di Photobox"
+            }
+        },
+        "vistaprint": {
+            "name": "Vistaprint",
+            "meta_title": "Kulinia vs Vistaprint: creare un ricettario senza complessità",
+            "meta_desc": "Vistaprint è potente per il marketing, ma Kulinia è pensato per ricette.",
+            "hero_title": "Kulinia vs Vistaprint",
+            "description": "Vistaprint è completo, ma non pensato per contenuti culinari.",
+            "competitor": "Vistaprint",
+            "sections": [
+                {
+                    "title": "Vistaprint",
+                    "paragraphs": [
+                        "Piattaforma per stampa professionale.",
+                        "Ampia personalizzazione.",
+                        "Orientata al marketing."
+                    ]
+                },
+                {
+                    "title": "Complesso",
+                    "paragraphs": [
+                        "Richiede gestione manuale.",
+                        "Serve esperienza.",
+                        "Tempo elevato."
+                    ],
+                    "list": [
+                        "Interfaccia complessa",
+                        "Manuale",
+                        "Nessuna automazione",
+                        "Curva apprendimento"
+                    ]
+                },
+                {
+                    "title": "Problema",
+                    "paragraphs": [
+                        "Nessuna logica culinaria.",
+                        "Non adatto a ricette."
+                    ]
+                },
+                {
+                    "title": "Kulinia",
+                    "paragraphs": [
+                        "Automatizza tutto.",
+                        "Riduce tempo.",
+                        "Semplifica."
+                    ]
+                },
+                {
+                    "title": "Tempo",
+                    "paragraphs": [
+                        "Vistaprint = ore/giorni.",
+                        "Kulinia = minuti."
+                    ]
+                },
+                {
+                    "title": "Verdetto",
+                    "paragraphs": [
+                        "Potente vs specializzato.",
+                        "Kulinia è più semplice."
+                    ]
+                }
+            ],
+            "pros": [
+                "Automatico",
+                "Veloce",
+                "Semplice",
+                "Risparmio tempo"
+            ],
+            "cons": [
+                "Complesso",
+                "Manuale",
+                "Nessuna logica cucina",
+                "Non per principianti"
+            ],
+            "common": {
+                "why_choose_us": "Perché scegliere Kulinia invece di Vistaprint?",
+                "limitations_title": "Limiti di Vistaprint"
+            }
+        },
+        "blurb": {
+            "name": "Blurb",
+            "meta_title": "Kulinia vs Blurb: creare un ricettario facilmente",
+            "meta_desc": "Blurb è potente ma complesso. Kulinia semplifica tutto.",
+            "hero_title": "Kulinia vs Blurb",
+            "description": "Blurb è per professionisti, Kulinia per semplicità.",
+            "competitor": "Blurb",
+            "sections": [
+                {
+                    "title": "Blurb",
+                    "paragraphs": [
+                        "Self publishing.",
+                        "Controllo totale.",
+                        "Uso professionale."
+                    ]
+                },
+                {
+                    "title": "Complessità",
+                    "paragraphs": [
+                        "Tutto manuale.",
+                        "Richiede competenze."
+                    ],
+                    "list": [
+                        "Manuale",
+                        "Curva apprendimento",
+                        "Nessuna struttura",
+                        "Professionale"
+                    ]
+                },
+                {
+                    "title": "Problema",
+                    "paragraphs": [
+                        "Nessuna logica cucina."
+                    ]
+                },
+                {
+                    "title": "Kulinia",
+                    "paragraphs": [
+                        "Automazione totale.",
+                        "Facile."
+                    ]
+                },
+                {
+                    "title": "Esperienza",
+                    "paragraphs": [
+                        "Blurb = produzione.",
+                        "Kulinia = creazione."
+                    ]
+                },
+                {
+                    "title": "Verdetto",
+                    "paragraphs": [
+                        "Controllo vs semplicità."
+                    ]
+                }
+            ],
+            "pros": [
+                "Facile",
+                "Automatico",
+                "Veloce",
+                "Fluido"
+            ],
+            "cons": [
+                "Complesso",
+                "Manuale",
+                "Lento",
+                "Professionale"
+            ],
+            "common": {
+                "why_choose_us": "Perché scegliere Kulinia invece di Blurb?",
+                "limitations_title": "Limiti di Blurb"
+            }
+        },
+        "lulu": {
+            "name": "Lulu",
+            "meta_title": "Kulinia vs Lulu: creare un vero ricettario",
+            "meta_desc": "Lulu pubblica, Kulinia crea.",
+            "hero_title": "Kulinia vs Lulu",
+            "description": "Lulu è publishing, Kulinia è creazione.",
+            "competitor": "Lulu",
+            "sections": [
+                {
+                    "title": "Lulu",
+                    "paragraphs": [
+                        "Piattaforma publishing.",
+                        "File pronti.",
+                        "Non crea contenuti."
+                    ]
+                },
+                {
+                    "title": "Limite",
+                    "paragraphs": [
+                        "Nessun aiuto creazione."
+                    ],
+                    "list": [
+                        "Nessuna struttura",
+                        "Manuale",
+                        "Nessuna logica cucina",
+                        "Esterno"
+                    ]
+                },
+                {
+                    "title": "Problema",
+                    "paragraphs": [
+                        "Non adatto ricette."
+                    ]
+                },
+                {
+                    "title": "Kulinia",
+                    "paragraphs": [
+                        "Trasforma ricette.",
+                        "Organizza.",
+                        "Pronto stampa."
+                    ]
+                },
+                {
+                    "title": "Differenza",
+                    "paragraphs": [
+                        "Lulu = pubblica.",
+                        "Kulinia = crea."
+                    ]
+                },
+                {
+                    "title": "Verdetto",
+                    "paragraphs": [
+                        "Kulinia è completo."
+                    ]
+                }
+            ],
+            "pros": [
+                "Automatico",
+                "Organizzato",
+                "Guidato",
+                "Pronto stampa"
+            ],
+            "cons": [
+                "Manuale",
+                "Nessuna creazione",
+                "Nessuna logica",
+                "Solo publishing"
+            ],
+            "common": {
+                "why_choose_us": "Perché scegliere Kulinia invece di Lulu?",
+                "limitations_title": "Limiti di Lulu"
+            }
+        },
+        "manuellement": {
+            "name": "Quaderno cartaceo",
+            "meta_title": "Ricettario cartaceo vs digitale",
+            "meta_desc": "Il cartaceo è fragile, il digitale cambia tutto.",
+            "hero_title": "Cartaceo vs digitale",
+            "description": "Il quaderno è emotivo ma limitato.",
+            "competitor": "quaderno",
+            "sections": [
+                {
+                    "title": "Emozione",
+                    "paragraphs": [
+                        "Ricordi familiari.",
+                        "Valore affettivo."
+                    ]
+                },
+                {
+                    "title": "Limiti",
+                    "paragraphs": [
+                        "Fragile.",
+                        "Difficile organizzare."
+                    ],
+                    "list": [
+                        "Perdita",
+                        "Nessun backup",
+                        "Ricerca lenta",
+                        "Non duplicabile"
+                    ]
+                },
+                {
+                    "title": "Problema",
+                    "paragraphs": [
+                        "Trasmissione difficile."
+                    ]
+                },
+                {
+                    "title": "Kulinia",
+                    "paragraphs": [
+                        "Digitalizza.",
+                        "Organizza.",
+                        "Accessibile."
+                    ]
+                },
+                {
+                    "title": "Condivisione",
+                    "paragraphs": [
+                        "Facile.",
+                        "Collaborativo."
+                    ]
+                },
+                {
+                    "title": "Verdetto",
+                    "paragraphs": [
+                        "Ricordo vs evoluzione."
+                    ]
+                }
+            ],
+            "pros": [
+                "Emotivo",
+                "Semplice",
+                "Offline",
+                "Tradizione"
+            ],
+            "cons": [
+                "Fragile",
+                "Nessun backup",
+                "Manuale",
+                "Non condivisibile"
+            ],
+            "common": {
+                "why_choose_us": "Perché passare a Kulinia?",
+                "limitations_title": "Limiti del cartaceo"
+            }
+        }
+    }
+}

@@ -166,6 +166,41 @@
       "title": "Begin vandaag je collectie",
       "description": "Toegang tot het digitale kookboek is gratis. Je betaalt pas als je besluit je boek te printen of exporteren.",
       "button": "Gratis account aanmaken"
+    },
+    "specs": [
+      {
+        "title": "Premium Papier",
+        "description": "170g gesatineerd papier, bestand tegen keukengebruik en lichte vlekken.",
+        "icon": "paper"
+      },
+      {
+        "title": "Harde Kaft",
+        "description": "Matte soft-touch afwerking voor een elegante touch en duurzame bescherming.",
+        "icon": "book"
+      },
+      {
+        "title": "Vlakliggende opening",
+        "description": "Een binding die zo is ontworpen dat het boek open blijft liggen op je aanrecht tijdens het koken.",
+        "icon": "flat"
+      },
+      {
+        "title": "Ideaal A5-formaat",
+        "description": "Het perfecte formaat: groot genoeg om comfortabel te lezen, compact genoeg om niet in de weg te liggen.",
+        "icon": "size"
+      }
+    ],
+    "howItWorks": {
+      "title": "Hoe werkt het",
+      "description": "In een paar eenvoudige stappen verander je je recepten in een echt gedrukt kookboek."
+    },
+    "gift": {
+      "title": "Het perfecte cadeau voor je dierbaren",
+      "description": "Geef het culinaire erfgoed van je familie door. Ideaal voor een housewarming, bruiloft of de feestdagen.",
+      "points": [
+        "Volledige personalisatie",
+        "Fotoprint kwaliteit",
+        "Snelle levering in 5 dagen"
+      ]
     }
   },
   "PhysicalBookPage": {
@@ -286,6 +321,7 @@
       }
     ],
     "notFound": "Geen antwoord gevonden op je vraag?",
+    "supportDescription": "Ons team staat klaar om je snel te helpen.",
     "contact": "Neem contact op met onze support"
   },
   "NotFoundPage": {
@@ -605,6 +641,19 @@
       "title": "Waarom Kulinia de beste keuze is voor je recepten",
       "description": "Vergelijk onze keukengerichte aanpak met andere algemene oplossingen."
     },
+    "heroCtas": {
+      "primary": "Maak mijn boek",
+      "secondary": "Bekijk vergelijkingen"
+    },
+    "seo": {
+      "keywords": "receptenboek vergelijking, cookidoo alternatief, photobox alternatief, kookboek maken"
+    },
+    "trustBar": [
+      "Geen verplichte abonnementen",
+      "AI-import van papierrecepten",
+      "Premium kookboek in enkele dagen"
+    ],
+    "featuresTitle": "Een UX gebouwd voor snelheid en duidelijkheid",
     "features": [
       {
         "title": "Ontworpen voor koken",
@@ -623,15 +672,112 @@
         "description": "Ontvang een stijlvol kookboek dat klaar is om cadeau te geven en te bewaren."
       }
     ],
+    "process": {
+      "eyebrow": "Hoe het werkt",
+      "title": "3 stappen van losse notities naar een echt kookboek",
+      "steps": [
+        {
+          "title": "Importeer",
+          "description": "Voeg recepten toe via foto, website of handmatige invoer."
+        },
+        {
+          "title": "Structureer",
+          "description": "Kulinia organiseert automatisch ingrediënten, stappen en lay-out."
+        },
+        {
+          "title": "Deel of print",
+          "description": "Deel een link met familie of bestel een premium gedrukt boek."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "items": [
+        {
+          "q": "Kan ik gratis starten?",
+          "a": "Ja. Je digitale boek maak je gratis. Je betaalt alleen voor PDF-export of drukwerk."
+        },
+        {
+          "q": "Blijven mijn recepten van mij?",
+          "a": "Ja. Je behoudt volledig eigendom over je recepten."
+        },
+        {
+          "q": "Is dit geschikt voor beginners?",
+          "a": "Ja, de interface is eenvoudig, begeleid en snel te gebruiken."
+        }
+      ]
+    },
+    "cardCtaLabel": "Bekijk vergelijking",
     "cta": {
       "button": "Maak mijn boek",
-      "description": "Probeer Kulinia gratis en voel het verschil."
+      "description": "Probeer Kulinia gratis en voel het verschil.",
+      "title": "Kies voor een echte kookoplossing"
+    },
+    "comparisons": [
+      {
+        "slug": "gelato",
+        "name": "Gelato",
+        "description": "Hoewel Gelato een reus is in print-on-demand, missen ze de essentie voor een kok: software-intelligentie."
+      },
+      {
+        "slug": "canvas",
+        "name": "Canvas",
+        "description": "Canvas biedt fotoboeken, wij maken tools voor culinaire overdracht."
+      },
+      {
+        "slug": "photobox",
+        "name": "Photobox",
+        "description": "Photobox blinkt uit in vakantiealbums, maar je keukenaantekeningen omzetten in digitale tekst is niet hun vak. Het onze wel."
+      },
+      {
+        "slug": "vistaprint",
+        "name": "Vistaprint",
+        "description": "Vistaprint is een professionele marketingtool. Voor een kookboek is het een sloophamer waar je een koksmes nodig hebt."
+      },
+      {
+        "slug": "blurb",
+        "name": "Blurb",
+        "description": "Blurb richt zich op self-publishers. Als je gewoon een schoon, intelligent en makkelijk in te vullen boek wilt, is MonCarnet voor jou."
+      },
+      {
+        "slug": "mytaste",
+        "name": "MyTaste",
+        "description": "Internetlinks opslaan is goed, maar je eigen recepten bezitten en ze kunnen printen in een luxe boek is beter."
+      },
+      {
+        "slug": "cookidoo",
+        "name": "Cookidoo",
+        "description": "Cookidoo legt recepten aan je op. Met Kulinia kun je die van jezelf, je oma en je vrienden laten stralen."
+      },
+      {
+        "slug": "manuellement",
+        "name": "Handmatig (Papieren Notitieboek)",
+        "description": "De charme van papier is onmiskenbaar, maar het verlies van een uniek recept is onomkeerbaar. Combineer het beste van beide werelden."
+      }
+    ],
+    "whyChooseUs": {
+      "title": "Waarom Kulinia kiezen?",
+      "advantages": [
+        {
+          "title": "Ontworpen voor koken",
+          "description": "In tegenstelling tot algemene tools is alles gebouwd voor je recepten."
+        },
+        {
+          "title": "Ingebouwde AI",
+          "description": "Scan, OCR en automatische organisatie van je recepten."
+        },
+        {
+          "title": "Fysiek boek",
+          "description": "Zet je digitale recepten om in een echt gedrukt boek."
+        }
+      ]
     }
   },
   "LegalPage": {
     "hero": {
       "title": "Gebruiksvoorwaarden",
-      "description": "De regels voor het gebruik van Kulinia."
+      "description": "De regels voor het gebruik van Kulinia.",
+      "backButton": "Terug naar home"
     },
     "sections": [
       {
@@ -674,6 +820,7 @@
         "title": "4. Jouw rechten",
         "content": "Je kunt toegang, correctie, verwijdering of overdraagbaarheid van je gegevens aanvragen via contact@kulinia.com."
       }
-    ]
+    ],
+    "backButton": "Terug naar home"
   }
 }

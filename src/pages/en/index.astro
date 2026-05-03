@@ -1,0 +1,14 @@
+---
+import contentData from "../../assets/data/lang/homepage/en.json";
+import HomePage from "../../templates/HomePage.astro";
+const locale = "en";
+---
+
+<HomePage
+  title={contentData.seo.title}
+  description={contentData.seo.description}
+  image="https://www.kulinia.com/og-image.jpg"
+  url={`https://www.kulinia.com/en/`}
+  locale="en"
+  contentData={contentData}
+/>

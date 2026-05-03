@@ -1,0 +1,16 @@
+---
+import dataFromJson from "../../../assets/data/lang/compare/es.json";
+import Layout from "../../../layouts/Layout.astro";
+import Template from "../../../components/compare-pages/Template.astro";
+
+const contentData = dataFromJson.competitors.gelato;
+const locale = "es";
+---
+
+<Layout
+  title={contentData.meta_title}
+  description={contentData.meta_desc}
+  image="/og-image-compare.jpg"
+  url="https://www.kulinia.com/es/comparativa/gelato"
+  locale={locale}><Template locale={locale} contentData={contentData} /></Layout
+>

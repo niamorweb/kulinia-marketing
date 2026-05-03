@@ -7,14 +7,67 @@ import BookHeroImg from "../assets/hp/book-sample.jpg";
 const specsKeys = ["0", "1", "2", "3"];
 const giftPoints = [0, 1, 2];
 
-const { contentData } = Astro.props;
+const { contentData, locale = "fr" } = Astro.props;
+const seoByLocale = {
+    fr: {
+        title: "Votre cuisine mérite son propre livre | Carnet de recettes personnalisé",
+        description:
+            "Créez votre livre de recettes personnalisé. Importez vos recettes en photo, organisez-les et imprimez un livre élégant livré chez vous.",
+        url: "https://www.kulinia.com/fr/livre-physique",
+        heroAlt: "Livre de recettes physique MonCarnetDeRecettes",
+        giftAlt: "Offrir un livre de recettes"
+    },
+    en: {
+        title: "Your kitchen deserves its own book | Personalized recipe book",
+        description:
+            "Create your personalized recipe book. Import your recipes from photos, organize them, and print an elegant book delivered to your home.",
+        url: "https://www.kulinia.com/en/physical-book",
+        heroAlt: "Physical recipe book",
+        giftAlt: "Gift a recipe book"
+    },
+    de: {
+        title: "Deine Küche verdient ihr eigenes Buch | Personalisiertes Rezeptbuch",
+        description:
+            "Erstelle dein personalisiertes Rezeptbuch. Importiere deine Rezepte per Foto, organisiere sie und drucke ein elegantes Buch für dein Zuhause.",
+        url: "https://www.kulinia.com/de/physisches-buch",
+        heroAlt: "Physisches Rezeptbuch",
+        giftAlt: "Ein Rezeptbuch verschenken"
+    },
+    es: {
+        title: "Tu cocina merece su propio libro | Recetario personalizado",
+        description:
+            "Crea tu recetario personalizado. Importa tus recetas con fotos, organízalas e imprime un libro elegante entregado en tu casa.",
+        url: "https://www.kulinia.com/es/libro-fisico",
+        heroAlt: "Libro de recetas físico",
+        giftAlt: "Regalar un libro de recetas"
+    },
+    it: {
+        title: "La tua cucina merita il suo libro | Ricettario personalizzato",
+        description:
+            "Crea il tuo ricettario personalizzato. Importa le tue ricette da foto, organizzale e stampa un libro elegante consegnato a casa.",
+        url: "https://www.kulinia.com/it/libro-fisico",
+        heroAlt: "Ricettario fisico",
+        giftAlt: "Regalare un ricettario"
+    },
+    nl: {
+        title: "Je keuken verdient een eigen boek | Gepersonaliseerd receptenboek",
+        description:
+            "Maak je gepersonaliseerde receptenboek. Importeer recepten via foto's, organiseer ze en print een elegant boek dat thuis wordt geleverd.",
+        url: "https://www.kulinia.com/nl/fysiek-boek",
+        heroAlt: "Fysiek receptenboek",
+        giftAlt: "Een receptenboek cadeau doen"
+    }
+};
+const seoLocaleKey = (locale in seoByLocale ? locale : "fr") as keyof typeof seoByLocale;
+const currentSeo = seoByLocale[seoLocaleKey];
 ---
 
 <Layout
-    title="Votre cuisine mérite son propre livre | Carnet de recettes personnalisé"
-    description="Créez votre livre de recettes personnalisé. Importez vos recettes en photo, organisez-les et imprimez un livre élégant livré chez vous."
+    title={currentSeo.title}
+    description={currentSeo.description}
     image="/og-image.jpg"
-    url="https://www.kulinia.com/livre-physique"
+    url={currentSeo.url}
+    locale={locale}
 >
     <div class="min-h-screen font-sans text-text-primary bg-surface">
         <main>
@@ -53,7 +106,7 @@ const { contentData } = Astro.props;
                     <div class="lg:w-1/2">
                         <Image
                             src={BookHeroImg}
-                            alt="Livre de recettes physique MonCarnetDeRecettes"
+                            alt={currentSeo.heroAlt}
                             width={700}
                             height={500}
                             class="rounded-3xl shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500"
@@ -107,12 +160,18 @@ const { contentData } = Astro.props;
                         <h2
                             class="text-4xl md:text-5xl font-black tracking-tight"
                         >
-                            Comment ça fonctionne
+                            {/* @ts-ignore */}
+                            {contentData.howItWorks?.title}
                         </h2>
-                        <p class="text-text-secondary max-w-2xl mx-auto">
-                            En quelques étapes simples, transformez vos recettes
-                            en un véritable livre de cuisine imprimé.
-                        </p>
+                        {
+                            /* @ts-ignore */
+                            contentData.howItWorks?.description && (
+                                <p class="text-text-secondary max-w-2xl mx-auto">
+                                    {/* @ts-ignore */}
+                                    {contentData.howItWorks.description}
+                                </p>
+                            )
+                        }
                     </div>
 
                     <div class="w-full h-[600px] rounded-2xl bg-neutral-200">
@@ -162,7 +221,7 @@ const { contentData } = Astro.props;
                     <div class="lg:w-1/2">
                         <Image
                             src={BookHeroImg}
-                            alt="Offrir un livre de recettes"
+                            alt={currentSeo.giftAlt}
                             width={600}
                             height={600}
                             class="rounded-panel shadow-lg"

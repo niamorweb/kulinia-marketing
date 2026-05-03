@@ -1,0 +1,19 @@
+---
+import dataFromJson from "../../../assets/data/lang/compare/en.json";
+import Layout from "../../../layouts/Layout.astro";
+import Template from "../../../components/compare-pages/Template.astro";
+
+const currentComparisonData = dataFromJson.competitors.photobox;
+
+const locale = "en";
+---
+
+<Layout
+  title={currentComparisonData.meta_title}
+  description={currentComparisonData.meta_desc}
+  image="/og-image-compare.jpg"
+  url="https://www.kulinia.com/en/compare/blurb"
+  locale={locale}
+>
+  <Template locale={locale} contentData={currentComparisonData} />
+</Layout>
