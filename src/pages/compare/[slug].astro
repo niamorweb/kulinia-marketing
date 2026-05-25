@@ -1,0 +1,695 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Template from "../../components/compare-pages/Template.astro";
+
+export function getStaticPaths() {
+  const competitors = {
+  "gelato": {
+    "name": "Gelato",
+    "meta_title": "Kulinia vs Gelato: which tool should you choose to create a recipe book in 2026?",
+    "meta_desc": "Detailed comparison between Kulinia and Gelato. Discover the key differences to easily create, organize, and print your recipe book.",
+    "hero_title": "Kulinia vs Gelato",
+    "description": "Gelato is a powerful printing solution. But is it really suited for creating recipe books? Here is a complete analysis.",
+    "competitor": "Gelato",
+    "sections": [
+      {
+        "title": "Gelato: a powerful but general-purpose printing solution",
+        "paragraphs": [
+          "Gelato is today one of the most well-known print-on-demand platforms. It allows you to produce a wide range of products: books, posters, notebooks, clothing, and custom items.",
+          "Its main advantage lies in its global network of printers, which helps reduce delivery times and optimize logistics costs. For e-commerce or marketing use cases, it is an extremely effective tool.",
+          "However, this versatility is also its main limitation. Gelato was not designed for a specific need such as creating recipe books. It is an execution tool, not a creation tool."
+        ]
+      },
+      {
+        "title": "Creating a recipe book: an often underestimated process",
+        "paragraphs": [
+          "Creating a recipe book is much more complex than it seems. Unlike a simple text document, a recipe requires a clear structure, information hierarchy, and consistent formatting.",
+          "Most users start from very heterogeneous content: photos of handwritten recipes, notes, screenshots, or scattered files.",
+          "Before even thinking about printing, several essential steps are required."
+        ],
+        "list": [
+          "Centralize all recipes (paper, digital, photos)",
+          "Extract and structure information (ingredients, steps, time)",
+          "Standardize formatting for a professional result",
+          "Organize recipes into coherent categories"
+        ]
+      },
+      {
+        "title": "Why Gelato quickly becomes limited in this context",
+        "paragraphs": [
+          "On Gelato, the entire creation phase is fully user-driven. The platform assumes you already have a print-ready file.",
+          "This means you must handle layout, visual consistency, and content structure yourself. For a recipe book, this is a significant workload.",
+          "Moreover, Gelato offers no cooking-specific features: no recipe format, no automation, no structural assistance.",
+          "As a result, even if printing is simple, the upstream process can become long, technical, and discouraging."
+        ]
+      },
+      {
+        "title": "Kulinia: a recipe-first approach",
+        "paragraphs": [
+          "Kulinia takes a completely different approach. Instead of starting from printing, it focuses first on creation and organization.",
+          "The goal is simple: allow anyone to turn their recipes into a structured book without technical skills.",
+          "Thanks to AI, Kulinia can scan handwritten recipes and automatically extract key information.",
+          "Layout is then generated automatically following cookbook standards: titles, ingredients, steps, spacing, visual hierarchy."
+        ]
+      },
+      {
+        "title": "A significant time saving for users",
+        "paragraphs": [
+          "One of Kulinia’s main advantages is time saving. Where Gelato requires hours (or days) of preparation, Kulinia automates most of the process.",
+          "You can go from a handwritten notebook to a print-ready book in just a few steps.",
+          "This completely changes the user experience: instead of struggling with layout, you focus on what matters — your recipes."
+        ]
+      },
+      {
+        "title": "Practical comparison of use cases",
+        "paragraphs": [
+          "The choice between Kulinia and Gelato depends on your starting point.",
+          "If you already have a perfectly designed, print-ready file, Gelato can be a suitable option.",
+          "However, if you start from scratch or unstructured content, Kulinia is clearly more appropriate.",
+          "It simplifies the entire process from creation to printing."
+        ]
+      },
+      {
+        "title": "Verdict: two tools, two philosophies",
+        "paragraphs": [
+          "Gelato is an excellent printing tool. It performs very well when it comes to producing a finalized file.",
+          "Kulinia, on the other hand, goes much further by handling the entire creation phase.",
+          "If your goal is to create a recipe book without complexity, Kulinia offers a much smoother and more suitable experience.",
+          "It is a solution designed for cooking enthusiasts, not general-purpose use."
+        ]
+      }
+    ],
+    "pros": [
+      "Automatic recipe scanning (OCR)",
+      "Instant and optimized layout generation",
+      "Specifically designed for cooking",
+      "Significant time savings",
+      "No technical skills required"
+    ],
+    "cons": [
+      "No creation assistance on Gelato",
+      "Fully manual layout process",
+      "Not suitable for recipes",
+      "Long and technical workflow"
+    ],
+    "common": {
+      "why_choose_us": "Why choose Kulinia?",
+      "limitations_title": "Why Gelato shows its limitations"
+    }
+  },
+  "canvas": {
+    "name": "Canvas",
+    "meta_title": "Kulinia vs Canva: easily create a recipe book",
+    "meta_desc": "Detailed comparison between Kulinia and Canva. Discover why a cooking-specific tool makes all the difference.",
+    "hero_title": "Kulinia vs Canva",
+    "description": "Canva is a global design reference, but creating a recipe book requires more than just a graphic tool.",
+    "competitor": "Canva",
+    "sections": [
+      {
+        "title": "Canva: universal graphic power",
+        "paragraphs": [
+          "Canva is primarily a graphic design tool designed to be accessible to everyone. Its success is based on a simple promise: allow anyone to create professional visuals without technical skills.",
+          "Today, Canva is used for presentations, social media posts, resumes, ebooks, and even printable documents.",
+          "Its main strength is flexibility: everything is customizable."
+        ]
+      },
+      {
+        "title": "Creating a recipe book in Canva: a misleading idea",
+        "paragraphs": [
+          "On paper, Canva seems perfectly suited for recipe books. In reality, the process quickly becomes tedious as content grows.",
+          "Each page must be built manually: ingredients, steps, titles, images… nothing is automated.",
+          "The main issue is not design, but data structure."
+        ],
+        "list": [
+          "No native recipe structure",
+          "No automatic ingredient/step separation",
+          "No culinary database logic",
+          "Risk of inconsistencies between pages"
+        ]
+      },
+      {
+        "title": "The real issue: Canva does not understand cooking",
+        "paragraphs": [
+          "A recipe book is not just a visual document. It is a structured collection of data: ingredients, cooking time, steps, categories, portions…",
+          "Canva treats all of this as plain text without domain intelligence.",
+          "As a result, the larger your book gets, the harder it becomes to manage."
+        ]
+      },
+      {
+        "title": "Kulinia: built for recipes",
+        "paragraphs": [
+          "Kulinia completely changes the paradigm. Instead of starting from design, it starts from culinary data.",
+          "Each recipe is automatically structured upon creation.",
+          "Design becomes a result, not manual work."
+        ],
+        "list": [
+          "Automatic recipe structuring",
+          "AI-powered scan of handwritten recipes",
+          "Automatically generated layout",
+          "Perfect consistency across pages"
+        ]
+      },
+      {
+        "title": "User experience: design vs intelligence",
+        "paragraphs": [
+          "Canva excels in creative control but requires constant layout effort.",
+          "Kulinia removes that burden and focuses on content.",
+          "Users think in recipes, not design."
+        ]
+      },
+      {
+        "title": "Verdict: two philosophies",
+        "paragraphs": [
+          "Canva is a great general-purpose design tool.",
+          "But for structured recipe books, Kulinia is far more suitable.",
+          "One gives you design tools, the other builds your book for you."
+        ]
+      }
+    ],
+    "pros": [
+      "Automatic recipe structuring without manual work",
+      "Significant time savings in layout creation",
+      "Cooking-focused experience",
+      "Consistent formatting across pages"
+    ],
+    "cons": [
+      "Fully manual creation in Canva",
+      "No native recipe structure",
+      "Risk of visual inconsistencies",
+      "Very time-consuming for large books"
+    ],
+    "common": {
+      "why_choose_us": "Why choose Kulinia over Canva?",
+      "limitations_title": "Limitations of Canva for recipe books"
+    }
+  },
+  "photobox": {
+    "name": "Photobox",
+    "meta_title": "Kulinia vs Photobox: create a truly useful recipe book",
+    "meta_desc": "Photobox or Kulinia? Discover why a photo album isn't enough to create a real structured recipe book.",
+    "hero_title": "Kulinia vs Photobox",
+    "description": "Photobox is excellent for memories, but recipes require a completely different structure.",
+    "competitor": "Photobox",
+    "sections": [
+      {
+        "title": "Photobox: the specialist in visual memories",
+        "paragraphs": [
+          "Photobox has established itself as one of the leading photo printing services in Europe.",
+          "Its goal is simple: turn your photos into physical products such as albums, calendars, or photo books.",
+          "The experience is focused on visual emotion and showcasing images."
+        ]
+      },
+      {
+        "title": "Why a photo album is not enough for a recipe",
+        "paragraphs": [
+          "A recipe is not an image. It is structured content made of precise elements: ingredients, quantities, steps, and cooking time.",
+          "Photobox treats each page as a graphic composition, without any culinary logic.",
+          "This works for memories, but becomes limiting for cooking."
+        ],
+        "list": [
+          "No ingredients / steps structure",
+          "No recipe database logic",
+          "Fully manual organization",
+          "No content automation"
+        ]
+      },
+      {
+        "title": "The hidden problem: loss of readability",
+        "paragraphs": [
+          "A recipe book must be functional, not just beautiful.",
+          "In cooking, readability and quick access to information are essential.",
+          "Overly visual design can actually harm practical usability."
+        ]
+      },
+      {
+        "title": "Kulinia: designed for cooking use",
+        "paragraphs": [
+          "Kulinia automatically structures each recipe for real cooking use.",
+          "Ingredients are clear, steps are organized, and reading is optimized for speed.",
+          "The book is not only beautiful, it is useful."
+        ],
+        "list": [
+          "Optimized format for quick reading",
+          "Automatic recipe organization",
+          "Mobile access while cooking",
+          "AI-powered recipe structuring"
+        ]
+      },
+      {
+        "title": "Real use: memory vs everyday tool",
+        "paragraphs": [
+          "Photobox is perfect for preserving family memories or holidays.",
+          "Kulinia, on the other hand, is designed for regular use in the kitchen.",
+          "The difference is between a decorative object and a functional tool."
+        ]
+      },
+      {
+        "title": "Verdict: two completely different intentions",
+        "paragraphs": [
+          "Photobox enhances images.",
+          "Kulinia structures cooking.",
+          "They do not serve the same purpose, but only Kulinia is designed for real culinary use."
+        ]
+      }
+    ],
+    "pros": [
+      "AI-powered automatic recipe structuring",
+      "Optimized format for cooking use",
+      "Convenient mobile access while preparing meals",
+      "Clear and readable step organization"
+    ],
+    "cons": [
+      "No dedicated recipe structure",
+      "Fully manual page creation",
+      "No built-in culinary intelligence",
+      "Optimized for photos, not practical usage"
+    ],
+    "common": {
+      "why_choose_us": "Why choose Kulinia instead of Photobox?",
+      "limitations_title": "Photobox limitations for recipes"
+    }
+  },
+  "vistaprint": {
+    "name": "Vistaprint",
+    "meta_title": "Kulinia vs Vistaprint: create a recipe book without complexity",
+    "meta_desc": "Vistaprint is powerful for marketing print, but Kulinia is designed to create recipe books quickly and easily.",
+    "hero_title": "Kulinia vs Vistaprint",
+    "description": "Vistaprint is a very complete marketing printing tool, but it is not designed to structure culinary content.",
+    "competitor": "Vistaprint",
+    "sections": [
+      {
+        "title": "Vistaprint: a benchmark in professional printing",
+        "paragraphs": [
+          "Vistaprint is a platform specialized in printing marketing and professional materials.",
+          "It allows users to create business cards, flyers, catalogs, or custom books.",
+          "Its main goal is to offer full control over design and customization."
+        ]
+      },
+      {
+        "title": "A powerful tool… but complex for personal use",
+        "paragraphs": [
+          "While Vistaprint is very powerful for professional needs, it quickly becomes complex for personal projects like a recipe book.",
+          "Users must manually manage layout, text blocks, and overall document structure.",
+          "This requires time, precision, and design skills."
+        ],
+        "list": [
+          "Professional design-oriented interface",
+          "No content automation",
+          "Page-by-page manual creation",
+          "High learning curve"
+        ]
+      },
+      {
+        "title": "Main issue: lack of culinary logic",
+        "paragraphs": [
+          "A recipe book is not a marketing document.",
+          "It requires a specific structure: ingredients, steps, cooking time, portions.",
+          "Vistaprint offers no domain-specific intelligence for this type of content."
+        ]
+      },
+      {
+        "title": "Kulinia: automation designed for cooking",
+        "paragraphs": [
+          "Kulinia automates the entire structure of a recipe book.",
+          "Recipes are automatically organized and formatted without manual work.",
+          "The goal is to reduce creation time from hours to minutes."
+        ],
+        "list": [
+          "Automatic layout generation",
+          "Smart recipe organization",
+          "Automatic ingredients / steps structuring",
+          "Simple and guided experience"
+        ]
+      },
+      {
+        "title": "Creation time: a huge gap",
+        "paragraphs": [
+          "With Vistaprint, creating a recipe book can take several hours or even days.",
+          "With Kulinia, the process is automated and optimized for efficiency.",
+          "The difference is not only time, but also cognitive effort."
+        ]
+      },
+      {
+        "title": "Verdict: power vs specialization",
+        "paragraphs": [
+          "Vistaprint is an extremely powerful platform for professional needs.",
+          "But this power becomes a limitation for simple use cases like a recipe book.",
+          "Kulinia is designed to do one thing: create cooking books quickly and cleanly."
+        ]
+      }
+    ],
+    "pros": [
+      "Fast and automated layout generation",
+      "Smart recipe organization",
+      "Simple experience without design skills",
+      "Significant time savings in creation"
+    ],
+    "cons": [
+      "Complex professional-oriented interface",
+      "No culinary logic integrated",
+      "Long manual creation process",
+      "Not suitable for non-technical users"
+    ],
+    "common": {
+      "why_choose_us": "Why choose Kulinia instead of Vistaprint?",
+      "limitations_title": "Vistaprint limitations for recipe books"
+    }
+  },
+  "blurb": {
+    "name": "Blurb",
+    "meta_title": "Kulinia vs Blurb: create a recipe book without complexity",
+    "meta_desc": "Blurb is a powerful self-publishing platform, but Kulinia radically simplifies the creation of recipe books.",
+    "hero_title": "Kulinia vs Blurb",
+    "description": "Blurb is designed for professional authors and creators. But for a recipe book, the complexity can quickly become a barrier.",
+    "competitor": "Blurb",
+    "sections": [
+      {
+        "title": "Blurb: a full-featured self-publishing platform",
+        "paragraphs": [
+          "Blurb is a self-publishing solution that allows users to create and publish professional-quality printed or digital books.",
+          "It is widely used by photographers, designers, and independent authors who want full control over their publication.",
+          "Its main strength lies in the complete creative freedom it offers, from layout to final print-ready export."
+        ]
+      },
+      {
+        "title": "Freedom that comes with complexity",
+        "paragraphs": [
+          "This level of freedom comes at a cost: everything must be built manually from scratch.",
+          "Users are responsible for layout design, structure, typography, and overall consistency across the book.",
+          "For a recipe book, this quickly becomes a time-consuming and technically demanding process."
+        ],
+        "list": [
+          "No automatic content structuring",
+          "Manual page-by-page layout creation",
+          "Steep learning curve for beginners",
+          "Professional publishing-oriented interface"
+        ]
+      },
+      {
+        "title": "The core issue: Blurb does not understand cooking",
+        "paragraphs": [
+          "Blurb is a general-purpose publishing tool with no domain-specific intelligence.",
+          "It does not recognize culinary structures such as ingredients, steps, or recipe categories.",
+          "Everything must be manually formatted and organized by the user."
+        ]
+      },
+      {
+        "title": "Kulinia: automating recipe book creation",
+        "paragraphs": [
+          "Kulinia removes all technical complexity from the creation process.",
+          "Recipes are automatically structured, formatted, and made print-ready without manual design work.",
+          "Users focus only on their content while the system handles layout and organization."
+        ],
+        "list": [
+          "Automatic recipe structuring",
+          "Instant layout generation",
+          "No design skills required",
+          "Optimized for real cooking use"
+        ]
+      },
+      {
+        "title": "User experience: creation vs production",
+        "paragraphs": [
+          "Blurb is built for experienced creators who are comfortable with publishing tools.",
+          "Kulinia is designed for users who simply want to turn their recipes into a beautiful book.",
+          "One is a production tool, the other is a transformation engine."
+        ]
+      },
+      {
+        "title": "Verdict: full control vs full simplicity",
+        "paragraphs": [
+          "Blurb offers powerful creative control over every aspect of a book.",
+          "However, this power requires time, effort, and technical skills.",
+          "Kulinia removes this friction and delivers a ready-to-print recipe book instantly."
+        ]
+      }
+    ],
+    "pros": [
+      "Simplified automated creation process",
+      "No design skills required",
+      "Significant time savings in layout creation",
+      "Guided and smooth user experience"
+    ],
+    "cons": [
+      "Complex self-publishing platform",
+      "No dedicated structure for recipes",
+      "Time-consuming manual workflow",
+      "Professional-oriented interface"
+    ],
+    "common": {
+      "why_choose_us": "Why choose Kulinia instead of Blurb?",
+      "limitations_title": "Blurb limitations for recipe books"
+    }
+  },
+  "lulu": {
+    "name": "Lulu",
+    "meta_title": "Kulinia vs Lulu: create a real recipe book",
+    "meta_desc": "Lulu allows document publishing, but Kulinia turns your recipes into a structured book ready to cook and share.",
+    "hero_title": "Kulinia vs Lulu",
+    "description": "Lulu is a publishing platform. Kulinia is a culinary creation tool designed to transform recipes into structured books.",
+    "competitor": "Lulu",
+    "sections": [
+      {
+        "title": "Lulu: a flexible publishing platform",
+        "paragraphs": [
+          "Lulu is a self-publishing service that allows users to turn files into printed or digital books.",
+          "It is commonly used by independent authors and content creators.",
+          "Its primary focus is publishing, not content creation or structuring."
+        ]
+      },
+      {
+        "title": "A missing step: content creation",
+        "paragraphs": [
+          "Lulu does not provide tools to structure or organize content before publishing.",
+          "Users must already have a fully prepared document before uploading it.",
+          "This means the entire creation phase is handled externally."
+        ],
+        "list": [
+          "No content structuring tools",
+          "No layout assistance for creation phase",
+          "No culinary-specific logic",
+          "Fully manual preparation required"
+        ]
+      },
+      {
+        "title": "Why this is a problem for recipes",
+        "paragraphs": [
+          "A recipe book requires more than just formatted text.",
+          "It needs structured ingredients, steps, categories, and portions.",
+          "Lulu provides no assistance for culinary organization."
+        ]
+      },
+      {
+        "title": "Kulinia: from raw recipes to finished book",
+        "paragraphs": [
+          "Kulinia handles the entire transformation process from raw recipes to a finished book.",
+          "Culinary data is automatically structured and formatted.",
+          "Users do not need to manually design or organize anything."
+        ],
+        "list": [
+          "Automatic recipe transformation",
+          "Smart content organization",
+          "Optimized culinary layout",
+          "Print-ready export"
+        ]
+      },
+      {
+        "title": "Storage vs intelligent creation",
+        "paragraphs": [
+          "Lulu acts as a final publishing tool for already prepared content.",
+          "Kulinia intervenes from the very beginning of the creation process.",
+          "It is the difference between storing a file and building a book."
+        ]
+      },
+      {
+        "title": "Verdict: publishing tool vs complete solution",
+        "paragraphs": [
+          "Lulu is effective for publishing finished documents.",
+          "However, it does not help you create a recipe book.",
+          "Kulinia is a complete solution from raw recipe to printed book."
+        ]
+      }
+    ],
+    "pros": [
+      "Automatic conversion of recipes into books",
+      "Smart organization of culinary content",
+      "Guided end-to-end experience",
+      "Print-ready export for professional results"
+    ],
+    "cons": [
+      "No built-in creation tools",
+      "Fully manual upstream workflow",
+      "No culinary-specific logic",
+      "Publishing-only platform"
+    ],
+    "common": {
+      "why_choose_us": "Why choose Kulinia instead of Lulu?",
+      "limitations_title": "Lulu limitations for recipe book creation"
+    }
+  },
+  "manuellement": {
+    "name": "Paper notebook",
+    "meta_title": "Paper recipe book vs digital: which one to choose?",
+    "meta_desc": "Paper recipe notebooks are charming but fragile. Discover why digital changes everything for culinary transmission.",
+    "hero_title": "Paper notebook vs digital book",
+    "description": "Paper recipe notebooks are emotionally valuable but limited, fragile, and difficult to preserve over time.",
+    "competitor": "paper notebook",
+    "sections": [
+      {
+        "title": "The recipe notebook: an emotional object",
+        "paragraphs": [
+          "Paper recipe notebooks are a common part of family kitchens.",
+          "They contain handwritten notes, stains, and recipes passed down through generations.",
+          "They carry strong sentimental value."
+        ]
+      },
+      {
+        "title": "But a fragile and limited medium",
+        "paragraphs": [
+          "Paper deteriorates over time due to humidity, grease, and natural wear.",
+          "A lost or damaged recipe is often gone forever.",
+          "It is also difficult to organize or search through."
+        ],
+        "list": [
+          "Risk of loss or destruction",
+          "No automatic backup",
+          "Slow manual search",
+          "No easy duplication"
+        ]
+      },
+      {
+        "title": "A major overlooked issue: transmission",
+        "paragraphs": [
+          "Family recipes are often scattered across multiple notebooks.",
+          "When a notebook is lost, part of the culinary heritage disappears.",
+          "Transmission becomes difficult or impossible."
+        ]
+      },
+      {
+        "title": "Kulinia: preserving and structuring recipes",
+        "paragraphs": [
+          "Kulinia allows users to digitize and securely preserve every recipe.",
+          "Recipes can be scanned, structured, and enriched automatically.",
+          "They become accessible anytime across all devices."
+        ],
+        "list": [
+          "Secure digital backup",
+          "Smart recipe scanning",
+          "Automatic organization",
+          "Multi-device access"
+        ]
+      },
+      {
+        "title": "Instant search and sharing",
+        "paragraphs": [
+          "Unlike paper, recipes can be found in seconds.",
+          "They can be easily shared with family and friends.",
+          "Cooking becomes collaborative and dynamic."
+        ]
+      },
+      {
+        "title": "Verdict: memory vs living heritage",
+        "paragraphs": [
+          "Paper notebooks are precious memories, but static and fragile.",
+          "Kulinia transforms them into a living, evolving culinary heritage.",
+          "Recipes are no longer just stored—they continue to live."
+        ]
+      }
+    ],
+    "pros": [
+      "Strong emotional and family value",
+      "Simple and universally accessible format",
+      "No technology dependency",
+      "Symbolic object of transmission"
+    ],
+    "cons": [
+      "High risk of loss or damage",
+      "No automatic backup",
+      "Manual search and organization",
+      "Difficult to share or duplicate"
+    ],
+    "common": {
+      "why_choose_us": "Why switch from paper notebook to Kulinia?",
+      "limitations_title": "Traditional paper notebook limitations"
+    }
+  },
+  "mytaste": {
+    "name": "MyTaste",
+    "meta_title": "Kulinia vs MyTaste: Organize your kitchen",
+    "meta_desc": "MyTaste stores web links; we create your book. Discover the difference between an aggregator and a real book.",
+    "hero_title": "Kulinia vs MyTaste",
+    "description": "Storing internet links is fine, owning your own recipes and being able to print them in a prestige book is better.",
+    "competitor": "MyTaste",
+    "sections": [
+      {
+        "title": "Kulinia vs MyTaste",
+        "paragraphs": [
+          "Storing internet links is fine, owning your own recipes and being able to print them in a prestige book is better."
+        ]
+      }
+    ],
+    "pros": [
+      "Full data ownership",
+      "Premium printing option",
+      "No intrusive ads"
+    ],
+    "cons": [
+      "Simple link storage",
+      "No physical object creation option",
+      "Often dated interface"
+    ],
+    "common": {
+      "why_choose_us": "Why choose Kulinia?",
+      "limitations_title": "Limitations of MyTaste"
+    }
+  },
+  "cookidoo": {
+    "name": "Cookidoo",
+    "meta_title": "Kulinia vs Cookidoo: Your own recipes first",
+    "meta_desc": "Tired of being locked in the Thermomix ecosystem? Take back control of your personal recipes with Kulinia.",
+    "hero_title": "Break free from the Cookidoo ecosystem",
+    "description": "Cookidoo imposes its recipes on you. Kulinia lets you showcase your own, your grandmother's, and your friends'.",
+    "competitor": "Cookidoo",
+    "sections": [
+      {
+        "title": "Kulinia vs Cookidoo",
+        "paragraphs": [
+          "Cookidoo imposes its recipes on you. Kulinia lets you showcase your own, your grandmother's, and your friends'."
+        ]
+      }
+    ],
+    "pros": [
+      "Total freedom (any robot, any method)",
+      "Import your own photos",
+      "Customizable physical book"
+    ],
+    "cons": [
+      "Mandatory subscription for your own notes",
+      "Limited to brand users",
+      "No physical export possible"
+    ],
+    "common": {
+      "why_choose_us": "Why choose Kulinia?",
+      "limitations_title": "Limitations of Cookidoo"
+    }
+  }
+};
+  return Object.entries(competitors).map(([slug, contentData]) => ({
+    params: { slug },
+    props: { contentData },
+  }));
+}
+
+const { contentData } = Astro.props;
+const locale = "en";
+---
+
+<Layout
+  title={contentData.meta_title}
+  description={contentData.meta_desc}
+  image="https://www.kulinia.com/og-image.jpg"
+  url={`https://www.kulinia.com/compare/${Astro.params.slug}`}
+  locale={locale}
+>
+  <Template contentData={contentData} />
+</Layout>

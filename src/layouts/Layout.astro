@@ -4,25 +4,15 @@ import Header from "../components/layout/Header.astro";
 import Footer from "../components/layout/Footer.astro";
 
 const {
-  title = "Carnet de recettes personnalisé",
-  description = "Créez, organisez et imprimez vos recettes dans un livre élégant.",
+  title = "Create your personalized recipe book | Print & PDF",
+  description = "Create, organize and print your recipes in an elegant book. Import your recipes by photo, customize your book and receive it at home.",
   image = "https://www.kulinia.com/og-image.jpg",
   url = "https://www.kulinia.com/",
-  locale = "fr"
 } = Astro.props;
-
-const ogLocales = {
-  fr: "fr_FR",
-  en: "en_US",
-  de: "de_DE",
-  es: "es_ES",
-  it: "it_IT",
-  nl: "nl_NL"
-};
 ---
 
 <!DOCTYPE html>
-<html lang={locale}>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,7 +26,7 @@ const ogLocales = {
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:locale" content={ogLocales[locale] || "fr_FR"} />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={image} />
@@ -48,22 +38,22 @@ const ogLocales = {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />
 
-
-    <!-- JSON-LD (SEO avancé) -->
-		<script type="application/ld+json" set:html={JSON.stringify({
-			"@context": "https://schema.org",
-			"@type": "WebSite",
-			"name": "Kulinia",
-			"url": `https://www.kulinia.com/${locale}/`,
-			"description": description
-		})} />
-		  <slot name="head" />
-	  </head>
-	<body>
-		<Header locale={locale} />
-		<slot />
-		<Footer locale={locale} />
-
-	</body>
+    <!-- JSON-LD -->
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "Kulinia",
+        url: "https://www.kulinia.com/",
+        description,
+      })}
+    />
+    <slot name="head" />
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+  </body>
 </html>
-

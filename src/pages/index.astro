@@ -1,0 +1,256 @@
+---
+import BookSampleImg from "../assets/hp/book-sample.jpg";
+import Steps from "../components/homepage/Steps.astro";
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Faq from "../components/homepage/Faq.astro";
+import { Image } from "astro:assets";
+
+const {
+    title = "Create your personalized recipe book | Print & PDF",
+    description = "Create, organize and print your recipes in an elegant book. Import your recipes by photo, customize your book and receive it at home.",
+    image = "https://www.kulinia.com/og-image.jpg",
+    url = "https://www.kulinia.com/",
+    locale = "en",
+} = Astro.props;
+
+const steps = [
+    {
+        tag: "Step 1",
+        title: "Create your digital recipe book",
+        features: [
+            {
+                title: "No time limits",
+                desc: "Enter your recipes manually or import them by taking a photo of your paper recipe.",
+            },
+            {
+                title: "Sleek and intuitive interface",
+                desc: "A seamless experience to manage your culinary library effortlessly.",
+            },
+            {
+                title: "Scan your physical recipes",
+                desc: "Take a photo, and our AI takes care of transcribing ingredients and steps.",
+            },
+        ],
+    },
+    {
+        tag: "Step 2",
+        title: "Personalize your physical book",
+        features: [
+            {
+                title: "Automatic layout",
+                desc: "All your recipes are automatically formatted for an aesthetic and professional look.",
+            },
+            {
+                title: "Quick templates",
+                desc: "Predefined styles allow you to customize the look in one click.",
+            },
+            {
+                title: "Order your book",
+                desc: "Simple, fast, and secure. Home delivery within 5 days.",
+            },
+        ],
+    },
+];
+
+const pricingOptions = [
+    {
+        badge: "Most popular",
+        title: "Turnkey Option",
+        desc: "We handle everything. Premium printing via our partners and delivery straight to your door. Zero mental load.",
+        price: "32 €",
+        details: "A5 hardback matte cookbook, 48 pages",
+        cta: "Create my cookbook",
+    },
+    {
+        title: "PDF Option (DIY)",
+        desc: "Buy the high-definition PDF export of your book and manage the printing yourself with the printer of your choice.",
+        price: "9 €",
+        details: "Print-ready PDF file (Bleeds included)",
+        cta: "Create my cookbook",
+    },
+];
+
+const faqContent = {
+    faq: {
+        title: "All the answers to your questions.",
+        items: [
+            {
+                q: "How does OCR text recognition work?",
+                a: "Just take a photo of your paper recipe. Our technology automatically extracts the text.",
+            },
+            {
+                q: "Can I share my cookbook?",
+                a: "Yes, you can share a secure link with your loved ones.",
+            },
+        ],
+        notFound: "Didn't find the answer to your question?",
+        contact: "Contact us",
+    },
+};
+---
+
+<Layout
+    title={title}
+    description={description}
+    image={image}
+    url={url}
+    locale={locale}
+>
+    <Fragment slot="head">
+        <meta
+            name="keywords"
+            content="recipe book, personalized cookbook, home recipes, book printing, OCR recipe"
+        />
+    </Fragment>
+    <div class="min-h-screen font-sans text-text-primary bg-surface">
+        <main>
+            <!-- HERO -->
+            <header
+                class="flex flex-col lg:flex-row px-6 py-16 md:px-12 xl:py-32 relative overflow-hidden"
+            >
+                <div
+                    class="max-w-7xl w-full mx-auto flex flex-col lg:flex-row lg:items-center gap-16"
+                >
+                    <div class="xl:w-1/2 space-y-6 max-w-[500px] z-10">
+                        <h1
+                            class="text-5xl md:text-7xl font-black leading-[1.1]"
+                        >
+                            Your cooking deserves its own book.
+                        </h1>
+
+                        <p class="text-text-secondary leading-[1.8]">
+                            Save, organize, and print your recipes in an elegant
+                            cookbook, to share or to keep forever.
+                        </p>
+
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a
+                                class="px-8 py-4 bg-brand text-white rounded-pill font-bold shadow-lg"
+                                href="/signup"
+                            >
+                                Create my cookbook →
+                            </a>
+
+                            <a
+                                class="px-8 py-4 font-semibold text-brand hover:bg-surface-subtle-hover rounded-full"
+                                href="#how-it-works"
+                            >
+                                How it works?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <Image
+                    src={BookSampleImg}
+                    width={1000}
+                    height={900}
+                    loading="eager"
+                    fetchpriority="high"
+                    alt="Cookbook sample"
+                    class="xl:absolute mt-6 lg:mt-0 lg:w-1/2 xl:w-auto xl:right-0 xl:top-0 xl:translate-x-1/3 object-cover rounded-xl"
+                />
+            </header>
+
+            <Steps content={steps} />
+
+            <section id="prix" class="py-24 px-4 md:px-12 bg-brand-light">
+                <div
+                    class="max-w-5xl mx-auto space-y-16 bg-surface rounded-panel p-12 md:p-24"
+                >
+                    <div class="text-center space-y-4">
+                        <h2
+                            class="text-4xl md:text-5xl font-black tracking-tight"
+                        >
+                            2 options to bring your book to life
+                        </h2>
+                        <p class="text-text-muted text-lg">
+                            Choose the simplicity of all-in-one or the
+                            independence of PDF export.
+                        </p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-8">
+                        {
+                            pricingOptions.map((option, index) => (
+                                <div
+                                    class={`bg-surface border rounded-panel p-6 lg:p-10 flex flex-col items-center text-center transition ${
+                                        index === 0
+                                            ? "border-2 border-brand shadow-xl relative"
+                                            : "border-border shadow-sm hover:border-gray-300"
+                                    }`}
+                                >
+                                    {index === 0 && (
+                                        <span class="absolute -top-4 bg-brand text-white px-6 py-2 rounded-pill font-bold text-sm shadow-md">
+                                            {option.badge}
+                                        </span>
+                                    )}
+
+                                    <h3
+                                        class={`text-2xl font-black mb-4 ${index === 0 ? "mt-2" : ""}`}
+                                    >
+                                        {option.title}
+                                    </h3>
+
+                                    <p class="text-text-muted mb-8 grow">
+                                        {option.desc}
+                                    </p>
+
+                                    <div class="text-5xl font-black mb-2">
+                                        {option.price}
+                                    </div>
+
+                                    <p class="text-sm text-text-faint font-medium mb-6">
+                                        {option.details}
+                                    </p>
+
+                                    <a
+                                        href="/signup"
+                                        class={`font-bold px-8 py-3 rounded-pill transition ${
+                                            index === 0
+                                                ? "bg-brand text-white hover:bg-brand-hover shadow-lg shadow-rose-900/20"
+                                                : "text-text-secondary border border-gray-300 hover:bg-surface-subtle-hover"
+                                        }`}
+                                    >
+                                        {option.cta}
+                                    </a>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+            </section>
+
+            <Faq contentData={faqContent} />
+
+            <section class="py-24 px-6">
+                <div
+                    class="max-w-5xl mx-auto bg-brand text-white text-center p-16 rounded-hero relative overflow-hidden"
+                >
+                    <div
+                        class="absolute inset-0 bg-gradient-to-tr from-rose-600 to-brand"
+                    >
+                    </div>
+
+                    <div class="relative space-y-6">
+                        <h2 class="text-4xl font-black">
+                            Ready to create your recipe book?
+                        </h2>
+                        <p>
+                            Join the community of cooking enthusiasts and bring
+                            your culinary library to life.
+                        </p>
+
+                        <a
+                            href="/signup"
+                            class="bg-white text-brand px-8 py-4 rounded-pill font-bold inline-block"
+                        >
+                            Create my cookbook
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</Layout>
